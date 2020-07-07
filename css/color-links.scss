@@ -1,0 +1,323 @@
+/******** SASS VARIABLES **********/
+
+	/* Light Background Link Colors */
+	$ltbgBasecolor: #777;
+	$ltbgPink: #E30041;
+	$ltbgOrange: #FF5100;
+	$ltbgTeal: #00A0A3;
+	$ltbgGreen: #00A616;
+	$ltbgRylblue: #0022FF;
+	$ltbgBlue: #0052CC;
+	$ltbgPurple: #6600CC;
+
+	/* Dark Background Link Colors */
+	$dkbgBasecolor: rgba(255,255,255,0.5);
+	$dkbgPink: #FD7CA9;
+	$dkbgOrange: #FF9147;
+	$dkbgTeal: #00FFFF;
+	$dkbgYellow: #FFEA00;
+	$dkbgGreen: #52FF69;
+	$dkbgBlue: #52ABFF;
+	$dkbgPurple: #C78FFF;
+
+/************************************/
+
+/* TO DO: fix mobile color to account for hierarchy */
+/* TO DO: check & adjust contrast colors with actual navbar background color */
+
+/*********** Mobile Links ***********/
+	/* mobile has link colors randomly generate on page load */
+@media screen and (max-width: 991px) {
+	a.ltbg-link {
+		i.fa, i.fas {
+			background-clip: text;
+			-webkit-background-clip: text;
+		}
+		&.pink {
+			color:$ltbgPink;
+			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgPink, $ltbgPink);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.orange {
+			color:$ltbgOrange;
+			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgOrange, $ltbgOrange);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.teal {
+			color:$ltbgTeal;
+			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgTeal, $ltbgTeal);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.green {
+			color:$ltbgGreen;
+			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgGreen, $ltbgGreen);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.rylblue {
+			color:$ltbgRylblue;
+			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgRylblue, $ltbgRylblue);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.blue {
+			color:$ltbgBlue;
+			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgBlue, $ltbgBlue);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.purple {
+			color:$ltbgPurple;
+			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgPurple, $ltbgPurple);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+	}
+	a.dkbg-link {
+		i.fa, i.fas {
+			background-clip: text;
+			-webkit-background-clip: text;
+		}
+		&.pink {
+			color:$ltbgPink;
+			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $ltbgPink, $ltbgPink);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.orange {
+			color:$dkbgOrange;
+			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgOrange, $dkbgOrange);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.teal {
+			color:$dkbgTeal;
+			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgTeal, $dkbgTeal);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.yellow {
+			color:$dkbgYellow;
+			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgYellow, $dkbgYellow);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.green {
+			color:$dkbgGreen;
+			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgGreen, $dkbgGreen);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.blue {
+			color:$dkbgBlue;
+			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgBlue, $dkbgBlue);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		&.purple {
+			color:$dkbgPurple;
+			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgPurple, $dkbgPurple);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+	}
+	button.navbar-toggler.dkbg-border {
+		&.pink {
+			border-color:$ltbgPink;
+			color:$ltbgPink;
+		}
+		&.orange {
+			border-color:$dkbgOrange;
+			color:$dkbgOrange;
+		}
+		&.teal {
+			border-color:$dkbgTeal;
+			color:$dkbgTeal;
+		}
+		&.yellow {
+			border-color:$dkbgYellow;
+			color:$dkbgYellow;
+		}
+		&.green {
+			border-color:$dkbgGreen;
+			color:$dkbgGreen;
+		}
+		&.blue {
+			border-color:$dkbgBlue;
+			color:$dkbgBlue;
+		}
+		&.purple {
+			border-color:$dkbgPurple;
+			color:$dkbgPurple;
+		}
+	}
+}
+/************************************/
+
+/********** Desktop Links ***********/
+@media screen and (min-width: 992px) {
+	/* desktop has link colors animate and transition randomly on hover */
+	a.ltbg-link {
+		&.pink {
+			@keyframes ltbgAnimPink {
+				0% { color:$ltbgBasecolor; }
+			    30% { color:$ltbgGreen; }
+			    100% { color:$ltbgPink; }
+			}
+		}
+		&.pink:hover {
+			animation: ltbgAnimPink 1s 1;
+			color:$ltbgPink !important;
+		}
+		
+		&.orange {
+			@keyframes ltbgAnimOrange {
+				0% { color:$ltbgBasecolor; }
+			    30% { color:$ltbgBlue; }
+			    100% { color:$ltbgOrange; }
+			}
+		}
+		&.orange:hover {
+			animation: ltbgAnimOrange 1s 1;
+			color:$ltbgOrange !important;
+		}
+		&.teal {
+			@keyframes ltbgAnimTeal {
+				0% { color:$ltbgBasecolor; }
+			    30% { color:$ltbgRylblue; }
+			    100% { color:$ltbgTeal; }
+			}
+		}
+		&.teal:hover {
+			animation: ltbgAnimTeal 1s 1;
+			color:$ltbgTeal !important;
+		}
+		&.green {
+			@keyframes ltbgAnimGreen {
+				0% { color:$ltbgBasecolor; }
+			    30% { color:$ltbgPurple; }
+			    100% { color:$ltbgGreen; }
+			}
+		}
+		&.green:hover {
+			animation: ltbgAnimGreen 1s 1;
+			color:$ltbgGreen !important;
+		}
+		&.rylblue {
+			@keyframes ltbgAnimRylblue {
+				0% { color:$ltbgBasecolor; }
+			    30% { color:$ltbgPink; }
+			    100% { color:$ltbgRylblue; }
+			}
+		}
+		&.rylblue:hover {
+			animation: ltbgAnimRylblue 1s 1;
+			color:$ltbgRylblue !important;
+		}
+		&.blue {
+			@keyframes ltbgAnimBlue {
+				0% { color:$ltbgBasecolor; }
+			    30% { color:$ltbgOrange; }
+			    100% { color:$ltbgBlue; }
+			}
+		}
+		&.blue:hover {
+			animation: ltbgAnimBlue 1s 1;
+			color:$ltbgBlue !important;
+		}
+		&.purple {
+			@keyframes ltbgAnimPurple {
+				0% { color:$ltbgBasecolor; }
+			    30% { color:$ltbgTeal; }
+			    100% { color:$ltbgPurple; }
+			}
+		}
+		&.purple:hover {
+			animation: ltbgAnimPurple 1s 1;
+			color:$ltbgPurple !important;
+		}
+	}
+	a.dkbg-link {
+		&.pink {
+			@keyframes dkbgAnimPink {
+				0% { color:$dkbgBasecolor; }
+			    30% { color:$dkbgYellow; }
+			    100% { color:$dkbgPink; }
+			}
+		}
+		&.pink:hover {
+			animation: dkbgAnimPink 1s 1;
+			color:$dkbgPink !important;
+		}
+		&.orange {
+			@keyframes dkbgAnimOrange {
+				0% { color:$dkbgBasecolor; }
+			    30% { color:$dkbgPurple; }
+			    100% { color:$dkbgOrange; }
+			}
+		}
+		&.orange:hover {
+			animation: dkbgAnimOrange 1s 1;
+			color:$dkbgOrange !important;
+		}
+		&.teal {
+			@keyframes dkbgAnimTeal {
+				0% { color:$dkbgBasecolor; }
+			    30% { color:$dkbgPink; }
+			    100% { color:$dkbgTeal; }
+			}
+		}
+		&.teal:hover {
+			animation: dkbgAnimTeal 1s 1;
+			color:$dkbgTeal !important;
+		}
+		&.yellow {
+			@keyframes dkbgAnimYellow {
+				0% { color:$dkbgBasecolor; }
+			    30% { color:$dkbgBlue; }
+			    100% { color:$dkbgYellow; }
+			}
+		}
+		&.yellow:hover {
+			animation: dkbgAnimYellow 1s 1;
+			color:$dkbgYellow !important;
+		}
+		&.green {
+			@keyframes dkbgAnimGreen {
+				0% { color:$dkbgBasecolor; }
+			    30% { color:$dkbgOrange; }
+			    100% { color:$dkbgGreen; }
+			}
+		}
+		&.green:hover {
+			animation: dkbgAnimGreen 1s 1;
+			color:$dkbgGreen !important;
+		}
+		&.blue {
+			@keyframes dkbgAnimBlue {
+				0% { color:$dkbgBasecolor; }
+			    30% { color:$dkbgGreen; }
+			    100% { color:$dkbgBlue; }
+			}
+		}
+		&.blue:hover {
+			animation: dkbgAnimBlue 1s 1;
+			color:$dkbgBlue !important;
+		}
+		&.purple {
+			@keyframes dkbgAnimPurple {
+				0% { color:$dkbgBasecolor; }
+			    30% { color:$dkbgTeal; }
+			    100% { color:$dkbgPurple; }
+			}
+		}
+		&.purple:hover {
+			animation: dkbgAnimPurple 1s 1;
+			color:$dkbgPurple !important;
+		}
+	}
+}
+/**********************************/

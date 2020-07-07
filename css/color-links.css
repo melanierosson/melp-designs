@@ -1,0 +1,253 @@
+/******** SASS VARIABLES **********/
+/* Light Background Link Colors */
+/* Dark Background Link Colors */
+/************************************/
+/* TO DO: fix mobile color to account for hierarchy */
+/* TO DO: check & adjust contrast colors with actual navbar background color */
+/*********** Mobile Links ***********/
+/* mobile has link colors randomly generate on page load */
+@media screen and (max-width: 991px) {
+  a.ltbg-link i.fa, a.ltbg-link i.fas {
+    background-clip: text;
+    -webkit-background-clip: text; }
+  a.ltbg-link.pink {
+    color: #E30041;
+    background: -webkit-linear-gradient(#777, #777, #777, #E30041, #E30041);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  a.ltbg-link.orange {
+    color: #FF5100;
+    background: -webkit-linear-gradient(#777, #777, #777, #FF5100, #FF5100);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  a.ltbg-link.teal {
+    color: #00A0A3;
+    background: -webkit-linear-gradient(#777, #777, #777, #00A0A3, #00A0A3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  a.ltbg-link.green {
+    color: #00A616;
+    background: -webkit-linear-gradient(#777, #777, #777, #00A616, #00A616);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  a.ltbg-link.rylblue {
+    color: #0022FF;
+    background: -webkit-linear-gradient(#777, #777, #777, #0022FF, #0022FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  a.ltbg-link.blue {
+    color: #0052CC;
+    background: -webkit-linear-gradient(#777, #777, #777, #0052CC, #0052CC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  a.ltbg-link.purple {
+    color: #6600CC;
+    background: -webkit-linear-gradient(#777, #777, #777, #6600CC, #6600CC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  a.dkbg-link i.fa, a.dkbg-link i.fas {
+    background-clip: text;
+    -webkit-background-clip: text; }
+  a.dkbg-link.pink {
+    color: #E30041;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), #E30041, #E30041);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  a.dkbg-link.orange {
+    color: #FF9147;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), #FF9147, #FF9147);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  a.dkbg-link.teal {
+    color: #00FFFF;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), #00FFFF, #00FFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  a.dkbg-link.yellow {
+    color: #FFEA00;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), #FFEA00, #FFEA00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  a.dkbg-link.green {
+    color: #52FF69;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), #52FF69, #52FF69);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  a.dkbg-link.blue {
+    color: #52ABFF;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), #52ABFF, #52ABFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  a.dkbg-link.purple {
+    color: #C78FFF;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), #C78FFF, #C78FFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  button.navbar-toggler.dkbg-border.pink {
+    border-color: #E30041;
+    color: #E30041; }
+  button.navbar-toggler.dkbg-border.orange {
+    border-color: #FF9147;
+    color: #FF9147; }
+  button.navbar-toggler.dkbg-border.teal {
+    border-color: #00FFFF;
+    color: #00FFFF; }
+  button.navbar-toggler.dkbg-border.yellow {
+    border-color: #FFEA00;
+    color: #FFEA00; }
+  button.navbar-toggler.dkbg-border.green {
+    border-color: #52FF69;
+    color: #52FF69; }
+  button.navbar-toggler.dkbg-border.blue {
+    border-color: #52ABFF;
+    color: #52ABFF; }
+  button.navbar-toggler.dkbg-border.purple {
+    border-color: #C78FFF;
+    color: #C78FFF; } }
+
+/************************************/
+/********** Desktop Links ***********/
+@media screen and (min-width: 992px) {
+  /* desktop has link colors animate and transition randomly on hover */
+  @keyframes ltbgAnimPink {
+    0% {
+      color: #777; }
+    30% {
+      color: #00A616; }
+    100% {
+      color: #E30041; } }
+  a.ltbg-link.pink:hover {
+    animation: ltbgAnimPink 1s 1;
+    color: #E30041 !important; }
+  @keyframes ltbgAnimOrange {
+    0% {
+      color: #777; }
+    30% {
+      color: #0052CC; }
+    100% {
+      color: #FF5100; } }
+  a.ltbg-link.orange:hover {
+    animation: ltbgAnimOrange 1s 1;
+    color: #FF5100 !important; }
+  @keyframes ltbgAnimTeal {
+    0% {
+      color: #777; }
+    30% {
+      color: #0022FF; }
+    100% {
+      color: #00A0A3; } }
+  a.ltbg-link.teal:hover {
+    animation: ltbgAnimTeal 1s 1;
+    color: #00A0A3 !important; }
+  @keyframes ltbgAnimGreen {
+    0% {
+      color: #777; }
+    30% {
+      color: #6600CC; }
+    100% {
+      color: #00A616; } }
+  a.ltbg-link.green:hover {
+    animation: ltbgAnimGreen 1s 1;
+    color: #00A616 !important; }
+  @keyframes ltbgAnimRylblue {
+    0% {
+      color: #777; }
+    30% {
+      color: #E30041; }
+    100% {
+      color: #0022FF; } }
+  a.ltbg-link.rylblue:hover {
+    animation: ltbgAnimRylblue 1s 1;
+    color: #0022FF !important; }
+  @keyframes ltbgAnimBlue {
+    0% {
+      color: #777; }
+    30% {
+      color: #FF5100; }
+    100% {
+      color: #0052CC; } }
+  a.ltbg-link.blue:hover {
+    animation: ltbgAnimBlue 1s 1;
+    color: #0052CC !important; }
+  @keyframes ltbgAnimPurple {
+    0% {
+      color: #777; }
+    30% {
+      color: #00A0A3; }
+    100% {
+      color: #6600CC; } }
+  a.ltbg-link.purple:hover {
+    animation: ltbgAnimPurple 1s 1;
+    color: #6600CC !important; }
+  @keyframes dkbgAnimPink {
+    0% {
+      color: rgba(255, 255, 255, 0.5); }
+    30% {
+      color: #FFEA00; }
+    100% {
+      color: #FD7CA9; } }
+  a.dkbg-link.pink:hover {
+    animation: dkbgAnimPink 1s 1;
+    color: #FD7CA9 !important; }
+  @keyframes dkbgAnimOrange {
+    0% {
+      color: rgba(255, 255, 255, 0.5); }
+    30% {
+      color: #C78FFF; }
+    100% {
+      color: #FF9147; } }
+  a.dkbg-link.orange:hover {
+    animation: dkbgAnimOrange 1s 1;
+    color: #FF9147 !important; }
+  @keyframes dkbgAnimTeal {
+    0% {
+      color: rgba(255, 255, 255, 0.5); }
+    30% {
+      color: #FD7CA9; }
+    100% {
+      color: #00FFFF; } }
+  a.dkbg-link.teal:hover {
+    animation: dkbgAnimTeal 1s 1;
+    color: #00FFFF !important; }
+  @keyframes dkbgAnimYellow {
+    0% {
+      color: rgba(255, 255, 255, 0.5); }
+    30% {
+      color: #52ABFF; }
+    100% {
+      color: #FFEA00; } }
+  a.dkbg-link.yellow:hover {
+    animation: dkbgAnimYellow 1s 1;
+    color: #FFEA00 !important; }
+  @keyframes dkbgAnimGreen {
+    0% {
+      color: rgba(255, 255, 255, 0.5); }
+    30% {
+      color: #FF9147; }
+    100% {
+      color: #52FF69; } }
+  a.dkbg-link.green:hover {
+    animation: dkbgAnimGreen 1s 1;
+    color: #52FF69 !important; }
+  @keyframes dkbgAnimBlue {
+    0% {
+      color: rgba(255, 255, 255, 0.5); }
+    30% {
+      color: #52FF69; }
+    100% {
+      color: #52ABFF; } }
+  a.dkbg-link.blue:hover {
+    animation: dkbgAnimBlue 1s 1;
+    color: #52ABFF !important; }
+  @keyframes dkbgAnimPurple {
+    0% {
+      color: rgba(255, 255, 255, 0.5); }
+    30% {
+      color: #00FFFF; }
+    100% {
+      color: #C78FFF; } }
+  a.dkbg-link.purple:hover {
+    animation: dkbgAnimPurple 1s 1;
+    color: #C78FFF !important; } }
+
+/**********************************/
