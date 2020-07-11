@@ -6,6 +6,7 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;*/
+  overflow-x:hidden;
 }
 h6 a:link, 
 h6 a:visited, 
@@ -313,7 +314,7 @@ p.link-anim:focus {
 }
 @media screen and (max-width:550px) {
 	#home-title {
-		margin-top:-100px;
+		margin-top:-200px;
 	}
 }
 @media screen and (max-width:991px) {
