@@ -110,13 +110,17 @@ p.link-anim:focus {
 	top:200px;
 }
 .portfolio-descr.right {
-	left:300px;
+	left:200px;
+	margin-right:20px;
+	margin-left:20px;
 }
 .portfolio-descr.top {
 	top:-75px;
 }
 .portfolio-descr.left {
-	right:300px;
+	right:200px;
+	margin-right:20px;
+	margin-left:20px;
 }
 @media screen and (min-width: 992px) {
 	#portfproj-container04 {
