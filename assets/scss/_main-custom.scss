@@ -323,7 +323,8 @@ p.link-anim:focus {
 		margin-left:auto;
 		margin-right:auto;
 	}
-	.title-page {
+	.minh-100vh.title-page {
+		min-height:none;
 		overflow-y:hidden;
 	}
 	#home-title {
