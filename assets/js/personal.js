@@ -4,18 +4,8 @@ const portfdescrRead = document.getElementById('portfdescr-read');
 const portfimgRead = document.getElementById('portfimg-read');
 const portfdescrArt = document.getElementById('portfdescr-art');
 const portfimgArt = document.getElementById('portfimg-art');
-
-
-
-// plan it
-function animLeftOnce() {
-	return 
-		this.style.transform = "translateX(50px)",
-		setTimeout(function(){ 
-			this.style.transform = "translateX(0px)"; 
-		}, 500),
-		console.log('running')
-};
+const portfdescrBento = document.getElementById('portfdescr-bento');
+const portfimgBento = document.getElementById('portfimg-bento');
 
 
 
@@ -45,5 +35,19 @@ portfdescrArt.addEventListener("mouseover", function() {
   this.classList.add('anim');
 }, false);
 portfdescrArt.addEventListener("mouseout", function() {   
+  this.classList.remove('anim');
+}, false);
+
+portfimgBento.addEventListener("mouseover", function() {   
+  this.classList.add('anim');
+}, false);
+portfimgBento.addEventListener("mouseout", function() {   
+  this.classList.remove('anim');
+}, false);
+
+portfdescrBento.addEventListener("mouseover", function() {   
+  this.classList.add('anim');
+}, false);
+portfdescrBento.addEventListener("mouseout", function() {   
   this.classList.remove('anim');
 }, false);

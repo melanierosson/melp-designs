@@ -8,19 +8,10 @@ const portfdescrRecWidgt = document.getElementById('portfdescr-recwidgit');
 const portfimgRecWidgt = document.getElementById('portfimg-recwidgit');
 const portfdescrDetPanem = document.getElementById('portfdescr-detailpanem');
 const portfimgDetPanem = document.getElementById('portfimg-detailpanem');
-
-
-
-// plan it
-function animLeftOnce() {
-	return 
-		this.style.transform = "translateX(50px)",
-		setTimeout(function(){ 
-			this.style.transform = "translateX(0px)"; 
-		}, 500),
-		console.log('running')
-};
-
+const portfdescrRecMobile = document.getElementById('portfdescr-recmobile');
+const portfimgRecMobile = document.getElementById('portfimg-recmobile');
+const portfdescrRecFlow = document.getElementById('portfdescr-userflows');
+const portfimgRecFlow = document.getElementById('portfimg-userflows');
 
 
 // do it
@@ -77,5 +68,33 @@ portfdescrDetPanem.addEventListener("mouseover", function() {
   this.classList.add('anim');
 }, false);
 portfdescrDetPanem.addEventListener("mouseout", function() {   
+  this.classList.remove('anim');
+}, false);
+
+portfimgRecMobile.addEventListener("mouseover", function() {   
+  this.classList.add('anim');
+}, false);
+portfimgRecMobile.addEventListener("mouseout", function() {   
+  this.classList.remove('anim');
+}, false);
+
+portfdescrRecMobile.addEventListener("mouseover", function() {   
+  this.classList.add('anim');
+}, false);
+portfdescrRecMobile.addEventListener("mouseout", function() {   
+  this.classList.remove('anim');
+}, false);
+
+portfimgRecFlow.addEventListener("mouseover", function() {   
+  this.classList.add('anim');
+}, false);
+portfimgRecFlow.addEventListener("mouseout", function() {   
+  this.classList.remove('anim');
+}, false);
+
+portfdescrRecFlow.addEventListener("mouseover", function() {   
+  this.classList.add('anim');
+}, false);
+portfdescrRecFlow.addEventListener("mouseout", function() {   
   this.classList.remove('anim');
 }, false);
