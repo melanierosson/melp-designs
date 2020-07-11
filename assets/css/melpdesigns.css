@@ -262,7 +262,11 @@ p.link-anim:focus {
   .portfolio-descr.left {
     right: -20px; }
   #portfdescr-art {
-    top: 220px; } }
+    top: 220px; }
+  #portfimg-mils {
+    margin-left: -40px; }
+  #portfimg-busters {
+    margin-right: -20px; } }
 
 #portfdescr-mils {
   background-color: #fff;
