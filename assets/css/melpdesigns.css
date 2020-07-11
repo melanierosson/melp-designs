@@ -102,7 +102,8 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;*/
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  position: relative; }
 
 h6 a:link,
 h6 a:visited,
@@ -266,7 +267,10 @@ p.link-anim:focus {
   #portfimg-mils {
     margin-left: -40px; }
   #portfimg-busters {
-    margin-right: -20px; } }
+    margin-right: -20px; }
+  #portfimg-bento {
+    margin-left: -10px;
+    max-width: 90vw; } }
 
 #portfdescr-mils {
   background-color: #fff;
