@@ -20,6 +20,12 @@
 .flex-justify-around {
 	justify-content: space-around;
 }
+.flex-justify-start {
+	justify-content: flex-start;
+}
+.flex-justify-end {
+	justify-content: flex-end;
+}
 .hidden {
 	visibility:hidden;
 }
@@ -89,14 +95,6 @@
 
 
 /* text alignment */
-.txt-center h1,
-.txt-center h2,
-.txt-center h3,
-.txt-center h4,
-.txt-center h5,
-.txt-center h6,
-.txt-center p,
-.txt-center span,
 .txt-center {
 	text-align:center;
 }
