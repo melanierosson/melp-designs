@@ -11,6 +11,9 @@
 	display: flex;
 	flex-flow: row wrap;
 }
+.flex-align-top {
+	align-items: flex-start;
+}
 .flex-align-center {
 	align-items: center;
 }
@@ -29,6 +32,8 @@
 .hidden {
 	visibility:hidden;
 }
+
+
 
 
 /* text size */
@@ -52,6 +57,9 @@
 }
 
 
+
+
+
 /* text color */
 .txt-drkbg-ltgray {
 	color: #dfdfdf !important;
@@ -62,6 +70,9 @@
 .txt-gray {
 	color: #7a7a7a;
 }
+
+
+
 
 
 /* text style */
@@ -94,10 +105,19 @@
 }
 
 
+
+
+
 /* text alignment */
 .txt-center {
 	text-align:center;
 }
+// .txt-left {
+// 	text-align:left;
+// }
+
+
+
 
 
 /* line height */

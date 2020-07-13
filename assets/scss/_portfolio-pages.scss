@@ -1,0 +1,88 @@
+// Portfolio Pages Styling
+.portfolio-page {
+	.back-btn {
+		z-index:10;
+	}
+
+	// Mil's Diner Page
+	section#milsdiner-content {
+		h2#milsdiner-title {
+			@media screen and (max-width:400px) {
+				font-size:2.4rem;
+				letter-spacing: 0.2rem;
+			}
+		}
+		div.mils-img-container {
+			@media screen and (min-width:992px) {
+				justify-content: flex-end;
+			}
+			@media screen and (max-width:991px) {
+				justify-content:center;
+			}
+			img#milsdiner-hero {
+				max-height:450px;
+				@media screen and (max-width:500px) {
+					width:100%;
+				}
+			}
+		}
+		div.version-container {
+			border-top: 3px solid #263064;
+			border-bottom: 3px solid #263064;
+			background-color:rgba(38,48,100,0.1);
+			img.milsdiner-hist {
+				max-height:200px;
+				@media screen and (max-width:1199px) {
+					width:100%;
+					max-width:600px;
+					height:auto;
+					max-height:400px;
+					&.current-mils {
+						max-height:400px;
+						width:auto;
+						border:none;
+						@media screen and (max-width:500px) {
+							width:100%;
+							height:auto;
+						}
+					}
+				}
+			}
+			div.current-mils {
+				border:3px solid #9f106a;
+				background-color:rgba(159,16,106,0.2);
+			}
+		}
+		
+		ol.mils-list {
+			li {
+				font-weight:600;
+				padding-left:10px;
+				padding-bottom:6px;
+				span {
+					font-weight:400;
+				}
+			}
+		}
+		div.pages-row {
+			border-top: 3px solid #263064;
+			border-bottom: 3px solid #263064;
+			background-color:rgba(38,48,100,0.1);
+			div.mils-pages img {
+				width:33%;
+				height:auto;
+				padding:6px 12px 0 0;
+				&:hover {
+					cursor:pointer;
+					transition-duration:0.4s;
+					transform: scale(1.05);
+				}
+				@media screen and (max-width:767px) {
+					width:50%;
+				}
+			}
+		}
+		
+	}
+	
+}

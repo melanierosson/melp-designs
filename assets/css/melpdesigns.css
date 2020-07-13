@@ -11,6 +11,9 @@
   display: flex;
   flex-flow: row wrap; }
 
+.flex-align-top {
+  align-items: flex-start; }
+
 .flex-align-center {
   align-items: center; }
 
@@ -166,227 +169,273 @@ p.link-anim:focus {
 @media screen and (max-width: 991px) {
   #navbar-txt-right {
     -webkit-animation: mover 1s 1;
-    animation: mover 1s 1; } }
+    animation: mover 1s 1; }
+  h2.title {
+    font-size: 3rem; } }
 
 @media screen and (min-width: 992px) {
   #navbar-txt-right, #navbar-txt-left {
     -webkit-animation: mover 1s 1;
-    animation: mover 1s 1; } }
+    animation: mover 1s 1; }
+  h2.title {
+    font-size: 4rem; } }
 
 /* */
-/* hide all contact page social link descriptions on page load */
-#linkedin-descr,
-#github-descr,
-#melartistangent-descr,
-#yelpblackbelt-descr,
-#yelp-descr {
-  display: none; }
-
-/* */
-/* portfolio */
-.portfolio-img {
-  max-width: 400px;
-  height: auto;
-  max-height: 400px;
-  width: auto; }
-
-.portfolio-descr {
-  position: absolute;
-  z-index: 20;
-  padding: 16px 16px 0px 16px; }
-
-.portfolio-descr.bottom {
-  top: 200px; }
-
-.portfolio-descr.right {
-  left: 200px;
-  margin-right: 20px;
-  margin-left: 20px; }
-
-.portfolio-descr.top {
-  top: -75px; }
-
-.portfolio-descr.mid-top {
-  top: 10px; }
-
-.portfolio-descr.left {
-  right: 200px;
-  margin-right: 20px;
-  margin-left: 20px; }
-
-.portfolio-descr.middle {
-  top: 100px; }
-
-@media screen and (min-width: 992px) {
-  #portfproj-container04 {
-    margin-top: 75px; }
-  #portfdescr-recwidgit {
-    margin-top: 65px; } }
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-  .portfolio-descr.right {
-    left: 100px; }
-  .portfolio-descr.left {
-    right: 100px; }
-  #portfdescr-bento {
-    margin-left: 100px; } }
-
-@media screen and (max-width: 991px) {
-  .portfolio-descr.right {
-    left: 200px; }
-  .portfolio-descr.left {
-    right: 200px; }
-  .portfolio-descr.top {
-    top: 15px; }
-  .portf-proj:nth-child(2) {
-    margin-top: 120px; } }
-
-@media screen and (max-width: 500px) {
-  .portfolio-img.left {
-    padding-left: 40px; }
-  .portfolio-img.right {
-    padding-right: 40px; }
-  .portfolio-descr.right {
-    left: 100px; }
-  .portfolio-descr.left {
-    right: 100px; }
-  .portfolio-descr.top {
-    top: 10px; }
-  .portfolio-descr.bottom {
-    top: 220px; }
-  #portfdescr-art {
-    top: 220px; } }
-
-@media screen and (max-width: 450px) {
-  .portfolio-descr.right {
-    left: -20px; }
-  .portfolio-descr.left {
-    right: -20px; }
-  #portfdescr-art {
-    top: 220px; }
-  #portfimg-mils {
-    margin-left: -40px; }
-  #portfimg-busters {
-    margin-right: -20px; }
-  #portfimg-bento {
-    margin-left: -10px;
-    max-width: 90vw; } }
-
-#portfdescr-mils {
-  background-color: #fff;
-  border: 2px solid #980f61; }
-  #portfdescr-mils h3 {
-    color: #2c3e50; }
-  #portfdescr-mils a {
-    color: #0e216d; }
-
-#portfdescr-busters {
-  background-color: #fdf0da;
-  border: 2px solid #f8c235; }
-  #portfdescr-busters h3 {
-    color: #4065b4; }
-
-#portfdescr-recwidgit {
-  background-color: #f5f5f5;
-  border: 2px solid #dcdcdc; }
-  #portfdescr-recwidgit h3 {
-    color: #0c8a6d; }
-
-#portfdescr-detailpanem {
-  background-color: #e6dede;
-  border: 2px solid #8d0000; }
-  #portfdescr-detailpanem h3 {
-    color: #3f3f3f; }
-  #portfdescr-detailpanem a {
-    color: #8d0000; }
-  #portfdescr-detailpanem p {
-    color: #000; }
-
-#portfdescr-recmobile {
-  background-color: #fff;
-  border: 2px solid #b5cf6a; }
-  #portfdescr-recmobile h3 {
-    color: #57a359; }
-  #portfdescr-recmobile p {
-    color: #000; }
-
-#portfdescr-userflows {
-  background-color: #e8e8e8;
-  border: 2px solid #005999; }
-  #portfdescr-userflows h3 {
-    color: #004e2f; }
-  #portfdescr-userflows p {
-    color: #424242; }
-
-#portfdescr-read {
-  background-color: #0a4f5b;
-  border: 2px solid #f0617a; }
-  #portfdescr-read h3 {
-    color: #92c880; }
-  #portfdescr-read a {
-    color: #e7b132; }
-  #portfdescr-read p {
-    color: #fff; }
-
-#portfdescr-art {
-  background-color: #af4528;
-  border: 2px solid #583521; }
-  #portfdescr-art h3 {
-    color: #fdc19a; }
-  #portfdescr-art a {
-    color: #f2bf47; }
-  #portfdescr-art p {
-    color: #fff; }
-
-#portfdescr-bento {
-  background-color: #ac3946;
-  border: 2px solid #d47f2f; }
-  #portfdescr-bento h3 {
-    color: #d9b8b1; }
-  #portfdescr-bento p {
-    color: #fff; }
-
-.bottom-row {
-  margin-bottom: 100px; }
-
-/* */
-/* miscellaneous */
-#about-img-992up {
-  max-height: 560px;
-  width: auto; }
-
 @media screen and (max-width: 400px) {
   .hide-mobile {
     display: none; } }
 
-@media screen and (max-width: 550px) {
-  #home-title {
-    margin-top: -200px; } }
+/* encapsulates the below styles to only to the main pages */
+#main-page {
+  /* hide all contact page social link descriptions on page load */
+  /* */
+  /* portfolio */
+  /* */
+  /* miscellaneous */ }
+  #main-page #linkedin-descr,
+  #main-page #github-descr,
+  #main-page #melartistangent-descr,
+  #main-page #yelpblackbelt-descr,
+  #main-page #yelp-descr {
+    display: none; }
+  #main-page .portfolio-img {
+    max-width: 400px;
+    height: auto;
+    max-height: 400px;
+    width: auto; }
+  #main-page .portfolio-descr {
+    position: absolute;
+    z-index: 20;
+    padding: 16px 16px 0px 16px; }
+  #main-page .portfolio-descr.bottom {
+    top: 200px; }
+  #main-page .portfolio-descr.right {
+    left: 200px;
+    margin-right: 20px;
+    margin-left: 20px; }
+  #main-page .portfolio-descr.top {
+    top: -75px; }
+  #main-page .portfolio-descr.mid-top {
+    top: 10px; }
+  #main-page .portfolio-descr.left {
+    right: 200px;
+    margin-right: 20px;
+    margin-left: 20px; }
+  #main-page .portfolio-descr.middle {
+    top: 100px; }
+  @media screen and (min-width: 992px) {
+    #main-page #portfproj-container04 {
+      margin-top: 75px; }
+    #main-page #portfdescr-recwidgit {
+      margin-top: 65px; } }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    #main-page .portfolio-descr.right {
+      left: 100px; }
+    #main-page .portfolio-descr.left {
+      right: 100px; }
+    #main-page #portfdescr-bento {
+      margin-left: 100px; } }
+  @media screen and (max-width: 991px) {
+    #main-page .portfolio-descr.right {
+      left: 200px; }
+    #main-page .portfolio-descr.left {
+      right: 200px; }
+    #main-page .portfolio-descr.top {
+      top: 15px; }
+    #main-page .portf-proj:nth-child(2) {
+      margin-top: 120px; } }
+  @media screen and (max-width: 500px) {
+    #main-page .portfolio-img.left {
+      padding-left: 40px; }
+    #main-page .portfolio-img.right {
+      padding-right: 40px; }
+    #main-page .portfolio-descr.right {
+      left: 100px; }
+    #main-page .portfolio-descr.left {
+      right: 100px; }
+    #main-page .portfolio-descr.top {
+      top: 10px; }
+    #main-page .portfolio-descr.bottom {
+      top: 220px; }
+    #main-page #portfdescr-art {
+      top: 220px; } }
+  @media screen and (max-width: 450px) {
+    #main-page .portfolio-descr.right {
+      left: -20px; }
+    #main-page .portfolio-descr.left {
+      right: -20px; }
+    #main-page #portfdescr-art {
+      top: 220px; }
+    #main-page #portfimg-mils {
+      margin-left: -40px; }
+    #main-page #portfimg-busters {
+      margin-right: -20px; }
+    #main-page #portfimg-bento {
+      margin-left: -10px;
+      max-width: 90vw; } }
+  #main-page #portfdescr-mils {
+    background-color: #fff;
+    border: 2px solid #980f61; }
+    #main-page #portfdescr-mils h3 {
+      color: #2c3e50; }
+    #main-page #portfdescr-mils a {
+      color: #0e216d; }
+  #main-page #portfdescr-busters {
+    background-color: #fdf0da;
+    border: 2px solid #f8c235; }
+    #main-page #portfdescr-busters h3 {
+      color: #4065b4; }
+  #main-page #portfdescr-recwidgit {
+    background-color: #f5f5f5;
+    border: 2px solid #dcdcdc; }
+    #main-page #portfdescr-recwidgit h3 {
+      color: #0c8a6d; }
+  #main-page #portfdescr-detailpanem {
+    background-color: #e6dede;
+    border: 2px solid #8d0000; }
+    #main-page #portfdescr-detailpanem h3 {
+      color: #3f3f3f; }
+    #main-page #portfdescr-detailpanem a {
+      color: #8d0000; }
+    #main-page #portfdescr-detailpanem p {
+      color: #000; }
+  #main-page #portfdescr-recmobile {
+    background-color: #fff;
+    border: 2px solid #b5cf6a; }
+    #main-page #portfdescr-recmobile h3 {
+      color: #57a359; }
+    #main-page #portfdescr-recmobile p {
+      color: #000; }
+  #main-page #portfdescr-userflows {
+    background-color: #e8e8e8;
+    border: 2px solid #005999; }
+    #main-page #portfdescr-userflows h3 {
+      color: #004e2f; }
+    #main-page #portfdescr-userflows p {
+      color: #424242; }
+  #main-page #portfdescr-read {
+    background-color: #0a4f5b;
+    border: 2px solid #f0617a; }
+    #main-page #portfdescr-read h3 {
+      color: #92c880; }
+    #main-page #portfdescr-read a {
+      color: #e7b132; }
+    #main-page #portfdescr-read p {
+      color: #fff; }
+  #main-page #portfdescr-art {
+    background-color: #af4528;
+    border: 2px solid #583521; }
+    #main-page #portfdescr-art h3 {
+      color: #fdc19a; }
+    #main-page #portfdescr-art a {
+      color: #f2bf47; }
+    #main-page #portfdescr-art p {
+      color: #fff; }
+  #main-page #portfdescr-bento {
+    background-color: #ac3946;
+    border: 2px solid #d47f2f; }
+    #main-page #portfdescr-bento h3 {
+      color: #d9b8b1; }
+    #main-page #portfdescr-bento p {
+      color: #fff; }
+  #main-page .bottom-row {
+    margin-bottom: 100px; }
+  #main-page #about-img-992up {
+    max-height: 560px;
+    width: auto; }
+  @media screen and (max-width: 550px) {
+    #main-page .no-scroll {
+      overflow: hidden !important; }
+    #main-page #home-title {
+      margin-top: -100px !important; } }
+  @media screen and (max-width: 991px) {
+    #main-page #about-img-991down {
+      width: 100%;
+      max-width: 450px;
+      margin-left: auto;
+      margin-right: auto; }
+    #main-page .minh-100vh.title-page {
+      min-height: none;
+      overflow-y: hidden; }
+    #main-page #home-title {
+      font-size: 3.5rem; }
+    #main-page h3 {
+      font-size: 1.125rem;
+      font-weight: 600; }
+    #main-page h3.portfproject-title {
+      font-size: 1.75rem;
+      font-weight: 400; } }
+  @media screen and (min-width: 992px) {
+    #main-page #home-title {
+      font-size: 4.5rem; } }
 
-@media screen and (max-width: 991px) {
-  #about-img-991down {
-    width: 100%;
-    max-width: 450px;
-    margin-left: auto;
-    margin-right: auto; }
-  .minh-100vh.title-page {
-    min-height: none;
-    overflow-y: hidden; }
-  #home-title {
-    font-size: 3.5rem; }
-  h2.title {
-    font-size: 3rem; }
-  h3 {
-    font-size: 1.125rem;
-    font-weight: 600; }
-  h3.portfproject-title {
-    font-size: 1.75rem;
-    font-weight: 400; } }
+.portfolio-page .back-btn {
+  z-index: 10; }
+
+@media screen and (max-width: 400px) {
+  .portfolio-page section#milsdiner-content h2#milsdiner-title {
+    font-size: 2.4rem;
+    letter-spacing: 0.2rem; } }
 
 @media screen and (min-width: 992px) {
-  #home-title {
-    font-size: 4.5rem; }
-  h2.title {
-    font-size: 4rem; } }
+  .portfolio-page section#milsdiner-content div.mils-img-container {
+    justify-content: flex-end; } }
+
+@media screen and (max-width: 991px) {
+  .portfolio-page section#milsdiner-content div.mils-img-container {
+    justify-content: center; } }
+
+.portfolio-page section#milsdiner-content div.mils-img-container img#milsdiner-hero {
+  max-height: 450px; }
+  @media screen and (max-width: 500px) {
+    .portfolio-page section#milsdiner-content div.mils-img-container img#milsdiner-hero {
+      width: 100%; } }
+
+.portfolio-page section#milsdiner-content div.version-container {
+  border-top: 3px solid #263064;
+  border-bottom: 3px solid #263064;
+  background-color: rgba(38, 48, 100, 0.1); }
+  .portfolio-page section#milsdiner-content div.version-container img.milsdiner-hist {
+    max-height: 200px; }
+    @media screen and (max-width: 1199px) {
+      .portfolio-page section#milsdiner-content div.version-container img.milsdiner-hist {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        max-height: 400px; }
+        .portfolio-page section#milsdiner-content div.version-container img.milsdiner-hist.current-mils {
+          max-height: 400px;
+          width: auto;
+          border: none; } }
+    @media screen and (max-width: 1199px) and (max-width: 500px) {
+      .portfolio-page section#milsdiner-content div.version-container img.milsdiner-hist.current-mils {
+        width: 100%;
+        height: auto; } }
+  .portfolio-page section#milsdiner-content div.version-container div.current-mils {
+    border: 3px solid #9f106a;
+    background-color: rgba(159, 16, 106, 0.2); }
+
+.portfolio-page section#milsdiner-content ol.mils-list li {
+  font-weight: 600;
+  padding-left: 10px;
+  padding-bottom: 6px; }
+  .portfolio-page section#milsdiner-content ol.mils-list li span {
+    font-weight: 400; }
+
+.portfolio-page section#milsdiner-content div.pages-row {
+  border-top: 3px solid #263064;
+  border-bottom: 3px solid #263064;
+  background-color: rgba(38, 48, 100, 0.1); }
+  .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img {
+    width: 33%;
+    height: auto;
+    padding: 6px 12px 0 0; }
+    .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img:hover {
+      cursor: pointer;
+      transition-duration: 0.4s;
+      transform: scale(1.05); }
+    @media screen and (max-width: 767px) {
+      .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img {
+        width: 50%; } }
 
 /*# sourceMappingURL=melpdesigns.css.map */
