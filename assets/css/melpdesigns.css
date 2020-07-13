@@ -345,9 +345,11 @@ p.link-anim:focus {
     width: auto; }
   @media screen and (max-width: 550px) {
     #main-page .no-scroll {
-      overflow: hidden !important; }
+      overflow: hidden; }
     #main-page #home-title {
-      margin-top: -100px !important; } }
+      margin-top: -200px !important; }
+    #main-page .minh-100vh.title-page {
+      overflow: hidden; } }
   @media screen and (max-width: 991px) {
     #main-page #about-img-991down {
       width: 100%;

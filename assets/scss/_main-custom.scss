@@ -331,10 +331,13 @@ p.link-anim:focus {
 
 	@media screen and (max-width:550px) {
 		.no-scroll {
-			overflow:hidden !important;
+			overflow:hidden;
 		}
 		#home-title {
-			margin-top:-100px !important;
+			margin-top:-200px !important;
+		}
+		.minh-100vh.title-page {
+			overflow:hidden;
 		}
 	}
 	@media screen and (max-width:991px) {
