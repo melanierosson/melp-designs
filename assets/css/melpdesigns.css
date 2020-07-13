@@ -267,7 +267,7 @@ p.link-anim:focus {
     #main-page #portfdescr-art {
       top: 220px; }
     #main-page #portfimg-mils {
-      margin-left: -40px; }
+      max-width: 90vw; }
     #main-page #portfimg-busters {
       margin-right: -20px; }
     #main-page #portfimg-bento {
@@ -374,7 +374,7 @@ p.link-anim:focus {
 .portfolio-page .back-btn {
   z-index: 10; }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .portfolio-page section#milsdiner-content h2#milsdiner-title {
     font-size: 2.4rem;
     letter-spacing: 0.2rem; } }
