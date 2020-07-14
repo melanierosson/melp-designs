@@ -232,6 +232,9 @@ p.link-anim:focus {
 		// my portfolio page display is asymmetrical so my fixes are one-offs
 		#portfimg-busters {
 			margin-top:-20px;
+			@media screen and (min-width:410px) {
+				margin-top:-40px;
+			}
 		}
 		#portfdescr-busters {
 			top:250px;
@@ -239,9 +242,15 @@ p.link-anim:focus {
 		#portfimg-recwidgit {
 			margin-right:-4px;
 			margin-top:-10px;
+			@media screen and (min-width:410px) {
+				margin-top:20px;
+			}
 		}
 		#portfdescr-recwidgit {
 			left:-22px;
+			@media screen and (min-width:410px) {
+				top:250px;
+			}
 		}
 		#portfproj-container04 {
 			margin-top:50px;
@@ -249,12 +258,23 @@ p.link-anim:focus {
 		#portfdescr-detailpanem {
 			top:250px;
 		}
+		#portfimg-recmobile {
+			@media screen and (min-width:410px) {
+				margin-top:40px;
+			}
+		}
 		#portfdescr-recmobile {
 			top:280px;
 			left:-21px;
+			@media screen and (min-width:410px) {
+				top:290px;
+			}
 		}
 		#portfproj-container06 {
 			margin-top:80px;
+			@media screen and (min-width:410px) {
+				margin-top:50px;
+			}
 		}
 		#portfdescr-userflows {
 			top:250px;

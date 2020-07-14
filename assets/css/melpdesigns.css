@@ -278,23 +278,48 @@ p.link-anim:focus {
     #main-page div.flex-display-row.flex-justify-start.portf-proj {
       justify-content: center; }
     #main-page #portfimg-busters {
-      margin-top: -20px; }
+      margin-top: -20px; } }
+  @media screen and (max-width: 450px) and (min-width: 410px) {
+    #main-page #portfimg-busters {
+      margin-top: -40px; } }
+  @media screen and (max-width: 450px) {
     #main-page #portfdescr-busters {
       top: 250px; }
     #main-page #portfimg-recwidgit {
       margin-right: -4px;
-      margin-top: -10px; }
+      margin-top: -10px; } }
+  @media screen and (max-width: 450px) and (min-width: 410px) {
+    #main-page #portfimg-recwidgit {
+      margin-top: 20px; } }
+  @media screen and (max-width: 450px) {
     #main-page #portfdescr-recwidgit {
-      left: -22px; }
+      left: -22px; } }
+  @media screen and (max-width: 450px) and (min-width: 410px) {
+    #main-page #portfdescr-recwidgit {
+      top: 250px; } }
+  @media screen and (max-width: 450px) {
     #main-page #portfproj-container04 {
       margin-top: 50px; }
     #main-page #portfdescr-detailpanem {
-      top: 250px; }
+      top: 250px; } }
+
+@media screen and (max-width: 450px) and (min-width: 410px) {
+  #main-page #portfimg-recmobile {
+    margin-top: 40px; } }
+  @media screen and (max-width: 450px) {
     #main-page #portfdescr-recmobile {
       top: 280px;
-      left: -21px; }
+      left: -21px; } }
+  @media screen and (max-width: 450px) and (min-width: 410px) {
+    #main-page #portfdescr-recmobile {
+      top: 290px; } }
+  @media screen and (max-width: 450px) {
     #main-page #portfproj-container06 {
-      margin-top: 80px; }
+      margin-top: 80px; } }
+  @media screen and (max-width: 450px) and (min-width: 410px) {
+    #main-page #portfproj-container06 {
+      margin-top: 50px; } }
+  @media screen and (max-width: 450px) {
     #main-page #portfdescr-userflows {
       top: 250px; } }
   #main-page #portfdescr-mils {
