@@ -200,12 +200,6 @@ p.link-anim:focus {
 		#portfdescr-art {
 			top:220px;
 		}
-		#contact-content {
-			overflow:hidden;
-		}
-		#contact-title {
-			margin-top:-200px;
-		}
 	}
 
 
@@ -406,8 +400,16 @@ p.link-anim:focus {
 		#home-title {
 			margin-top:-200px !important;
 		}
-		.minh-100vh.title-page {
+		.minh-100vh.title-page,
+		#contact-content.minh-100vh {
 			overflow:hidden;
+			min-height:none;
+		}
+		#contact-content {
+			overflow:hidden;
+		}
+		#contact-title {
+			margin-top:-200px;
 		}
 	}
 	@media screen and (max-width:991px) {
@@ -417,7 +419,8 @@ p.link-anim:focus {
 			margin-left:auto;
 			margin-right:auto;
 		}
-		.minh-100vh.title-page {
+		.minh-100vh.title-page,
+		#contact-content.minh-100vh {
 			min-height:none;
 			overflow-y:hidden;
 		}
