@@ -97,7 +97,7 @@ p.link-anim:focus {
 /* encapsulates the below styles to only to the main pages */
 #main-page {
 
-	/* hide all contact page social link descriptions on page load */
+/* hide all contact page social link descriptions on page load */
 	#linkedin-descr, 
 	#github-descr, 
 	#melartistangent-descr, 
@@ -105,10 +105,10 @@ p.link-anim:focus {
 	#yelp-descr {
 		display:none;
 	}
-	/* */
+/* */
 
 
-	/* portfolio */
+/* portfolio */
 	.portfolio-img {
 		max-width:400px;
 		height:auto;
@@ -204,7 +204,7 @@ p.link-anim:focus {
 
 
 
-	// specific mobile styling for the portfolio page
+// specific mobile styling for the portfolio page
 	@media screen and (max-width:450px) {
 		.portfolio-descr {
 			&.right {
@@ -232,7 +232,8 @@ p.link-anim:focus {
 		div.flex-display-row.flex-justify-start.portf-proj {
 			justify-content:center;
 		}
-		// my portfolio page display is asymmetrical so my fixes are one-offs
+
+	// my portfolio page display is asymmetrical so my fixes are one-offs
 		#portfimg-busters {
 			margin-top:-20px;
 			@media screen and (min-width:410px) {
@@ -282,9 +283,20 @@ p.link-anim:focus {
 		#portfdescr-userflows {
 			top:250px;
 		}
-	}
-	/* */
 
+		#portfdescr-read {
+			top:280px;
+		}
+		#portfimg-art {
+			margin-top:-20px;
+		}
+		#portfimg-bento, #portfdescr-bento {
+			margin-top:-60px;
+		}
+		#portfdescr-bento {
+			margin-bottom:20px;
+		}
+	}
 
 	#portfdescr-mils {
 		background-color:#fff;
@@ -384,10 +396,12 @@ p.link-anim:focus {
 		margin-bottom:100px;
 	}
 
-	/* */
+/* */
 
 
-	/* miscellaneous */
+
+
+/* miscellaneous */
 	#about-img-992up {
 		max-height:560px;
 		width:auto;
@@ -397,19 +411,15 @@ p.link-anim:focus {
 		.no-scroll {
 			overflow:hidden;
 		}
-		#home-title {
+		#home-title,
+		h2.contact-title {
 			margin-top:-200px !important;
 		}
 		.minh-100vh.title-page,
 		#contact-content.minh-100vh {
 			overflow:hidden;
 			min-height:none;
-		}
-		#contact-content {
-			overflow:hidden;
-		}
-		#contact-title {
-			margin-top:-200px;
+			max-height:90vh;
 		}
 	}
 	@media screen and (max-width:991px) {

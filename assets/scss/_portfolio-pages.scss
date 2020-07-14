@@ -22,9 +22,10 @@
 			img#milsdiner-hero {
 				max-height:450px;
 				@media screen and (max-width:500px) {
-					width:100%;
-					height:auto;
 					max-height:none;
+					width:100%;
+					max-width:100%;
+					height:auto;
 				}
 			}
 		}
@@ -40,6 +41,12 @@
 					max-width:600px;
 					height:auto;
 					max-height:400px;
+					@media screen and (max-width:500px) {
+						width:100%;
+						max-width:none;
+						height:auto;
+						max-height:none;
+					}
 					&.current-mils {
 						max-height:400px;
 						width:auto;
