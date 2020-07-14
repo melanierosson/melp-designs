@@ -280,8 +280,11 @@ p.link-anim:focus {
 				margin-top:50px;
 			}
 		}
+		#portfimg-userflows {
+			padding-bottom:50px;
+		}
 		#portfdescr-userflows {
-			top:250px;
+			top:230px;
 		}
 
 		#portfdescr-read {
@@ -290,10 +293,12 @@ p.link-anim:focus {
 		#portfimg-art {
 			margin-top:-20px;
 		}
-		#portfimg-bento, #portfdescr-bento {
+		#portfimg-bento {
 			margin-top:-60px;
+			padding-bottom:50px;
 		}
 		#portfdescr-bento {
+			margin-top:-60px;
 			margin-bottom:20px;
 		}
 	}

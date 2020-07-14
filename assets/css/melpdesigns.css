@@ -320,15 +320,19 @@ p.link-anim:focus {
     #main-page #portfproj-container06 {
       margin-top: 50px; } }
   @media screen and (max-width: 450px) {
+    #main-page #portfimg-userflows {
+      padding-bottom: 50px; }
     #main-page #portfdescr-userflows {
-      top: 250px; }
+      top: 230px; }
     #main-page #portfdescr-read {
       top: 280px; }
     #main-page #portfimg-art {
       margin-top: -20px; }
-    #main-page #portfimg-bento, #main-page #portfdescr-bento {
-      margin-top: -60px; }
+    #main-page #portfimg-bento {
+      margin-top: -60px;
+      padding-bottom: 50px; }
     #main-page #portfdescr-bento {
+      margin-top: -60px;
       margin-bottom: 20px; } }
   #main-page #portfdescr-mils {
     background-color: #fff;
