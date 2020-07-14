@@ -261,18 +261,42 @@ p.link-anim:focus {
       top: 220px; } }
   @media screen and (max-width: 450px) {
     #main-page .portfolio-descr.right {
-      left: -20px; }
-    #main-page .portfolio-descr.left {
+      left: -20px;
       right: -20px; }
-    #main-page #portfdescr-art {
+    #main-page .portfolio-descr.left {
+      right: -20px;
+      left: -20px; }
+    #main-page .portfolio-descr.bottom {
       top: 220px; }
-    #main-page #portfimg-mils {
+    #main-page .portfolio-descr.top {
+      top: 220px; }
+    #main-page .portfolio-descr.mid-top {
+      top: 220px; }
+    #main-page .portfolio-img {
       max-width: 90vw; }
+    #main-page div.flex-display-row.flex-justify-end.portf-proj,
+    #main-page div.flex-display-row.flex-justify-start.portf-proj {
+      justify-content: center; }
     #main-page #portfimg-busters {
-      margin-right: -20px; }
-    #main-page #portfimg-bento {
-      margin-left: -10px;
-      max-width: 90vw; } }
+      margin-top: -20px; }
+    #main-page #portfdescr-busters {
+      top: 250px; }
+    #main-page #portfimg-recwidgit {
+      margin-right: -4px;
+      margin-top: -10px; }
+    #main-page #portfdescr-recwidgit {
+      left: -22px; }
+    #main-page #portfproj-container04 {
+      margin-top: 50px; }
+    #main-page #portfdescr-detailpanem {
+      top: 250px; }
+    #main-page #portfdescr-recmobile {
+      top: 280px;
+      left: -21px; }
+    #main-page #portfproj-container06 {
+      margin-top: 80px; }
+    #main-page #portfdescr-userflows {
+      top: 250px; } }
   #main-page #portfdescr-mils {
     background-color: #fff;
     border: 2px solid #980f61; }
