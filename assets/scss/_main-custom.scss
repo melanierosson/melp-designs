@@ -201,8 +201,11 @@ p.link-anim:focus {
 			top:220px;
 		}
 	}
+
+
+
+	// specific mobile styling for the portfolio page
 	@media screen and (max-width:450px) {
-		// specific mobile styling for the portfolio page
 		.portfolio-descr {
 			&.right {
 				left:-20px;
@@ -223,7 +226,7 @@ p.link-anim:focus {
 			}
 		}
 		.portfolio-img {
-			max-width:90vw;
+			max-width:86vw;
 		}
 		div.flex-display-row.flex-justify-end.portf-proj,
 		div.flex-display-row.flex-justify-start.portf-proj {
@@ -280,6 +283,9 @@ p.link-anim:focus {
 			top:250px;
 		}
 	}
+
+
+
 	#portfdescr-mils {
 		background-color:#fff;
 		border:2px solid rgba(152,15,97,1);
