@@ -448,29 +448,34 @@ p.link-anim:focus {
   max-height: 450px; }
   @media screen and (max-width: 500px) {
     .portfolio-page section#milsdiner-content div.mils-img-container img#milsdiner-hero {
-      width: 100%; } }
+      width: 100%;
+      height: auto;
+      max-height: none; } }
 
-.portfolio-page section#milsdiner-content div.version-container {
-  border-top: 3px solid #263064;
-  border-bottom: 3px solid #263064;
-  background-color: rgba(38, 48, 100, 0.1); }
-  .portfolio-page section#milsdiner-content div.version-container img.milsdiner-hist {
+.portfolio-page section#milsdiner-content div.version-row {
+  background-color: rgba(38, 48, 100, 0.9);
+  color: #fff;
+  min-width: 100vw;
+  margin-left: calc(-50vw + 50%); }
+  .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
     max-height: 200px; }
     @media screen and (max-width: 1199px) {
-      .portfolio-page section#milsdiner-content div.version-container img.milsdiner-hist {
+      .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
         width: 100%;
         max-width: 600px;
         height: auto;
         max-height: 400px; }
-        .portfolio-page section#milsdiner-content div.version-container img.milsdiner-hist.current-mils {
+        .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
           max-height: 400px;
           width: auto;
+          max-width: none;
           border: none; } }
     @media screen and (max-width: 1199px) and (max-width: 500px) {
-      .portfolio-page section#milsdiner-content div.version-container img.milsdiner-hist.current-mils {
+      .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
         width: 100%;
-        height: auto; } }
-  .portfolio-page section#milsdiner-content div.version-container div.current-mils {
+        height: auto;
+        max-height: none; } }
+  .portfolio-page section#milsdiner-content div.version-row div.current-mils {
     border: 3px solid #9f106a;
     background-color: rgba(159, 16, 106, 0.2); }
 
@@ -482,9 +487,10 @@ p.link-anim:focus {
     font-weight: 400; }
 
 .portfolio-page section#milsdiner-content div.pages-row {
-  border-top: 3px solid #263064;
-  border-bottom: 3px solid #263064;
-  background-color: rgba(38, 48, 100, 0.1); }
+  background-color: rgba(38, 48, 100, 0.9);
+  color: #fff;
+  min-width: 100vw;
+  margin-left: calc(-50vw + 50%); }
   .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img {
     width: 33%;
     height: auto;
