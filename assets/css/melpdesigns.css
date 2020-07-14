@@ -191,6 +191,7 @@ p.link-anim:focus {
   /* */
   /* portfolio */
   /* */
+  /* */
   /* miscellaneous */ }
   #main-page #linkedin-descr,
   #main-page #github-descr,
@@ -258,7 +259,11 @@ p.link-anim:focus {
     #main-page .portfolio-descr.bottom {
       top: 220px; }
     #main-page #portfdescr-art {
-      top: 220px; } }
+      top: 220px; }
+    #main-page #contact-content {
+      overflow: hidden; }
+    #main-page #contact-title {
+      margin-top: -200px; } }
   @media screen and (max-width: 450px) {
     #main-page .portfolio-descr.right {
       left: -20px;
