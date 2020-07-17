@@ -26,6 +26,14 @@ p a:focus {
 }
 /* */
 
+// under construction page
+h1.construction-page {
+	@media screen and (max-width:550px) {
+		margin-top:-200px !important;
+	}
+	margin-top:-3rem;
+}
+
 
 /* animations and transitions galore */
 h6.link-anim:hover {

@@ -124,6 +124,12 @@ p a:focus {
   text-decoration: none; }
 
 /* */
+h1.construction-page {
+  margin-top: -3rem; }
+  @media screen and (max-width: 550px) {
+    h1.construction-page {
+      margin-top: -200px !important; } }
+
 /* animations and transitions galore */
 h6.link-anim:hover {
   transform: translateX(10px);
