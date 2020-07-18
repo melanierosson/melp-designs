@@ -98,6 +98,9 @@
   line-height: 200%; }
 
 /* top-level custom stuff */
+html {
+  overflow-y: scroll; }
+
 body {
   font-family: 'Montserrat', sans-serif;
   /*background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
@@ -173,16 +176,10 @@ p.link-anim:focus {
     transform: translateY(0); } }
 
 @media screen and (max-width: 991px) {
-  #navbar-txt-right {
-    -webkit-animation: mover 1s 1;
-    animation: mover 1s 1; }
   h2.title {
     font-size: 3rem; } }
 
 @media screen and (min-width: 992px) {
-  #navbar-txt-right, #navbar-txt-left {
-    -webkit-animation: mover 1s 1;
-    animation: mover 1s 1; }
   h2.title {
     font-size: 4rem; } }
 
@@ -204,6 +201,9 @@ p.link-anim:focus {
   #main-page #yelpblackbelt-descr,
   #main-page #yelp-descr {
     display: none; }
+  @media screen and (min-width: 992px) {
+    #main-page .shift-nav {
+      margin-left: 7px; } }
   #main-page .portfolio-img {
     max-width: 400px;
     height: auto;
@@ -411,14 +411,12 @@ p.link-anim:focus {
     max-height: 560px;
     width: auto; }
   @media screen and (max-width: 550px) {
-    #main-page .no-scroll {
-      overflow: hidden; }
     #main-page #home-title,
     #main-page h2.contact-title {
       margin-top: -200px !important; }
     #main-page .minh-100vh.title-page,
     #main-page #contact-content.minh-100vh {
-      overflow: hidden;
+      overflow-x: hidden;
       min-height: none;
       max-height: 90vh; } }
   @media screen and (max-width: 991px) {
@@ -429,8 +427,7 @@ p.link-anim:focus {
       margin-right: auto; }
     #main-page .minh-100vh.title-page,
     #main-page #contact-content.minh-100vh {
-      min-height: none;
-      overflow-y: hidden; }
+      min-height: none; }
     #main-page #home-title {
       font-size: 3.5rem; }
     #main-page h3 {
