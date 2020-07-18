@@ -43,25 +43,33 @@
 			height:auto;
 			margin-left: calc(-50vw + 50%);
 			img.milsdiner-hist {
-				max-height:200px;
+				@media screen and (min-width:1200px) {
+					max-height:200px;
+				}
 				@media screen and (max-width:1199px) {
-					width:100%;
-					max-width:600px;
-					height:auto;
+					width:auto;
+					max-height:390px;
+				}
+				@media screen and (max-width:991px) {
+					width:auto;
+					max-height:300px;
+				}
+				@media screen and (max-width:766px) {
+					width:auto;
+					max-height:240px;
+				}
+				@media screen and (max-width:500px) {
+					object-fit:contain;
+				}
+				&.current-mils {
 					max-height:400px;
+					width:auto;
+					max-width:none;
+					border:none;
 					@media screen and (max-width:500px) {
-						object-fit:contain;
-					}
-					&.current-mils {
-						max-height:400px;
-						width:auto;
-						max-width:none;
-						border:none;
-						@media screen and (max-width:500px) {
-							width:100%;
-							height:auto;
-							max-height:none;
-						}
+						width:100%;
+						height:auto;
+						max-height:none;
 					}
 				}
 			}

@@ -472,28 +472,34 @@ p.link-anim:focus {
     min-width: 100vw;
     height: auto;
     margin-left: calc(-50vw + 50%); }
-    .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
-      max-height: 200px; }
-      @media screen and (max-width: 1199px) {
-        .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
+    @media screen and (min-width: 1200px) {
+      .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
+        max-height: 200px; } }
+    @media screen and (max-width: 1199px) {
+      .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
+        width: auto;
+        max-height: 390px; } }
+    @media screen and (max-width: 991px) {
+      .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
+        width: auto;
+        max-height: 300px; } }
+    @media screen and (max-width: 766px) {
+      .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
+        width: auto;
+        max-height: 240px; } }
+    @media screen and (max-width: 500px) {
+      .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
+        object-fit: contain; } }
+    .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
+      max-height: 400px;
+      width: auto;
+      max-width: none;
+      border: none; }
+      @media screen and (max-width: 500px) {
+        .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
           width: 100%;
-          max-width: 600px;
           height: auto;
-          max-height: 400px; } }
-  @media screen and (max-width: 1199px) and (max-width: 500px) {
-    .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
-      object-fit: contain; } }
-      @media screen and (max-width: 1199px) {
-          .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
-            max-height: 400px;
-            width: auto;
-            max-width: none;
-            border: none; } }
-    @media screen and (max-width: 1199px) and (max-width: 500px) {
-      .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
-        width: 100%;
-        height: auto;
-        max-height: none; } }
+          max-height: none; } }
     .portfolio-page section#milsdiner-content div.version-row div.current-mils {
       border: 3px solid #9f106a;
       background-color: rgba(159, 16, 106, 0.2); }
