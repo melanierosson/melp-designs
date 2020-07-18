@@ -441,7 +441,12 @@ p.link-anim:focus {
       font-size: 4.5rem; } }
 
 .portfolio-page .back-btn {
-  z-index: 10; }
+  z-index: 10;
+  margin-top: -15px; }
+
+@media screen and (max-width: 550px) {
+  .portfolio-page h3 {
+    text-align: center; } }
 
 @media screen and (max-width: 450px) {
   .portfolio-page section#milsdiner-content h2#milsdiner-title {
@@ -521,6 +526,6 @@ p.link-anim:focus {
       transform: scale(1.05); }
     @media screen and (max-width: 767px) {
       .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img {
-        width: 50%; } }
+        width: 100%; } }
 
 /*# sourceMappingURL=melpdesigns.css.map */

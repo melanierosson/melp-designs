@@ -2,6 +2,12 @@
 .portfolio-page {
 	.back-btn {
 		z-index:10;
+		margin-top:-15px;
+	}
+	h3 {
+		@media screen and (max-width:550px) {
+			text-align:center;
+		}
 	}
 
 	// Mil's Diner Page
@@ -91,7 +97,7 @@
 					transform: scale(1.05);
 				}
 				@media screen and (max-width:767px) {
-					width:50%;
+					width:100%;
 				}
 			}
 		}
