@@ -61,10 +61,18 @@
 					object-fit:contain;
 				}
 				&.current-mils {
-					max-height:400px;
+					max-height:300px;
 					width:auto;
 					max-width:none;
 					border:none;
+					@media screen and (max-width:1199px) {
+						width:auto;
+						max-height:500px;
+					}
+					@media screen and (max-width:991px) {
+						width:auto;
+						max-height:400px;
+					}
 					@media screen and (max-width:500px) {
 						width:100%;
 						height:auto;

@@ -490,10 +490,18 @@ p.link-anim:focus {
       .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
         object-fit: contain; } }
     .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
-      max-height: 400px;
+      max-height: 300px;
       width: auto;
       max-width: none;
       border: none; }
+      @media screen and (max-width: 1199px) {
+        .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
+          width: auto;
+          max-height: 500px; } }
+      @media screen and (max-width: 991px) {
+        .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
+          width: auto;
+          max-height: 400px; } }
       @media screen and (max-width: 500px) {
         .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
           width: 100%;
