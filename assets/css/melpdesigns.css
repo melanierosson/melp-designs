@@ -463,9 +463,8 @@ p.link-anim:focus {
     max-height: 450px; }
     @media screen and (max-width: 500px) {
       .portfolio-page section#milsdiner-content div.mils-img-container img#milsdiner-hero {
-        width: 95vw;
-        max-width: none;
-        height: auto; } }
+        width: auto;
+        height: 375px; } }
   .portfolio-page section#milsdiner-content div.version-row {
     background-color: rgba(38, 48, 100, 0.9);
     color: #fff;

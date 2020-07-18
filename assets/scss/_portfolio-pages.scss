@@ -30,9 +30,8 @@
 			img#milsdiner-hero {
 				max-height:450px;
 				@media screen and (max-width:500px) {
-					width:95vw;
-					max-width:none;
-					height:auto;
+					width:auto;
+					height:375px;
 				}
 			}
 		}
