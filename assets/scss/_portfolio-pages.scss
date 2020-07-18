@@ -1,5 +1,6 @@
 // Portfolio Pages Styling
 .portfolio-page {
+	overflow-x:hidden;
 	.back-btn {
 		z-index:10;
 		margin-top:-15px;
@@ -16,6 +17,7 @@
 			@media screen and (max-width:450px) {
 				font-size:2.4rem;
 				letter-spacing: 0.2rem;
+				margin-top: 10px;
 			}
 		}
 		div.mils-img-container {
@@ -28,9 +30,8 @@
 			img#milsdiner-hero {
 				max-height:450px;
 				@media screen and (max-width:500px) {
-					max-height:none;
-					width:100%;
-					max-width:100%;
+					width:95vw;
+					max-width:none;
 					height:auto;
 				}
 			}
@@ -39,6 +40,7 @@
 			background-color:rgba(38,48,100,0.9);
 			color:#fff;
 			min-width:100vw;
+			height:auto;
 			margin-left: calc(-50vw + 50%);
 			img.milsdiner-hist {
 				max-height:200px;
@@ -48,10 +50,7 @@
 					height:auto;
 					max-height:400px;
 					@media screen and (max-width:500px) {
-						width:100%;
-						max-width:none;
-						height:auto;
-						max-height:none;
+						object-fit:contain;
 					}
 					&.current-mils {
 						max-height:400px;
@@ -98,6 +97,7 @@
 				}
 				@media screen and (max-width:767px) {
 					width:100%;
+					object-fit:contain;
 				}
 			}
 		}

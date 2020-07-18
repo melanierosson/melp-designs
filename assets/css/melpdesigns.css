@@ -440,92 +440,85 @@ p.link-anim:focus {
     #main-page #home-title {
       font-size: 4.5rem; } }
 
-.portfolio-page .back-btn {
-  z-index: 10;
-  margin-top: -15px; }
-
-@media screen and (max-width: 550px) {
-  .portfolio-page h3 {
-    text-align: center; } }
-
-@media screen and (max-width: 450px) {
-  .portfolio-page section#milsdiner-content h2#milsdiner-title {
-    font-size: 2.4rem;
-    letter-spacing: 0.2rem; } }
-
-@media screen and (min-width: 992px) {
-  .portfolio-page section#milsdiner-content div.mils-img-container {
-    justify-content: flex-end; } }
-
-@media screen and (max-width: 991px) {
-  .portfolio-page section#milsdiner-content div.mils-img-container {
-    justify-content: center; } }
-
-.portfolio-page section#milsdiner-content div.mils-img-container img#milsdiner-hero {
-  max-height: 450px; }
-  @media screen and (max-width: 500px) {
-    .portfolio-page section#milsdiner-content div.mils-img-container img#milsdiner-hero {
-      max-height: none;
-      width: 100%;
-      max-width: 100%;
-      height: auto; } }
-
-.portfolio-page section#milsdiner-content div.version-row {
-  background-color: rgba(38, 48, 100, 0.9);
-  color: #fff;
-  min-width: 100vw;
-  margin-left: calc(-50vw + 50%); }
-  .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
-    max-height: 200px; }
-    @media screen and (max-width: 1199px) {
-      .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
-        width: 100%;
-        max-width: 600px;
-        height: auto;
-        max-height: 400px; } }
+.portfolio-page {
+  overflow-x: hidden; }
+  .portfolio-page .back-btn {
+    z-index: 10;
+    margin-top: -15px; }
+  @media screen and (max-width: 550px) {
+    .portfolio-page h3 {
+      text-align: center; } }
+  @media screen and (max-width: 450px) {
+    .portfolio-page section#milsdiner-content h2#milsdiner-title {
+      font-size: 2.4rem;
+      letter-spacing: 0.2rem;
+      margin-top: 10px; } }
+  @media screen and (min-width: 992px) {
+    .portfolio-page section#milsdiner-content div.mils-img-container {
+      justify-content: flex-end; } }
+  @media screen and (max-width: 991px) {
+    .portfolio-page section#milsdiner-content div.mils-img-container {
+      justify-content: center; } }
+  .portfolio-page section#milsdiner-content div.mils-img-container img#milsdiner-hero {
+    max-height: 450px; }
+    @media screen and (max-width: 500px) {
+      .portfolio-page section#milsdiner-content div.mils-img-container img#milsdiner-hero {
+        width: 95vw;
+        max-width: none;
+        height: auto; } }
+  .portfolio-page section#milsdiner-content div.version-row {
+    background-color: rgba(38, 48, 100, 0.9);
+    color: #fff;
+    min-width: 100vw;
+    height: auto;
+    margin-left: calc(-50vw + 50%); }
+    .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
+      max-height: 200px; }
+      @media screen and (max-width: 1199px) {
+        .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
+          width: 100%;
+          max-width: 600px;
+          height: auto;
+          max-height: 400px; } }
   @media screen and (max-width: 1199px) and (max-width: 500px) {
     .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
-      width: 100%;
-      max-width: none;
-      height: auto;
-      max-height: none; } }
-    @media screen and (max-width: 1199px) {
-        .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
-          max-height: 400px;
-          width: auto;
-          max-width: none;
-          border: none; } }
+      object-fit: contain; } }
+      @media screen and (max-width: 1199px) {
+          .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
+            max-height: 400px;
+            width: auto;
+            max-width: none;
+            border: none; } }
     @media screen and (max-width: 1199px) and (max-width: 500px) {
       .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
         width: 100%;
         height: auto;
         max-height: none; } }
-  .portfolio-page section#milsdiner-content div.version-row div.current-mils {
-    border: 3px solid #9f106a;
-    background-color: rgba(159, 16, 106, 0.2); }
-
-.portfolio-page section#milsdiner-content ol.mils-list li {
-  font-weight: 600;
-  padding-left: 10px;
-  padding-bottom: 6px; }
-  .portfolio-page section#milsdiner-content ol.mils-list li span {
-    font-weight: 400; }
-
-.portfolio-page section#milsdiner-content div.pages-row {
-  background-color: rgba(38, 48, 100, 0.9);
-  color: #fff;
-  min-width: 100vw;
-  margin-left: calc(-50vw + 50%); }
-  .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img {
-    width: 33%;
-    height: auto;
-    padding: 6px 12px 0 0; }
-    .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img:hover {
-      cursor: pointer;
-      transition-duration: 0.4s;
-      transform: scale(1.05); }
-    @media screen and (max-width: 767px) {
-      .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img {
-        width: 100%; } }
+    .portfolio-page section#milsdiner-content div.version-row div.current-mils {
+      border: 3px solid #9f106a;
+      background-color: rgba(159, 16, 106, 0.2); }
+  .portfolio-page section#milsdiner-content ol.mils-list li {
+    font-weight: 600;
+    padding-left: 10px;
+    padding-bottom: 6px; }
+    .portfolio-page section#milsdiner-content ol.mils-list li span {
+      font-weight: 400; }
+  .portfolio-page section#milsdiner-content div.pages-row {
+    background-color: rgba(38, 48, 100, 0.9);
+    color: #fff;
+    min-width: 100vw;
+    margin-left: calc(-50vw + 50%); }
+    .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img {
+      width: 33%;
+      height: auto;
+      padding: 6px 12px 0 0; }
+      .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img:hover {
+        cursor: pointer;
+        transition-duration: 0.4s;
+        transform: scale(1.05); }
+      @media screen and (max-width: 767px) {
+        .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img {
+          width: 100%;
+          object-fit: contain; } }
 
 /*# sourceMappingURL=melpdesigns.css.map */
