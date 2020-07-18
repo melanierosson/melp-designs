@@ -126,6 +126,9 @@ p a:focus {
   color: #343a40;
   text-decoration: none; }
 
+.bottom-row {
+  margin-bottom: 100px; }
+
 /* */
 h1.construction-page {
   margin-top: -3rem; }
@@ -405,8 +408,6 @@ p.link-anim:focus {
       color: #d9b8b1; }
     #main-page #portfdescr-bento p {
       color: #fff; }
-  #main-page .bottom-row {
-    margin-bottom: 100px; }
   #main-page #about-img-992up {
     max-height: 560px;
     width: auto; }
@@ -533,5 +534,113 @@ p.link-anim:focus {
         .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img {
           width: 100%;
           object-fit: contain; } }
+  @media screen and (max-width: 767px) {
+    .portfolio-page section#busters-content h2#busters-title {
+      font-size: 2.4rem;
+      letter-spacing: 0.2rem;
+      margin-top: 10px; } }
+  @media screen and (max-width: 469px) {
+    .portfolio-page section#busters-content h2#busters-title {
+      font-size: 2rem; } }
+  @media screen and (max-width: 415px) {
+    .portfolio-page section#busters-content h2#busters-title {
+      font-size: 2.4rem;
+      line-height: 3rem; } }
+  .portfolio-page section#busters-content img#busters-hero-992up {
+    max-height: 350px; }
+    @media screen and (max-width: 1199px) {
+      .portfolio-page section#busters-content img#busters-hero-992up {
+        max-height: 390px; } }
+    @media screen and (min-width: 1200px) {
+      .portfolio-page section#busters-content img#busters-hero-992up {
+        margin-right: 30px; } }
+  .portfolio-page section#busters-content img#busters-hero-991down {
+    padding: 30px 10px 0 10px;
+    width: 100%; }
+  .portfolio-page section#busters-content .busters-intro h3 {
+    padding-left: 0; }
+  @media screen and (max-width: 991px) {
+    .portfolio-page section#busters-content .busters-intro {
+      margin: auto; }
+      .portfolio-page section#busters-content .busters-intro h3 {
+        margin-top: -30px;
+        padding-left: 10px;
+        padding-right: 10px; }
+      .portfolio-page section#busters-content .busters-intro p {
+        padding-left: 10px;
+        padding-right: 10px; } }
+  .portfolio-page section#busters-content div.tools-row {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    min-width: 100vw;
+    height: auto;
+    margin-top: 40px;
+    margin-left: calc(-50vw + 50%); }
+    @media screen and (max-width: 991px) {
+      .portfolio-page section#busters-content div.tools-row {
+        margin-top: 10px;
+        margin-bottom: 20px; } }
+    .portfolio-page section#busters-content div.tools-row div.busters-tools {
+      margin-bottom: -10px; }
+      @media screen and (max-width: 991px) {
+        .portfolio-page section#busters-content div.tools-row div.busters-tools h3 {
+          width: 100%;
+          text-align: center;
+          margin-bottom: -30px;
+          margin-top: 30px; } }
+      .portfolio-page section#busters-content div.tools-row div.busters-tools ul.busters-tools-list {
+        padding: 30px 0;
+        margin-top: 10px; }
+        .portfolio-page section#busters-content div.tools-row div.busters-tools ul.busters-tools-list li {
+          list-style-type: none;
+          display: inline;
+          padding: 20px; }
+          @media screen and (max-width: 500px) {
+            .portfolio-page section#busters-content div.tools-row div.busters-tools ul.busters-tools-list li {
+              display: block;
+              padding: 5px; } }
+  .portfolio-page section#busters-content div.busters-facebook {
+    margin-top: 30px; }
+    .portfolio-page section#busters-content div.busters-facebook h4 {
+      margin-bottom: -5px; }
+    .portfolio-page section#busters-content div.busters-facebook div.busters-images-left,
+    .portfolio-page section#busters-content div.busters-facebook div.busters-images-right {
+      justify-content: center; }
+      .portfolio-page section#busters-content div.busters-facebook div.busters-images-left img,
+      .portfolio-page section#busters-content div.busters-facebook div.busters-images-right img {
+        width: 100%;
+        padding: 14px 0; }
+    @media screen and (min-width: 1200px) {
+      .portfolio-page section#busters-content div.busters-facebook div.busters-images-left {
+        justify-content: flex-end; } }
+    @media screen and (min-width: 1200px) {
+      .portfolio-page section#busters-content div.busters-facebook div.busters-images-right {
+        justify-content: flex-start; } }
+  .portfolio-page section#busters-content div.busters-insta {
+    margin-top: 30px; }
+    .portfolio-page section#busters-content div.busters-insta div.busters-insta-imgs img {
+      align-self: flex-start; }
+      @media screen and (min-width: 992px) {
+        .portfolio-page section#busters-content div.busters-insta div.busters-insta-imgs img {
+          padding-left: 14px;
+          width: 50%; } }
+      @media screen and (max-width: 991px) {
+        .portfolio-page section#busters-content div.busters-insta div.busters-insta-imgs img {
+          width: 100%;
+          height: auto;
+          padding: 14px 0; } }
+  .portfolio-page section#busters-content div.busters-previews {
+    margin-top: 30px; }
+    .portfolio-page section#busters-content div.busters-previews div.busters-preview-imgs img {
+      align-self: flex-start; }
+      @media screen and (min-width: 992px) {
+        .portfolio-page section#busters-content div.busters-previews div.busters-preview-imgs img {
+          padding-left: 14px;
+          width: 50%; } }
+      @media screen and (max-width: 991px) {
+        .portfolio-page section#busters-content div.busters-previews div.busters-preview-imgs img {
+          width: 100%;
+          height: auto;
+          padding: 14px 0; } }
 
 /*# sourceMappingURL=melpdesigns.css.map */
