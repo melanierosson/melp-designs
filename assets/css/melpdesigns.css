@@ -490,7 +490,7 @@ p.link-anim:focus {
       .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
         object-fit: contain; } }
     .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
-      max-height: 300px;
+      max-height: 200px;
       width: auto;
       max-width: none;
       border: none; }
