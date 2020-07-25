@@ -135,7 +135,6 @@ h1.construction-page {
   @media screen and (max-width: 550px) {
     h1.construction-page {
       margin-top: -200px !important; } }
-
 /* animations and transitions galore */
 h6.link-anim:hover {
   transform: translateX(10px);
@@ -235,6 +234,8 @@ p.link-anim:focus {
   @media screen and (min-width: 992px) {
     #main-page #portfproj-container04 {
       margin-top: 75px; }
+    #main-page #portfproj-container05 {
+      margin-top: 50px; }
     #main-page #portfdescr-recwidgit {
       margin-top: 65px; } }
   @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -252,7 +253,9 @@ p.link-anim:focus {
     #main-page .portfolio-descr.top {
       top: 15px; }
     #main-page .portf-proj:nth-child(2) {
-      margin-top: 120px; } }
+      margin-top: 80px; }
+    #main-page #portfproj-container05 {
+      margin-top: 10px; } }
   @media screen and (max-width: 500px) {
     #main-page .portfolio-img.left {
       padding-left: 40px; }
@@ -287,35 +290,23 @@ p.link-anim:focus {
     #main-page div.flex-display-row.flex-justify-start.portf-proj {
       justify-content: center; }
     #main-page #portfimg-busters {
-      margin-top: -20px; } }
+      margin-top: 10px; } }
   @media screen and (max-width: 450px) and (min-width: 410px) {
     #main-page #portfimg-busters {
-      margin-top: -40px; } }
+      margin-top: -20px; } }
   @media screen and (max-width: 450px) {
     #main-page #portfdescr-busters {
       top: 250px; }
-    #main-page #portfimg-recwidgit {
-      margin-right: -4px;
-      margin-top: -10px; } }
-  @media screen and (max-width: 450px) and (min-width: 410px) {
-    #main-page #portfimg-recwidgit {
-      margin-top: 20px; } }
-  @media screen and (max-width: 450px) {
-    #main-page #portfdescr-recwidgit {
-      left: -22px; } }
-  @media screen and (max-width: 450px) and (min-width: 410px) {
-    #main-page #portfdescr-recwidgit {
-      top: 250px; } }
-  @media screen and (max-width: 450px) {
     #main-page #portfproj-container04 {
-      margin-top: 50px; }
-    #main-page #portfdescr-detailpanem {
-      top: 250px; } }
-
-@media screen and (max-width: 450px) and (min-width: 410px) {
-  #main-page #portfimg-recmobile {
-    margin-top: 40px; } }
+      margin-top: 60px; }
+    #main-page #portfproj-container05 {
+      margin-top: -15px; } }
+  @media screen and (max-width: 450px) and (min-width: 410px) {
+    #main-page #portfproj-container05 {
+      margin-top: -5px; } }
   @media screen and (max-width: 450px) {
+    #main-page #portfdescr-detailpanem {
+      top: 250px; }
     #main-page #portfdescr-recmobile {
       top: 280px;
       left: -21px; } }
@@ -329,10 +320,6 @@ p.link-anim:focus {
     #main-page #portfproj-container06 {
       margin-top: 50px; } }
   @media screen and (max-width: 450px) {
-    #main-page #portfimg-userflows {
-      padding-bottom: 50px; }
-    #main-page #portfdescr-userflows {
-      top: 230px; }
     #main-page #portfdescr-read {
       top: 280px; }
     #main-page #portfimg-art {
@@ -355,11 +342,6 @@ p.link-anim:focus {
     border: 2px solid #f8c235; }
     #main-page #portfdescr-busters h3 {
       color: #4065b4; }
-  #main-page #portfdescr-recwidgit {
-    background-color: #f5f5f5;
-    border: 2px solid #dcdcdc; }
-    #main-page #portfdescr-recwidgit h3 {
-      color: #0c8a6d; }
   #main-page #portfdescr-detailpanem {
     background-color: #e6dede;
     border: 2px solid #8d0000; }
@@ -376,13 +358,6 @@ p.link-anim:focus {
       color: #57a359; }
     #main-page #portfdescr-recmobile p {
       color: #000; }
-  #main-page #portfdescr-userflows {
-    background-color: #e8e8e8;
-    border: 2px solid #005999; }
-    #main-page #portfdescr-userflows h3 {
-      color: #004e2f; }
-    #main-page #portfdescr-userflows p {
-      color: #424242; }
   #main-page #portfdescr-read {
     background-color: #0a4f5b;
     border: 2px solid #f0617a; }
@@ -440,7 +415,6 @@ p.link-anim:focus {
   @media screen and (min-width: 992px) {
     #main-page #home-title {
       font-size: 4.5rem; } }
-
 .portfolio-page {
   overflow-x: hidden; }
   .portfolio-page .back-btn {

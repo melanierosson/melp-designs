@@ -166,6 +166,9 @@ p.link-anim:focus {
 		#portfproj-container04 {
 			margin-top:75px;
 		}
+		#portfproj-container05 {
+			margin-top:50px;
+		}
 		#portfdescr-recwidgit {
 			margin-top:65px;
 		}
@@ -192,7 +195,10 @@ p.link-anim:focus {
 			top:15px;
 		}
 		.portf-proj:nth-child(2) {
-			margin-top:120px;
+			margin-top:80px;
+		}
+		#portfproj-container05 {
+			margin-top:10px;
 		}
 	}
 	@media screen and (max-width:500px) {
@@ -255,38 +261,41 @@ p.link-anim:focus {
 
 	// my portfolio page display is asymmetrical so my fixes are one-offs
 		#portfimg-busters {
-			margin-top:-20px;
+			margin-top:10px;
 			@media screen and (min-width:410px) {
-				margin-top:-40px;
+				margin-top:-20px;
 			}
 		}
 		#portfdescr-busters {
 			top:250px;
 		}
-		#portfimg-recwidgit {
-			margin-right:-4px;
-			margin-top:-10px;
-			@media screen and (min-width:410px) {
-				margin-top:20px;
-			}
-		}
-		#portfdescr-recwidgit {
-			left:-22px;
-			@media screen and (min-width:410px) {
-				top:250px;
-			}
-		}
+		// #portfimg-recwidgit {
+		// 	margin-right:-4px;
+		// 	margin-top:-10px;
+		// 	@media screen and (min-width:410px) {
+		// 		margin-top:20px;
+		// 	}
+		// }
+		// #portfdescr-recwidgit {
+		// 	left:-22px;
+		// 	@media screen and (min-width:410px) {
+		// 		top:250px;
+		// 	}
+		// } 
 		#portfproj-container04 {
-			margin-top:50px;
+			margin-top:60px;
 		}
+		#portfproj-container05 {
+			margin-top:-15px;
+			@media screen and (min-width:410px) {
+				margin-top:-5px;
+			}
+		}
+		
 		#portfdescr-detailpanem {
 			top:250px;
 		}
-		#portfimg-recmobile {
-			@media screen and (min-width:410px) {
-				margin-top:40px;
-			}
-		}
+		
 		#portfdescr-recmobile {
 			top:280px;
 			left:-21px;
@@ -300,12 +309,12 @@ p.link-anim:focus {
 				margin-top:50px;
 			}
 		}
-		#portfimg-userflows {
-			padding-bottom:50px;
-		}
-		#portfdescr-userflows {
-			top:230px;
-		}
+		// #portfimg-userflows {
+		// 	padding-bottom:50px;
+		// }
+		// #portfdescr-userflows {
+		// 	top:230px;
+		// }
 
 		#portfdescr-read {
 			top:280px;
@@ -340,13 +349,13 @@ p.link-anim:focus {
 			color: #4065b4;
 		}
 	}
-	#portfdescr-recwidgit {
-		background-color:#f5f5f5;
-		border:2px solid #dcdcdc;
-		h3 {
-			color: #0c8a6d;
-		}
-	}
+	// #portfdescr-recwidgit {
+	// 	background-color:#f5f5f5;
+	// 	border:2px solid #dcdcdc;
+	// 	h3 {
+	// 		color: #0c8a6d;
+	// 	}
+	// }
 	#portfdescr-detailpanem {
 		background-color:#e6dede;
 		border:2px solid #8d0000;
@@ -370,16 +379,16 @@ p.link-anim:focus {
 			color: #000;
 		}
 	}
-	#portfdescr-userflows {
-		background-color:#e8e8e8;
-		border:2px solid #005999;
-		h3 {
-			color: #004e2f;
-		}
-		p {
-			color: #424242;
-		}
-	}
+	// #portfdescr-userflows {
+	// 	background-color:#e8e8e8;
+	// 	border:2px solid #005999;
+	// 	h3 {
+	// 		color: #004e2f;
+	// 	}
+	// 	p {
+	// 		color: #424242;
+	// 	}
+	// }
 	#portfdescr-read {
 		background-color:#0a4f5b;
 		border:2px solid #f0617a;
