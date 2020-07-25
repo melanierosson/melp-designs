@@ -203,7 +203,8 @@ p.link-anim:focus {
 	}
 	@media screen and (max-width:500px) {
 		.portfolio-img.left-col {
-			// margin-left:-50px;
+			margin-left:auto;
+			margin-right:auto;
 		}
 		.portfolio-img.left {
 			padding-left:40px;

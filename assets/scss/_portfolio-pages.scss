@@ -305,8 +305,8 @@
 	#recmobile-content {
 		.row {
 			@media screen and (max-width:500px) {
-				padding-left:4px;
-				padding-right:4px;
+				padding-left:8px;
+				padding-right:8px;
 			}
 		}
 		h2#recmobile-title {
@@ -393,6 +393,9 @@
 		}
 		h4#recmobile-after-title {
 			margin-top:-50px !important;
+			@media screen and (max-width:500px) {
+				margin-top:0 !important;
+			}
 		}
 		h3#recmobile-challenges-title {
 			@media screen and (max-width:991px) {
