@@ -85,7 +85,6 @@
 				background-color:rgba(159,16,106,0.2);
 			}
 		}
-		
 		ol.mils-list {
 			li {
 				font-weight:600;
@@ -96,6 +95,32 @@
 				}
 			}
 		}
+		div.mothersday-container {
+			display:flex;
+			justify-content:center;
+			img.mils-mothersday-menu {
+				// margin-top:-65px;
+				height:350px;
+				@media screen and (min-width:992px) {
+					margin-top:-55px;
+					height:520px;
+				}
+				@media screen and (min-width:1200px) {
+					margin-top:-55px;
+					height:415px;
+				}
+			}
+		}
+		div.milslist03 {
+			margin-top:-15px;
+		}
+		div.milslist02 {
+			margin-top:25px;
+			@media screen and (min-width:992px) {
+				margin-top:-15px;
+			}
+		}
+		
 		div.pages-row {
 			background-color:rgba(38,48,100,0.9);
 			color:#fff;
