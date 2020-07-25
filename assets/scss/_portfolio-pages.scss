@@ -143,6 +143,8 @@
 		}
 	}
 
+
+
 	// Buster's Vision Page
 	section#busters-content {
 		h2#busters-title {
@@ -293,6 +295,125 @@
 				}
 			}
 		}
+		
+	}
+
+
+
+
+	// ReCollect Mobile User Interface
+	#recmobile-content {
+		.row {
+			@media screen and (max-width:500px) {
+				padding-left:4px;
+				padding-right:4px;
+			}
+		}
+		h2#recmobile-title {
+			@media screen and (max-width:766px) {
+				line-height:3.5rem;
+				margin-top:20px !important;
+			}
+			@media screen and (max-width:991px) {
+				font-size:2.75rem;
+			}
+		}
+		h3 {
+			@media screen and (max-width:500px) {
+				line-height:2.6rem;
+			}
+		}
+		h4 {
+			@media screen and (max-width:500px) {
+				text-align:center;
+			}
+		}
+		div.recmobile-img-container {
+			display:flex;
+			justify-content:flex-end;
+			align-content:center;
+			@media screen and (max-width:991px) {
+				justify-content:center;
+			}
+			img#recmobile-hero {
+				@media screen and (min-width:992px) {
+					height:400px;
+				}
+			}
+		}
+		div.roles-resp {
+			margin-top: -15px;
+			@media screen and (min-width:1200px) {
+				margin-top: 20px;
+			}
+		}
+		img.flows {
+			width:100%;
+		}
+		div.rec-survey, div.comp-flow {
+			display:flex;
+			justify-content:center;
+			align-items:center;
+		}
+		ol.recmobile-list {
+			margin-left:-20px;
+			li {
+				font-weight:600;
+				padding-left:10px;
+				padding-bottom:6px;
+				span {
+					font-weight:400;
+				}
+			}
+		}
+		
+		div.recmobile-timecont,
+		div.recmobile-schedulecont {
+			display:flex;
+			flex-direction:column;
+			justify-content:center;
+			align-content:center;
+			align-items:center;
+			h4.recmobile-timetitle {
+				text-align:center;
+				margin-bottom:-60px;
+				@media screen and (max-width:500px) {
+					margin-bottom:-30px;
+				}
+			}
+			img.recmobile-allscreens {
+				margin-left:0;
+				padding:0;
+				width:100%;
+				max-width:700px;
+			}
+		}
+		div.recmobile-solution {
+			text-align:center;
+		}
+		h4#recmobile-after-title {
+			margin-top:-50px !important;
+		}
+		h3#recmobile-challenges-title {
+			@media screen and (max-width:991px) {
+				margin-top:20px;
+			}
+		}
+		h3#recmobile-improvement-title {
+			@media screen and (min-width:500px) {
+				margin-top:-20px;
+			}
+			@media screen and (min-width:768px) {
+				margin-top:-40px;
+			}
+		}
+		img.recmobile-schedule {
+			height:400px;
+			@media screen and (min-width:768px) and (max-width:991px){
+				height:540px;
+			}
+		}
+		
 		
 	}
 	
