@@ -324,15 +324,19 @@ p.link-anim:focus {
       margin-top: 50px; } }
   @media screen and (max-width: 450px) {
     #main-page #portfdescr-read {
-      top: 280px; }
+      top: 275px; }
     #main-page #portfimg-art {
-      margin-top: -20px; }
+      margin-top: -10px; }
     #main-page #portfimg-bento {
-      margin-top: -60px;
+      margin-top: -50px;
       padding-bottom: 50px; }
     #main-page #portfdescr-bento {
-      margin-top: -60px;
+      margin-top: -45px;
       margin-bottom: 20px; } }
+  @media screen and (max-width: 991px) {
+    #main-page #personal-content header,
+    #main-page #portfolio-content header {
+      margin-bottom: -45px; } }
   #main-page #portfdescr-mils {
     background-color: #fff;
     border: 2px solid #980f61; }

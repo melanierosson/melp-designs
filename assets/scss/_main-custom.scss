@@ -316,20 +316,30 @@ p.link-anim:focus {
 		// #portfdescr-userflows {
 		// 	top:230px;
 		// }
-
+		
 		#portfdescr-read {
-			top:280px;
+			top:275px;
 		}
 		#portfimg-art {
-			margin-top:-20px;
+			margin-top:-10px;
 		}
 		#portfimg-bento {
-			margin-top:-60px;
+			margin-top:-50px;
 			padding-bottom:50px;
 		}
 		#portfdescr-bento {
-			margin-top:-60px;
+			margin-top:-45px;
 			margin-bottom:20px;
+		}
+	}
+
+	// move titles down
+	#personal-content,
+	#portfolio-content {
+		header {
+			@media screen and (max-width:991px) {
+				margin-bottom:-45px;
+			}
 		}
 	}
 
