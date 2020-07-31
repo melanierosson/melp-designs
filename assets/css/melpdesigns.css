@@ -141,8 +141,10 @@ h6.link-anim:hover {
   transition-duration: 0.2s;
   transition-timing-function: linear; }
 
-a:hover,
-a:focus {
+a.navbar-brand:hover,
+a.navbar-brand:focus,
+a.nav-link:hover,
+a.nav-link:focus {
   transform: translateY(-4px);
   transition-duration: 0.2s;
   transition-timing-function: linear; }
@@ -153,15 +155,10 @@ p.link-anim:focus {
   transition-duration: 0.2s;
   transition-timing-function: linear; }
 
-.portfolio-img.anim {
-  cursor: pointer;
-  transform: translateX(-20px);
-  transition-duration: 0.2s;
-  transition-timing-function: linear; }
-
+.portfolio-img.anim,
 .portfolio-descr.anim {
   cursor: pointer;
-  transform: translateX(-20px);
+  transform: translate(-20px, 0);
   transition-duration: 0.2s;
   transition-timing-function: linear; }
 
