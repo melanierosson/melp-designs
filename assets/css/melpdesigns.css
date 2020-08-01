@@ -445,7 +445,7 @@ p.link-anim:focus {
         width: auto;
         height: 375px; } }
   .portfolio-page section#milsdiner-content div.version-row {
-    background-color: rgba(38, 48, 100, 0.9);
+    background-color: #343c4b;
     color: #fff;
     min-width: 100vw;
     height: auto;
@@ -518,7 +518,7 @@ p.link-anim:focus {
       .portfolio-page section#milsdiner-content div.milslist02 {
         margin-top: -15px; } }
   .portfolio-page section#milsdiner-content div.pages-row {
-    background-color: rgba(38, 48, 100, 0.9);
+    background-color: #343c4b;
     color: #fff;
     min-width: 100vw;
     margin-left: calc(-50vw + 50%); }
