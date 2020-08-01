@@ -731,5 +731,69 @@ p.link-anim:focus {
     @media screen and (min-width: 768px) and (max-width: 991px) {
       .portfolio-page #recmobile-content img.recmobile-schedule {
         height: 540px; } }
+#gallery-page {
+  overflow-x: hidden; }
+  #gallery-page .back-btn {
+    z-index: 10;
+    margin-top: -15px; }
+  @media screen and (max-width: 767px) {
+    #gallery-page h2 {
+      text-align: center; }
+      #gallery-page h2 span {
+        display: none; }
+      #gallery-page h2:after {
+        text-align: center;
+        content: 'ART'; } }
+  #gallery-page header {
+    margin-bottom: -25px; }
+  #gallery-page div.gallery-row {
+    display: flex;
+    justify-content: center; }
+    #gallery-page div.gallery-row div.gallery {
+      overflow: hidden;
+      padding: 0; }
+      #gallery-page div.gallery-row div.gallery img {
+        width: 100%;
+        height: auto; }
+        #gallery-page div.gallery-row div.gallery img.horizontal {
+          height: 100%;
+          width: auto; }
+        #gallery-page div.gallery-row div.gallery img:hover {
+          cursor: pointer;
+          transform: scale(1.08);
+          transition: ease-in-out .2s;
+          opacity: 0.8; }
+      @media screen and (min-width: 1200px) {
+        #gallery-page div.gallery-row div.gallery {
+          max-height: 273px;
+          max-width: 273px; } }
+      @media screen and (min-width: 992px) and (max-width: 1199px) {
+        #gallery-page div.gallery-row div.gallery {
+          max-height: 228px;
+          max-width: 228px; } }
+      @media screen and (min-width: 768px) and (max-width: 991px) {
+        #gallery-page div.gallery-row div.gallery {
+          max-height: 224px;
+          max-width: 224px; } }
+      @media screen and (min-width: 576px) and (max-width: 767px) {
+        #gallery-page div.gallery-row div.gallery {
+          max-height: 246px;
+          max-width: 246px; } }
+      @media screen and (min-width: 450px) and (max-width: 575px) {
+        #gallery-page div.gallery-row div.gallery {
+          max-height: 200px;
+          max-width: 200px; } }
+      @media screen and (min-width: 401px) and (max-width: 449px) {
+        #gallery-page div.gallery-row div.gallery {
+          max-height: 180px;
+          max-width: 180px; } }
+      @media screen and (min-width: 375px) and (max-width: 400px) {
+        #gallery-page div.gallery-row div.gallery {
+          max-height: 163px;
+          max-width: 163px; } }
+      @media screen and (max-width: 374px) {
+        #gallery-page div.gallery-row div.gallery {
+          max-height: 136px;
+          max-width: 136px; } }
 
 /*# sourceMappingURL=melpdesigns.css.map */

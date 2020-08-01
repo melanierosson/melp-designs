@@ -1,0 +1,76 @@
+#gallery-page {
+    overflow-x:hidden;
+	.back-btn {
+		z-index:10;
+		margin-top:-15px;
+	}
+	@media screen and (max-width:767px) {
+        h2 {
+            text-align:center;
+            span {
+                display:none;
+            }
+            &:after {
+                text-align:center;
+                content:'ART';
+            }
+        }
+    }
+    header {
+        margin-bottom:-25px;
+    }
+    div.gallery-row {
+        display:flex;
+        justify-content:center;
+        div.gallery {
+            overflow:hidden;
+            padding:0;
+            img {
+                width:100%;
+                height:auto;
+                &.horizontal {
+                    height:100%;
+                    width:auto;
+                }
+                &:hover {
+                    cursor:pointer;
+                    transform:scale(1.08);
+                    transition: ease-in-out .2s;
+                    opacity:0.8;
+                }
+            }
+            @media screen and (min-width:1200px) {
+                max-height:273px;
+                max-width:273px;
+            }
+            @media screen and (min-width:992px) and (max-width:1199px) {
+                max-height:228px;
+                max-width:228px;
+            }
+            @media screen and (min-width:768px) and (max-width:991px) {
+                max-height:224px;
+                max-width:224px;
+            }
+            @media screen and (min-width:576px) and (max-width:767px) {
+                max-height:246px;
+                max-width:246px;
+            }
+            @media screen and (min-width:450px) and (max-width:575px) {
+                max-height:200px;
+                max-width:200px;
+            }
+            @media screen and (min-width:401px) and (max-width:449px) {
+                max-height:180px;
+                max-width:180px;
+            }
+            @media screen and (min-width:375px) and (max-width:400px) {
+                max-height:163px;
+                max-width:163px;
+            }
+            @media screen and (max-width:374px) {
+                max-height:136px;
+                max-width:136px;
+            }
+        }
+    }
+}
