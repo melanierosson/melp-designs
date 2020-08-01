@@ -755,9 +755,38 @@ p.link-anim:focus {
       #gallery-page div.gallery-row div.gallery img {
         width: 100%;
         height: auto; }
-        #gallery-page div.gallery-row div.gallery img.horizontal {
-          height: 100%;
-          width: auto; }
+        @media screen and (min-width: 1200px) {
+          #gallery-page div.gallery-row div.gallery img.horizontal {
+            height: 273px;
+            width: auto; } }
+        @media screen and (min-width: 992px) and (max-width: 1199px) {
+          #gallery-page div.gallery-row div.gallery img.horizontal {
+            height: 228px;
+            width: auto; } }
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+          #gallery-page div.gallery-row div.gallery img.horizontal {
+            height: 224px;
+            width: auto; } }
+        @media screen and (min-width: 576px) and (max-width: 767px) {
+          #gallery-page div.gallery-row div.gallery img.horizontal {
+            height: 246px;
+            width: auto; } }
+        @media screen and (min-width: 450px) and (max-width: 575px) {
+          #gallery-page div.gallery-row div.gallery img.horizontal {
+            height: 200px;
+            width: auto; } }
+        @media screen and (min-width: 401px) and (max-width: 449px) {
+          #gallery-page div.gallery-row div.gallery img.horizontal {
+            height: 180px;
+            width: auto; } }
+        @media screen and (min-width: 375px) and (max-width: 400px) {
+          #gallery-page div.gallery-row div.gallery img.horizontal {
+            height: 163px;
+            width: auto; } }
+        @media screen and (max-width: 374px) {
+          #gallery-page div.gallery-row div.gallery img.horizontal {
+            height: 136px;
+            width: auto; } }
         #gallery-page div.gallery-row div.gallery img:hover {
           cursor: pointer;
           transform: scale(1.08);
