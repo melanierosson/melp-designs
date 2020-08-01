@@ -489,12 +489,14 @@ p.link-anim:focus {
     .portfolio-page section#milsdiner-content div.version-row div.current-mils {
       border: 3px solid #9f106a;
       background-color: rgba(159, 16, 106, 0.2); }
-  .portfolio-page section#milsdiner-content ol.mils-list li {
-    font-weight: 600;
-    padding-left: 10px;
-    padding-bottom: 6px; }
-    .portfolio-page section#milsdiner-content ol.mils-list li span {
-      font-weight: 400; }
+  .portfolio-page section#milsdiner-content ol.mils-list {
+    margin-left: -20px; }
+    .portfolio-page section#milsdiner-content ol.mils-list li {
+      font-weight: 600;
+      padding-left: 10px;
+      padding-bottom: 6px; }
+      .portfolio-page section#milsdiner-content ol.mils-list li span {
+        font-weight: 400; }
   .portfolio-page section#milsdiner-content div.mothersday-container {
     display: flex;
     justify-content: center; }
