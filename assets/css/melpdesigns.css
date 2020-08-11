@@ -739,11 +739,13 @@ p.link-anim:focus {
   @media screen and (max-width: 991px) {
     .portfolio-page section#detailpanem-content h2 {
       font-size: 2.75rem; } }
-  .portfolio-page section#detailpanem-content img#detailpanem-hero {
-    display: inline-block;
-    width: 100%;
-    margin: auto;
-    /* safari fixes UGH */ }
+  .portfolio-page section#detailpanem-content div.panem-img-container {
+    justify-content: center;
+    align-items: flex-start; }
+    .portfolio-page section#detailpanem-content div.panem-img-container img#detailpanem-hero {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto; }
   @media screen and (min-width: 992px) {
     .portfolio-page section#detailpanem-content ul.goals-list {
       margin-top: -15px;

@@ -437,27 +437,14 @@
 				font-size:2.75rem;
 			}
 		}
-		img#detailpanem-hero {
-			display:inline-block;
-			width:100%;
-			margin:auto;
-			/* safari fixes UGH */
-			// @media screen and (max-width:400px) {
-			// 	width:322px;
-			// 	height:150px;
-			// }
-			// @media screen and (max-width:575px) {
-			// 	max-width:497px;
-			// 	max-height:232px;
-			// }
-			// @media screen and (min-width:576px) and (max-width:767px) {
-			// 	width:462px;
-			// 	height:215px;
-			// }
-			// @media screen and (min-width:768px) and (max-width:992px) {
-			// 	width:642px;
-			// 	height:299px;
-			// }
+		div.panem-img-container {
+			justify-content:center;
+			align-items:flex-start;
+			img#detailpanem-hero {
+				max-width:100%;
+				height:auto;
+				margin:0 auto;
+			}
 		}
 		ul.goals-list {
 			@media screen and (min-width:992px) {
