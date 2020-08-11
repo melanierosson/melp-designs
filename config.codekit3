@@ -45,30 +45,6 @@
 		"oAP": "/assets/css/melpdesigns.css.map",
 		"oF": 0
 		},
-	"/assets/hidden/grandma062720.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/hidden/grandma062720.mp4",
-		"oF": 0
-		},
-	"/assets/hidden/grandma062820.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/hidden/grandma062820.mp4",
-		"oF": 0
-		},
-	"/assets/hidden/grandma071920.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/assets/hidden/grandma071920.mp4",
-		"oF": 0
-		},
 	"/assets/images/art-babycry.jpg": {
 		"ft": 16384,
 		"iS": 1923853,
@@ -298,6 +274,83 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/detailpanem-horizontal.png": {
+		"ft": 32768,
+		"iS": 1449947,
+		"oA": 0,
+		"oAP": "/assets/images/detailpanem-horizontal.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/detailpanem-vscreen01.png": {
+		"ft": 32768,
+		"iS": 2763248,
+		"oA": 0,
+		"oAP": "/assets/images/detailpanem-vscreen01.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/detailpanem-vscreen02.png": {
+		"ft": 32768,
+		"iS": 2123904,
+		"oA": 0,
+		"oAP": "/assets/images/detailpanem-vscreen02.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/detailpanem-vscreen03.png": {
+		"ft": 32768,
+		"iS": 50286,
+		"oA": 0,
+		"oAP": "/assets/images/detailpanem-vscreen03.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/detailpanem-vscreen04.png": {
+		"ft": 32768,
+		"iS": 755781,
+		"oA": 0,
+		"oAP": "/assets/images/detailpanem-vscreen04.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/detailpanem-vscreen05.png": {
+		"ft": 32768,
+		"iS": 1096269,
+		"oA": 0,
+		"oAP": "/assets/images/detailpanem-vscreen05.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/images/detailpanem-vscreen06.png": {
+		"ft": 32768,
+		"iS": 1315822,
+		"oA": 0,
+		"oAP": "/assets/images/detailpanem-vscreen06.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/assets/images/me-on-lunch-cropped.jpg": {
@@ -698,6 +751,14 @@
 		"oAP": "/assets/pages/bustersvision.html",
 		"oF": 0
 		},
+	"/assets/pages/detailedbypanem.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/pages/detailedbypanem.html",
+		"oF": 0
+		},
 	"/assets/pages/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1094,6 +1155,30 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/hidden/grandma01.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/hidden/grandma01.mp4",
+		"oF": 0
+		},
+	"/hidden/grandma02.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/hidden/grandma02.mp4",
+		"oF": 0
+		},
+	"/hidden/grandma03.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/hidden/grandma03.mp4",
+		"oF": 0
 		},
 	"/index.html": {
 		"cB": 0,
