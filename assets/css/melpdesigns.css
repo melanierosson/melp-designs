@@ -742,6 +742,7 @@ p.link-anim:focus {
   .portfolio-page section#detailpanem-content img#detailpanem-hero {
     width: 100%;
     height: auto !important;
+    margin: auto;
     /* safari fixes UGH */ }
     @media screen and (max-width: 400px) {
       .portfolio-page section#detailpanem-content img#detailpanem-hero {

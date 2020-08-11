@@ -440,6 +440,7 @@
 		img#detailpanem-hero {
 			width:100%;
 			height:auto !important;
+			margin:auto;
 			/* safari fixes UGH */
 			@media screen and (max-width:400px) {
 				width:322px;
