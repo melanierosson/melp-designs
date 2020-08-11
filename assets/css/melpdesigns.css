@@ -731,6 +731,47 @@ p.link-anim:focus {
     @media screen and (min-width: 768px) and (max-width: 991px) {
       .portfolio-page #recmobile-content img.recmobile-schedule {
         height: 540px; } }
+  @media screen and (max-width: 766px) {
+    .portfolio-page section#detailpanem-content h2 {
+      line-height: 3.5rem;
+      margin-top: 20px !important;
+      padding-bottom: 25px; } }
+  @media screen and (max-width: 991px) {
+    .portfolio-page section#detailpanem-content h2 {
+      font-size: 2.75rem; } }
+  .portfolio-page section#detailpanem-content img#detailpanem-hero {
+    width: 100%;
+    height: auto; }
+  @media screen and (min-width: 992px) {
+    .portfolio-page section#detailpanem-content ul.goals-list {
+      margin-top: -15px;
+      margin-left: -20px; } }
+  .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start; }
+    .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container {
+      width: 32%;
+      margin: 0.5%;
+      max-height: 200px;
+      overflow: hidden; }
+      .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container:hover {
+        transform: scale(1.05); }
+      .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container img {
+        width: 100%; }
+        .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container img:hover {
+          cursor: pointer; }
+      @media screen and (max-width: 767px) {
+        .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container {
+          width: 49%;
+          max-height: 100px;
+          overflow: hidden; } }
+      @media screen and (max-width: 991px) {
+        .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container {
+          max-height: 150px;
+          overflow: hidden; } }
 #gallery-page {
   overflow-x: hidden; }
   #gallery-page .back-btn {
