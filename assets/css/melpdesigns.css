@@ -740,9 +740,8 @@ p.link-anim:focus {
     .portfolio-page section#detailpanem-content h2 {
       font-size: 2.75rem; } }
   .portfolio-page section#detailpanem-content img#detailpanem-hero {
-    display: inline;
+    display: inline-block;
     width: 100%;
-    height: auto !important;
     margin: auto;
     /* safari fixes UGH */ }
   @media screen and (min-width: 992px) {
