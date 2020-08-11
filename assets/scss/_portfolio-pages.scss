@@ -441,16 +441,16 @@
 			display:inline;
 			width:100%;
 			height:auto !important;
-			margin:0 auto;
+			margin:auto;
 			/* safari fixes UGH */
 			// @media screen and (max-width:400px) {
 			// 	width:322px;
 			// 	height:150px;
 			// }
-			// @media screen and (max-width:575px) {
+			@media screen and (max-width:575px) {
 			// 	max-width:497px;
 			// 	max-height:232px;
-			// }
+			}
 			// @media screen and (min-width:576px) and (max-width:767px) {
 			// 	width:462px;
 			// 	height:215px;

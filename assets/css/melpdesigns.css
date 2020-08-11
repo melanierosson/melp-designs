@@ -743,7 +743,7 @@ p.link-anim:focus {
     display: inline;
     width: 100%;
     height: auto !important;
-    margin: 0 auto;
+    margin: auto;
     /* safari fixes UGH */ }
   @media screen and (min-width: 992px) {
     .portfolio-page section#detailpanem-content ul.goals-list {
