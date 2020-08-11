@@ -740,7 +740,7 @@ p.link-anim:focus {
     .portfolio-page section#detailpanem-content h2 {
       font-size: 2.75rem; } }
   .portfolio-page section#detailpanem-content img#detailpanem-hero {
-    width: 100%; }
+    max-width: 100%; }
   @media screen and (min-width: 992px) {
     .portfolio-page section#detailpanem-content ul.goals-list {
       margin-top: -15px;
