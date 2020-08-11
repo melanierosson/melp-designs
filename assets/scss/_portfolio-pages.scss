@@ -427,7 +427,6 @@
 
 	// Detailed By Panem Page
 	section#detailpanem-content {
-		align-items:flex-start;
 		h2 {
 			@media screen and (max-width:766px) {
 				line-height:3.5rem;
@@ -441,6 +440,8 @@
 		img#detailpanem-hero {
 			width:100%;
 			height:auto !important;
+			max-height:none !important;
+			min-height:none !important;
 		}
 		ul.goals-list {
 			@media screen and (min-width:992px) {
