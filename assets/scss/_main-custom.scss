@@ -68,6 +68,12 @@ p.link-anim:focus {
 	transition-duration:0.2s;
 	transition-timing-function: linear;
 }
+p.name-line:hover,
+p.name-line:focus {
+	animation: nameLine 3s 1;
+	animation-timing-function: ease-in-out;
+	cursor: pointer;
+}
 
 // .portfolio-img.anim {
 // 	cursor:pointer;
@@ -84,6 +90,17 @@ p.link-anim:focus {
 @keyframes mover {
     0% { transform: translateY(100px); }
     100% { transform: translateY(0); }
+}
+
+@-webkit-keyframes nameLine {
+	0% { transform: translateX(0); }
+	50% { transform: translateX(20vw); }
+    85% { transform: translateX(-5vw); }
+}
+@keyframes nameLine {
+	0% { transform: translateX(0); }
+	50% { transform: translateX(20vw); }
+    85% { transform: translateX(-5vw); }
 }
 
 @media screen and (max-width:991px) {
