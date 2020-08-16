@@ -129,6 +129,11 @@ p a:focus {
 .bottom-row {
   margin-bottom: 100px; }
 
+.pronounce:hover {
+  transition-duration: 0.2s;
+  opacity: 0.8;
+  cursor: default; }
+
 /* */
 h1.construction-page {
   margin-top: -3rem; }
