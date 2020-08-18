@@ -1,5 +1,4 @@
 // declare
-
 const portfolioImg = document.querySelector('.portfolio-img');
 const portfolioDescr = document.querySelector('.portfolio-descr');
 
@@ -14,8 +13,8 @@ function animLeftOnce() {
 	)
 }
 
-
 // do it
 portfolioImg.addEventListener("mouseover", function() {   
   this.portfolioImg.animLeftOnce();
 }, false);
+

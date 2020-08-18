@@ -73,11 +73,12 @@ p.link-anim:focus {
 	transition-duration:0.2s;
 	transition-timing-function: linear;
 }
-p.name-line:hover,
-p.name-line:focus {
+p.name-line:hover {
+	cursor: pointer;
+}
+p.name-line.active {
 	animation: nameLine 3s 1;
 	animation-timing-function: ease-in-out;
-	cursor: pointer;
 }
 
 // .portfolio-img.anim {

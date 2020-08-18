@@ -1,0 +1,1 @@
+const portfolioImg=document.querySelector(".portfolio-img"),portfolioDescr=document.querySelector(".portfolio-descr");function animLeftOnce(){return this.style.transform="translateX(10px)",setTimeout((function(){this.style.transform="translateX(0px)"}),500),console.log("running")}portfolioImg.addEventListener("mouseover",(function(){this.portfolioImg.animLeftOnce()}),!1);
