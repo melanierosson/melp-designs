@@ -25,6 +25,39 @@
 /* TO DO: fix mobile color to account for hierarchy */
 /* TO DO: check & adjust contrast colors with actual navbar background color */
 
+/*********** ANIMATIONS *************/
+a.ltbg-link:hover {
+	animation: ltbgAnim 0.3s 1;
+}
+a.dkbg-link:hover {
+	animation: dkbgAnim 0.3s 1;
+}
+span.ltbg-anim {
+	animation: ltbgAnim 0.3s 1;
+}
+
+@keyframes dkbgAnim {
+  0%   {color:$dkbgPink;}
+  15%  {color:$dkbgOrange;}
+  25%  {color:$dkbgYellow;}
+  40%  {color:$dkbgTeal;}
+  60%  {color:$dkbgGreen;}
+  75%  {color:$dkbgBlue;}
+  85%  {color:$dkbgPurple;}
+  100% {color:#FFFFFF;}
+}
+
+@keyframes ltbgAnim {
+  0%   {color:$ltbgBlue;}
+  15%  {color:$ltbgPink;}
+  25%  {color:$ltbgOrange;}
+  40%  {color:$ltbgTeal;}
+  60%  {color:$ltbgGreen;}
+  75%  {color:$ltbgRylblue;}
+  85%  {color:$ltbgPurple;}
+  100% {color:#FFFFFF;}
+}
+
 /*********** Mobile Links ***********/
 	/* mobile has link colors randomly generate on page load */
 @media screen and (max-width: 991px) {

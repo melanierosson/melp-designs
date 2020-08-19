@@ -4,6 +4,52 @@
 /************************************/
 /* TO DO: fix mobile color to account for hierarchy */
 /* TO DO: check & adjust contrast colors with actual navbar background color */
+/*********** ANIMATIONS *************/
+a.ltbg-link:hover {
+  animation: ltbgAnim 0.3s 1; }
+
+a.dkbg-link:hover {
+  animation: dkbgAnim 0.3s 1; }
+
+span.ltbg-anim {
+  animation: ltbgAnim 0.3s 1; }
+
+@keyframes dkbgAnim {
+  0% {
+    color: #FD7CA9; }
+  15% {
+    color: #FF9147; }
+  25% {
+    color: #FFEA00; }
+  40% {
+    color: #00FFFF; }
+  60% {
+    color: #52FF69; }
+  75% {
+    color: #52ABFF; }
+  85% {
+    color: #C78FFF; }
+  100% {
+    color: #FFFFFF; } }
+
+@keyframes ltbgAnim {
+  0% {
+    color: #0052CC; }
+  15% {
+    color: #E30041; }
+  25% {
+    color: #FF5100; }
+  40% {
+    color: #00A0A3; }
+  60% {
+    color: #00A616; }
+  75% {
+    color: #0022FF; }
+  85% {
+    color: #6600CC; }
+  100% {
+    color: #FFFFFF; } }
+
 /*********** Mobile Links ***********/
 /* mobile has link colors randomly generate on page load */
 @media screen and (max-width: 991px) {
