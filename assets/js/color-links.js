@@ -21,14 +21,14 @@ function ltbgRandom() {
 
 window.addEventListener("load", function() {
 	for (i = 0; i < dkbgLinks.length; ++i) {
-	  dkbgRandom();
-	  dkbgLinks[i].classList.add(dkbgColorClass);
+	//   dkbgRandom();
+	//   dkbgLinks[i].classList.add(dkbgColorClass);
 	}
 });
 window.addEventListener("load", function() {
 	for (j = 0; j < ltbgLinks.length; ++j) {
-	  ltbgRandom();
-	  ltbgLinks[j].classList.add(ltbgColorClass);
+	//   ltbgRandom();
+	//   ltbgLinks[j].classList.add(ltbgColorClass);
 	}
 });
 // window.addEventListener("load", function() {

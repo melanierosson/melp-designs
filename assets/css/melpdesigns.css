@@ -421,7 +421,7 @@ p.name-line.active {
   @media screen and (max-width: 550px) {
     #main-page #home-title,
     #main-page h2.contact-title {
-      margin-top: -200px !important; }
+      margin-top: -100px !important; }
     #main-page .minh-100vh.title-page,
     #main-page #contact-content.minh-100vh {
       overflow-x: hidden;

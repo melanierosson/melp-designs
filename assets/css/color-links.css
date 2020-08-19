@@ -5,15 +5,11 @@
 /* TO DO: fix mobile color to account for hierarchy */
 /* TO DO: check & adjust contrast colors with actual navbar background color */
 /*********** ANIMATIONS *************/
-a.ltbg-link:hover {
-  animation: ltbgAnim 0.3s 1; }
-
-a.dkbg-link:hover {
-  animation: dkbgAnim 0.3s 1; }
-
-span.ltbg-anim {
-  animation: ltbgAnim 0.3s 1; }
-
+/* almost ready but not quite yet */
+/* TO DO: adjust the portfolio and personal project pages to match theme */
+/* TO DO: adjust mobile colors to work right too */
+/* TO DO: have JS re-shuffle or cycle through the color order of the animation on every hover */
+/* uncomment the below animation link class styles to see current preview */
 @keyframes dkbgAnim {
   0% {
     color: #FD7CA9; }

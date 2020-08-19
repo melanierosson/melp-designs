@@ -26,14 +26,25 @@
 /* TO DO: check & adjust contrast colors with actual navbar background color */
 
 /*********** ANIMATIONS *************/
+/* almost ready but not quite yet */
+/* TO DO: adjust the portfolio and personal project pages to match theme */
+/* TO DO: adjust mobile colors to work right too */
+/* TO DO: have JS re-shuffle or cycle through the color order of the animation on every hover */
+/* uncomment the below animation link class styles to see current preview */
 a.ltbg-link:hover {
-	animation: ltbgAnim 0.3s 1;
+	// @media screen and (min-width:991px) {
+	// 	animation: ltbgAnim 0.3s 1;
+	// 	cursor:pointer;
+	// }
 }
 a.dkbg-link:hover {
-	animation: dkbgAnim 0.3s 1;
+	// @media screen and (min-width:991px) {
+	// 	animation: dkbgAnim 0.3s 1;
+	// 	cursor:pointer;
+	// }
 }
 span.ltbg-anim {
-	animation: ltbgAnim 0.3s 1;
+	// animation: ltbgAnim 0.3s 1;
 }
 
 @keyframes dkbgAnim {

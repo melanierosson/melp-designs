@@ -658,6 +658,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/assets/js/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/assets/js/main-custom-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/main-custom-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/assets/js/main-custom.js": {
 		"bF": 0,
 		"ft": 64,
@@ -856,8 +878,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/assets/scss/color-links.css",
-		"oF": 0,
+		"oAP": "/assets/css/color-links.css",
+		"oF": 2,
 		"oS": 0,
 		"sct": 1
 		},
