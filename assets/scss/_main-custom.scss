@@ -79,6 +79,9 @@ p.name-line:hover {
 p.name-line.active {
 	animation: nameLine 3s 1;
 	animation-timing-function: ease-in-out;
+	@media screen and (max-width:767px) {
+		animation: nameLine 1.6s 1;
+	}
 }
 
 // .portfolio-img.anim {
@@ -108,6 +111,7 @@ p.name-line.active {
 	50% { transform: translateX(20vw); }
     85% { transform: translateX(-5vw); }
 }
+
 
 @media screen and (max-width:991px) {
 	// #navbar-txt-right {

@@ -173,7 +173,9 @@ p.name-line:hover {
 p.name-line.active {
   animation: nameLine 3s 1;
   animation-timing-function: ease-in-out; }
-
+  @media screen and (max-width: 767px) {
+    p.name-line.active {
+      animation: nameLine 1.6s 1; } }
 @-webkit-keyframes mover {
   0% {
     transform: translateY(100px); }
