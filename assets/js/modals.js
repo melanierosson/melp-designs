@@ -1,5 +1,5 @@
 const modal = document.getElementById("myModal");
-const imgsAll = document.querySelectorAll("img.gallery");
+const imgsMAll = document.querySelectorAll("img.gallery");
 const mimgsAll = document.querySelectorAll("img.modal-content");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
@@ -10,7 +10,7 @@ const removeDisplay = () => {
     });
 }
 
-imgsAll.forEach((el, i) => {
+imgsMAll.forEach((el, i) => {
     el.addEventListener('click', () => {
         modal.style.display = "block";
         removeDisplay();
@@ -21,4 +21,4 @@ imgsAll.forEach((el, i) => {
 // click anywhere on the modal to close it
 modal.onclick = function() {
   modal.style.display = "none";
-}
+};

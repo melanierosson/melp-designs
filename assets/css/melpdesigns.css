@@ -175,7 +175,14 @@ p.name-line.active {
   animation-timing-function: ease-in-out; }
   @media screen and (max-width: 767px) {
     p.name-line.active {
-      animation: nameLine 1.6s 1; } }
+      animation: nameLine 1.6s 1; } 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  margin: 5px;
+  padding: 5px; 
+}
+
 @-webkit-keyframes mover {
   0% {
     transform: translateY(100px); }
