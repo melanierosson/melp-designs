@@ -2,13 +2,11 @@
 const linkedInSocial = document.getElementById('linkedin-social');
 const gitHubSocial = document.getElementById('github-social');
 const melartistangentSocial = document.getElementById('melartistangent-social');
-const yelpblackbeltSocial = document.getElementById('yelpblackbelt-social');
 const yelpSocial = document.getElementById('yelp-social');
 
 const linkedInDescr = document.getElementById('linkedin-descr');
 const gitHubDescr = document.getElementById('github-descr');
 const melartistangentDescr = document.getElementById('melartistangent-descr');
-const yelpblackbeltDescr = document.getElementById('yelpblackbelt-descr');
 const yelpDescr = document.getElementById('yelp-descr');
 
 
@@ -38,13 +36,6 @@ melartistangentSocial.addEventListener("mouseover", function() {
 }, false);
 melartistangentSocial.addEventListener("mouseout", function() {   
   melartistangentDescr.style.display = "none";
-}, false);
-
-yelpblackbeltSocial.addEventListener("mouseover", function() {   
-  yelpblackbeltDescr.style.display = "inline";
-}, false);
-yelpblackbeltSocial.addEventListener("mouseout", function() {   
-  yelpblackbeltDescr.style.display = "none";
 }, false);
 
 yelpSocial.addEventListener("mouseover", function() {   
