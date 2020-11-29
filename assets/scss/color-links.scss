@@ -93,135 +93,141 @@ span.ltbg-anim {
 }
 
 /*********** Mobile Links ***********/
-	/* mobile has link colors randomly generate on page load */
-@media screen and (max-width: 991px) {
-	a.ltbg-link {
-		i.fa, i.fas {
-			background-clip: text;
-			-webkit-background-clip: text;
-		}
-		&.pink {
-			color:$ltbgPink;
-			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgPink, $ltbgPink);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-		&.orange {
-			color:$ltbgOrange;
-			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgOrange, $ltbgOrange);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-		&.teal {
-			color:$ltbgTeal;
-			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgTeal, $ltbgTeal);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-		&.green {
-			color:$ltbgGreen;
-			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgGreen, $ltbgGreen);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-		&.rylblue {
-			color:$ltbgRylblue;
-			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgRylblue, $ltbgRylblue);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-		&.blue {
-			color:$ltbgBlue;
-			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgBlue, $ltbgBlue);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-		&.purple {
-			color:$ltbgPurple;
-			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgPurple, $ltbgPurple);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-	}
-	a.dkbg-link {
-		i.fa, i.fas {
-			background-clip: text;
-			-webkit-background-clip: text;
-		}
-		&.pink {
-			color:$ltbgPink;
-			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $ltbgPink, $ltbgPink);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-		&.orange {
-			color:$dkbgOrange;
-			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgOrange, $dkbgOrange);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-		&.teal {
-			color:$dkbgTeal;
-			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgTeal, $dkbgTeal);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-		&.yellow {
-			color:$dkbgYellow;
-			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgYellow, $dkbgYellow);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-		&.green {
-			color:$dkbgGreen;
-			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgGreen, $dkbgGreen);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-		&.blue {
-			color:$dkbgBlue;
-			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgBlue, $dkbgBlue);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-		&.purple {
-			color:$dkbgPurple;
-			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgPurple, $dkbgPurple);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-	}
-	button.navbar-toggler.dkbg-border {
-		&.pink {
-			border-color:$ltbgPink;
-			color:$ltbgPink;
-		}
-		&.orange {
-			border-color:$dkbgOrange;
-			color:$dkbgOrange;
-		}
-		&.teal {
-			border-color:$dkbgTeal;
-			color:$dkbgTeal;
-		}
-		&.yellow {
-			border-color:$dkbgYellow;
-			color:$dkbgYellow;
-		}
-		&.green {
-			border-color:$dkbgGreen;
-			color:$dkbgGreen;
-		}
-		&.blue {
-			border-color:$dkbgBlue;
-			color:$dkbgBlue;
-		}
-		&.purple {
-			border-color:$dkbgPurple;
-			color:$dkbgPurple;
-		}
+/* mobile name line animates without user interaction */
+@media (hover: none) and (pointer: coarse) {
+	p.name-line {
+		animation: ltbgAnim 0.3s infinite;
 	}
 }
+	/* mobile has link colors randomly generate on page load */
+// @media screen and (max-width: 991px) {
+// 	a.ltbg-link {
+// 		i.fa, i.fas {
+// 			background-clip: text;
+// 			-webkit-background-clip: text;
+// 		}
+// 		&.pink {
+// 			color:$ltbgPink;
+// 			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgPink, $ltbgPink);
+// 			-webkit-background-clip: text;
+// 			-webkit-text-fill-color: transparent;
+// 		}
+// 		&.orange {
+// 			color:$ltbgOrange;
+// 			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgOrange, $ltbgOrange);
+// 			-webkit-background-clip: text;
+// 			-webkit-text-fill-color: transparent;
+// 		}
+// 		&.teal {
+// 			color:$ltbgTeal;
+// 			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgTeal, $ltbgTeal);
+// 			-webkit-background-clip: text;
+// 			-webkit-text-fill-color: transparent;
+// 		}
+// 		&.green {
+// 			color:$ltbgGreen;
+// 			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgGreen, $ltbgGreen);
+// 			-webkit-background-clip: text;
+// 			-webkit-text-fill-color: transparent;
+// 		}
+// 		&.rylblue {
+// 			color:$ltbgRylblue;
+// 			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgRylblue, $ltbgRylblue);
+// 			-webkit-background-clip: text;
+// 			-webkit-text-fill-color: transparent;
+// 		}
+// 		&.blue {
+// 			color:$ltbgBlue;
+// 			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgBlue, $ltbgBlue);
+// 			-webkit-background-clip: text;
+// 			-webkit-text-fill-color: transparent;
+// 		}
+// 		&.purple {
+// 			color:$ltbgPurple;
+// 			background: -webkit-linear-gradient($ltbgBasecolor, $ltbgBasecolor, $ltbgBasecolor, $ltbgPurple, $ltbgPurple);
+// 			-webkit-background-clip: text;
+// 			-webkit-text-fill-color: transparent;
+// 		}
+// 	}
+// 	a.dkbg-link {
+// 		i.fa, i.fas {
+// 			background-clip: text;
+// 			-webkit-background-clip: text;
+// 		}
+// 		&.pink {
+// 			color:$ltbgPink;
+// 			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $ltbgPink, $ltbgPink);
+// 			-webkit-background-clip: text;
+// 			-webkit-text-fill-color: transparent;
+// 		}
+// 		&.orange {
+// 			color:$dkbgOrange;
+// 			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgOrange, $dkbgOrange);
+// 			-webkit-background-clip: text;
+// 			-webkit-text-fill-color: transparent;
+// 		}
+// 		&.teal {
+// 			color:$dkbgTeal;
+// 			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgTeal, $dkbgTeal);
+// 			-webkit-background-clip: text;
+// 			-webkit-text-fill-color: transparent;
+// 		}
+// 		&.yellow {
+// 			color:$dkbgYellow;
+// 			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgYellow, $dkbgYellow);
+// 			-webkit-background-clip: text;
+// 			-webkit-text-fill-color: transparent;
+// 		}
+// 		&.green {
+// 			color:$dkbgGreen;
+// 			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgGreen, $dkbgGreen);
+// 			-webkit-background-clip: text;
+// 			-webkit-text-fill-color: transparent;
+// 		}
+// 		&.blue {
+// 			color:$dkbgBlue;
+// 			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgBlue, $dkbgBlue);
+// 			-webkit-background-clip: text;
+// 			-webkit-text-fill-color: transparent;
+// 		}
+// 		&.purple {
+// 			color:$dkbgPurple;
+// 			background: -webkit-linear-gradient($dkbgBasecolor, $dkbgBasecolor, $dkbgBasecolor,  $dkbgPurple, $dkbgPurple);
+// 			-webkit-background-clip: text;
+// 			-webkit-text-fill-color: transparent;
+// 		}
+// 	}
+// 	button.navbar-toggler.dkbg-border {
+// 		&.pink {
+// 			border-color:$ltbgPink;
+// 			color:$ltbgPink;
+// 		}
+// 		&.orange {
+// 			border-color:$dkbgOrange;
+// 			color:$dkbgOrange;
+// 		}
+// 		&.teal {
+// 			border-color:$dkbgTeal;
+// 			color:$dkbgTeal;
+// 		}
+// 		&.yellow {
+// 			border-color:$dkbgYellow;
+// 			color:$dkbgYellow;
+// 		}
+// 		&.green {
+// 			border-color:$dkbgGreen;
+// 			color:$dkbgGreen;
+// 		}
+// 		&.blue {
+// 			border-color:$dkbgBlue;
+// 			color:$dkbgBlue;
+// 		}
+// 		&.purple {
+// 			border-color:$dkbgPurple;
+// 			color:$dkbgPurple;
+// 		}
+// 	}
+// }
 /************************************/
 
 /********** Desktop Links ***********/

@@ -82,106 +82,12 @@ span.ltbg-anim {
     color: #FFFFFF; } }
 
 /*********** Mobile Links ***********/
-/* mobile has link colors randomly generate on page load */
-@media screen and (max-width: 991px) {
-  a.ltbg-link i.fa, a.ltbg-link i.fas {
-    background-clip: text;
-    -webkit-background-clip: text; }
-  a.ltbg-link.pink {
-    color: #E30041;
-    background: -webkit-linear-gradient(#777, #777, #777, #E30041, #E30041);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  a.ltbg-link.orange {
-    color: #FF5100;
-    background: -webkit-linear-gradient(#777, #777, #777, #FF5100, #FF5100);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  a.ltbg-link.teal {
-    color: #00A0A3;
-    background: -webkit-linear-gradient(#777, #777, #777, #00A0A3, #00A0A3);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  a.ltbg-link.green {
-    color: #00A616;
-    background: -webkit-linear-gradient(#777, #777, #777, #00A616, #00A616);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  a.ltbg-link.rylblue {
-    color: #0022FF;
-    background: -webkit-linear-gradient(#777, #777, #777, #0022FF, #0022FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  a.ltbg-link.blue {
-    color: #0052CC;
-    background: -webkit-linear-gradient(#777, #777, #777, #0052CC, #0052CC);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  a.ltbg-link.purple {
-    color: #6600CC;
-    background: -webkit-linear-gradient(#777, #777, #777, #6600CC, #6600CC);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  a.dkbg-link i.fa, a.dkbg-link i.fas {
-    background-clip: text;
-    -webkit-background-clip: text; }
-  a.dkbg-link.pink {
-    color: #E30041;
-    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), #E30041, #E30041);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  a.dkbg-link.orange {
-    color: #FF9147;
-    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), #FF9147, #FF9147);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  a.dkbg-link.teal {
-    color: #00FFFF;
-    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), #00FFFF, #00FFFF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  a.dkbg-link.yellow {
-    color: #FFEA00;
-    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), #FFEA00, #FFEA00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  a.dkbg-link.green {
-    color: #52FF69;
-    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), #52FF69, #52FF69);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  a.dkbg-link.blue {
-    color: #52ABFF;
-    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), #52ABFF, #52ABFF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  a.dkbg-link.purple {
-    color: #C78FFF;
-    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5), #C78FFF, #C78FFF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
-  button.navbar-toggler.dkbg-border.pink {
-    border-color: #E30041;
-    color: #E30041; }
-  button.navbar-toggler.dkbg-border.orange {
-    border-color: #FF9147;
-    color: #FF9147; }
-  button.navbar-toggler.dkbg-border.teal {
-    border-color: #00FFFF;
-    color: #00FFFF; }
-  button.navbar-toggler.dkbg-border.yellow {
-    border-color: #FFEA00;
-    color: #FFEA00; }
-  button.navbar-toggler.dkbg-border.green {
-    border-color: #52FF69;
-    color: #52FF69; }
-  button.navbar-toggler.dkbg-border.blue {
-    border-color: #52ABFF;
-    color: #52ABFF; }
-  button.navbar-toggler.dkbg-border.purple {
-    border-color: #C78FFF;
-    color: #C78FFF; } }
+/* mobile name line animates without user interaction */
+@media (hover: none) and (pointer: coarse) {
+  p.name-line {
+    animation: ltbgAnim 0.3s infinite; } }
 
+/* mobile has link colors randomly generate on page load */
 /************************************/
 /********** Desktop Links ***********/
 @media screen and (min-width: 992px) {
