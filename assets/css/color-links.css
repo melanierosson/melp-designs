@@ -81,11 +81,37 @@ span.ltbg-anim {
   100% {
     color: #FFFFFF; } }
 
+@keyframes ltbgAnimMobile {
+  0% {
+    color: #0052CC; }
+  5% {
+    color: #E30041; }
+  10% {
+    color: #FF5100; }
+  15% {
+    color: #00A0A3; }
+  30% {
+    color: #00A616; }
+  35% {
+    color: #0022FF; }
+  40% {
+    color: #6600CC; }
+  45% {
+    color: #FFFFFF; }
+  50% {
+    color: #343a40; }
+  100% {
+    color: #343a40; } }
+
 /*********** Mobile Links ***********/
 /* mobile name line animates without user interaction */
 @media (hover: none) and (pointer: coarse) {
-  p.name-line {
-    animation: ltbgAnim 0.3s infinite; } }
+  p.name-line span.ltbg-link {
+    animation: ltbgAnimMobile 1s infinite; } }
+
+@media screen and (max-width: 767px) {
+  p.name-line span.ltbg-link {
+    animation: ltbgAnimMobile 1s infinite; } }
 
 /* mobile has link colors randomly generate on page load */
 /************************************/

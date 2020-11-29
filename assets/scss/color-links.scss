@@ -92,11 +92,29 @@ span.ltbg-anim {
   100% {color:#FFFFFF;}
 }
 
+@keyframes ltbgAnimMobile {
+  0%   {color:$ltbgBlue;}
+  5%  {color:$ltbgPink;}
+  10%  {color:$ltbgOrange;}
+  15%  {color:$ltbgTeal;}
+  30%  {color:$ltbgGreen;}
+  35%  {color:$ltbgRylblue;}
+  40%  {color:$ltbgPurple;}
+  45% {color:#FFFFFF;}
+  50% {color:#343a40;}
+  100% {color:#343a40;}
+}
+
 /*********** Mobile Links ***********/
 /* mobile name line animates without user interaction */
-@media (hover: none) and (pointer: coarse) {
-	p.name-line {
-		animation: ltbgAnim 0.3s infinite;
+@media (hover:none) and (pointer:coarse) {
+	p.name-line span.ltbg-link{
+		animation: ltbgAnimMobile 1s infinite;
+	}
+}
+@media screen and (max-width:767px) {
+	p.name-line span.ltbg-link{
+		animation: ltbgAnimMobile 1s infinite;
 	}
 }
 	/* mobile has link colors randomly generate on page load */
