@@ -507,6 +507,11 @@
 		}
 		img#sharepoint-hero {
 			width:100%;
+			&:hover {
+				transform:scale(1.05);
+				cursor:pointer;
+				transition-duration:0.4s;
+			}
 		}
 		div.sharepoint-intro {
 			text-align:center;
@@ -524,9 +529,6 @@
 			}
 			div.sharepoint-tools {
 				margin-bottom:-10px;
-				// @media screen and (min-width:992px) {
-				// 	margin-bottom:-30px;
-				// }
 				h3 {
 					@media screen and (max-width:991px) {
 						width:100%;
@@ -542,7 +544,7 @@
 						list-style-type:none;
 						display:inline;
 						padding:20px;
-						@media screen and (max-width:500px) {
+						@media screen and (max-width:767px) {
 							display:block;
 							padding:5px;
 						}
@@ -555,11 +557,18 @@
 			@media screen and (max-width:500px) {
 				padding:20px 20px 20px 40px;
 			}
+			&:hover {
+				transform:scale(1.05);
+				cursor:pointer;
+				transition-duration:0.4s;
+			}
 		}
 		div.roles-row {
 			margin-top:60px;
 		}
-		div.goals-row {
+		div.goals-row,
+		div.process-row,
+		div.conclusions-row {
 			margin-top:40px;
 			ol {
 				margin-left:-20px;
@@ -572,6 +581,19 @@
 						font-weight:400;
 					}
 				}
+			}
+		}
+		div.img-changes-row {
+			img {
+				width:100%;
+				&:hover {
+					transform:scale(1.05);
+					cursor:pointer;
+					transition-duration:0.4s;
+				}
+			}
+			div.new-features {
+				margin-top:40px;
 			}
 		}
 	}

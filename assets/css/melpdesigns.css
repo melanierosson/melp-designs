@@ -266,13 +266,33 @@ p.name-line.active {
     margin-left: 20px; }
   #main-page .portfolio-descr.middle {
     top: 100px; }
+  @media screen and (max-width: 676px) {
+    #main-page #portfdescr-sharepoint {
+      margin-left: -50px;
+      margin-top: 100px; } }
+  @media screen and (max-width: 767px) {
+    #main-page #portfproj-container06 {
+      margin-top: 50px;
+      margin-bottom: 70px; }
+    #main-page #portfdescr-sharepoint {
+      margin-top: 65px;
+      min-width: 300px; } }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    #main-page #portfproj-container06 {
+      margin-top: 50px; }
+    #main-page #portfdescr-sharepoint {
+      margin-top: 65px;
+      min-width: 432px; } }
   @media screen and (min-width: 992px) {
     #main-page #portfproj-container04 {
       margin-top: 75px; }
     #main-page #portfproj-container05 {
       margin-top: 50px; }
-    #main-page #portfdescr-recwidgit {
-      margin-top: 65px; } }
+    #main-page #portfproj-container06 {
+      margin-top: 50px; }
+    #main-page #portfdescr-sharepoint {
+      margin-top: 65px;
+      min-width: 320px; } }
   @media screen and (min-width: 992px) and (max-width: 1199px) {
     #main-page .portfolio-descr.right {
       left: 100px; }
@@ -308,7 +328,9 @@ p.name-line.active {
     #main-page .portfolio-descr.bottom {
       top: 220px; }
     #main-page #portfdescr-art {
-      top: 220px; } }
+      top: 220px; }
+    #main-page #portfdescr-sharepoint {
+      top: 110px; } }
   @media screen and (max-width: 450px) {
     #main-page .portfolio-descr.right {
       left: -20px;
@@ -336,28 +358,19 @@ p.name-line.active {
     #main-page #portfdescr-busters {
       top: 250px; }
     #main-page #portfproj-container04 {
-      margin-top: 60px; }
+      margin-top: 60px; } }
+  @media screen and (max-width: 450px) and (min-width: 410px) {
+    #main-page #portfproj-container04 {
+      margin-top: 130px; } }
+  @media screen and (max-width: 450px) {
     #main-page #portfproj-container05 {
-      margin-top: -15px; } }
+      margin-top: -30px; } }
   @media screen and (max-width: 450px) and (min-width: 410px) {
     #main-page #portfproj-container05 {
-      margin-top: -5px; } }
+      margin-top: 50px; } }
   @media screen and (max-width: 450px) {
     #main-page #portfdescr-detailpanem {
       top: 250px; }
-    #main-page #portfdescr-recmobile {
-      top: 280px;
-      left: -21px; } }
-  @media screen and (max-width: 450px) and (min-width: 410px) {
-    #main-page #portfdescr-recmobile {
-      top: 290px; } }
-  @media screen and (max-width: 450px) {
-    #main-page #portfproj-container06 {
-      margin-top: 80px; } }
-  @media screen and (max-width: 450px) and (min-width: 410px) {
-    #main-page #portfproj-container06 {
-      margin-top: 50px; } }
-  @media screen and (max-width: 450px) {
     #main-page #portfdescr-read {
       top: 275px; }
     #main-page #portfimg-art {
@@ -367,7 +380,10 @@ p.name-line.active {
       padding-bottom: 50px; }
     #main-page #portfdescr-bento {
       margin-top: -45px;
-      margin-bottom: 20px; } }
+      margin-bottom: 20px; }
+    #main-page #portfdescr-sharepoint {
+      max-width: 92%;
+      left: 40px; } }
   @media screen and (max-width: 991px) {
     #main-page #personal-content header,
     #main-page #portfolio-content header {
@@ -400,6 +416,13 @@ p.name-line.active {
       color: #57a359; }
     #main-page #portfdescr-recmobile h6 {
       color: #000; }
+  #main-page #portfdescr-sharepoint {
+    background-color: #c9e9ff;
+    border: 2px solid #ffa526; }
+    #main-page #portfdescr-sharepoint h3 {
+      color: #005999; }
+    #main-page #portfdescr-sharepoint h6 {
+      color: #000; }
   #main-page #portfdescr-read {
     background-color: #0a4f5b;
     border: 2px solid #f0617a; }
@@ -425,6 +448,13 @@ p.name-line.active {
       color: #d9b8b1; }
     #main-page #portfdescr-bento p {
       color: #fff; }
+  @media screen and (max-width: 400px) {
+    #main-page #portfproj-container04 {
+      margin-top: 20px; }
+    #main-page #portfproj-container06 {
+      margin-bottom: 150px; }
+      #main-page #portfproj-container06 img {
+        margin-left: -20px; } }
   #main-page #about-img-992up {
     max-height: 560px;
     width: auto; }
@@ -824,6 +854,10 @@ p.name-line.active {
       font-size: 2.75rem; } }
   .portfolio-page section#sharepoint-content img#sharepoint-hero {
     width: 100%; }
+    .portfolio-page section#sharepoint-content img#sharepoint-hero:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+      transition-duration: 0.4s; }
   .portfolio-page section#sharepoint-content div.sharepoint-intro {
     text-align: center; }
   .portfolio-page section#sharepoint-content div.tools-row {
@@ -852,7 +886,7 @@ p.name-line.active {
           list-style-type: none;
           display: inline;
           padding: 20px; }
-          @media screen and (max-width: 500px) {
+          @media screen and (max-width: 767px) {
             .portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools ul.sharepoint-tools-list li {
               display: block;
               padding: 5px; } }
@@ -861,19 +895,39 @@ p.name-line.active {
     @media screen and (max-width: 500px) {
       .portfolio-page section#sharepoint-content img.sharepoint-docs {
         padding: 20px 20px 20px 40px; } }
+    .portfolio-page section#sharepoint-content img.sharepoint-docs:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+      transition-duration: 0.4s; }
   .portfolio-page section#sharepoint-content div.roles-row {
     margin-top: 60px; }
-  .portfolio-page section#sharepoint-content div.goals-row {
+  .portfolio-page section#sharepoint-content div.goals-row,
+  .portfolio-page section#sharepoint-content div.process-row,
+  .portfolio-page section#sharepoint-content div.conclusions-row {
     margin-top: 40px; }
-    .portfolio-page section#sharepoint-content div.goals-row ol {
+    .portfolio-page section#sharepoint-content div.goals-row ol,
+    .portfolio-page section#sharepoint-content div.process-row ol,
+    .portfolio-page section#sharepoint-content div.conclusions-row ol {
       margin-left: -20px; }
-      .portfolio-page section#sharepoint-content div.goals-row ol li {
+      .portfolio-page section#sharepoint-content div.goals-row ol li,
+      .portfolio-page section#sharepoint-content div.process-row ol li,
+      .portfolio-page section#sharepoint-content div.conclusions-row ol li {
         font-weight: 600;
         padding-left: 10px;
         padding-bottom: 6px;
         margin-top: 15px; }
-        .portfolio-page section#sharepoint-content div.goals-row ol li span {
+        .portfolio-page section#sharepoint-content div.goals-row ol li span,
+        .portfolio-page section#sharepoint-content div.process-row ol li span,
+        .portfolio-page section#sharepoint-content div.conclusions-row ol li span {
           font-weight: 400; }
+  .portfolio-page section#sharepoint-content div.img-changes-row img {
+    width: 100%; }
+    .portfolio-page section#sharepoint-content div.img-changes-row img:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+      transition-duration: 0.4s; }
+  .portfolio-page section#sharepoint-content div.img-changes-row div.new-features {
+    margin-top: 40px; }
 
 #gallery-page {
   overflow-x: hidden; }

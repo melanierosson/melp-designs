@@ -201,6 +201,31 @@ p.name-line.active {
 	.portfolio-descr.middle {
 		top:100px;
 	}
+	@media screen and (max-width:676px) {
+		#portfdescr-sharepoint {
+			margin-left:-50px;
+			margin-top:100px;
+		}
+	}
+	@media screen and (max-width:767px) {
+		#portfproj-container06 {
+			margin-top:50px;
+			margin-bottom:70px;
+		}
+		#portfdescr-sharepoint {
+			margin-top:65px;
+			min-width:300px;
+		}
+	}
+	@media screen and (min-width:768px) and (max-width:991px) {
+		#portfproj-container06 {
+			margin-top:50px;
+		}
+		#portfdescr-sharepoint {
+			margin-top:65px;
+			min-width:432px;
+		}
+	}
 	@media screen and (min-width: 992px) {
 		#portfproj-container04 {
 			margin-top:75px;
@@ -208,8 +233,12 @@ p.name-line.active {
 		#portfproj-container05 {
 			margin-top:50px;
 		}
-		#portfdescr-recwidgit {
+		#portfproj-container06 {
+			margin-top:50px;
+		}
+		#portfdescr-sharepoint {
 			margin-top:65px;
+			min-width:320px;
 		}
 	}
 	@media screen and (min-width:992px) and (max-width:1199px) {
@@ -266,6 +295,9 @@ p.name-line.active {
 		#portfdescr-art {
 			top:220px;
 		}
+		#portfdescr-sharepoint {
+			top:110px;
+		}
 	}
 
 
@@ -309,51 +341,31 @@ p.name-line.active {
 		#portfdescr-busters {
 			top:250px;
 		}
-		// #portfimg-recwidgit {
-		// 	margin-right:-4px;
-		// 	margin-top:-10px;
-		// 	@media screen and (min-width:410px) {
-		// 		margin-top:20px;
-		// 	}
-		// }
-		// #portfdescr-recwidgit {
-		// 	left:-22px;
-		// 	@media screen and (min-width:410px) {
-		// 		top:250px;
-		// 	}
-		// } 
+		
 		#portfproj-container04 {
 			margin-top:60px;
-		}
-		#portfproj-container05 {
-			margin-top:-15px;
 			@media screen and (min-width:410px) {
-				margin-top:-5px;
+				margin-top:130px;
 			}
 		}
+		#portfproj-container05 {
+			margin-top:-30px;
+			@media screen and (min-width:410px) {
+				margin-top:50px;
+			}
+		}
+		
 		
 		#portfdescr-detailpanem {
 			top:250px;
 		}
 		
-		#portfdescr-recmobile {
-			top:280px;
-			left:-21px;
-			@media screen and (min-width:410px) {
-				top:290px;
-			}
-		}
-		#portfproj-container06 {
-			margin-top:80px;
-			@media screen and (min-width:410px) {
-				margin-top:50px;
-			}
-		}
-		// #portfimg-userflows {
-		// 	padding-bottom:50px;
-		// }
-		// #portfdescr-userflows {
-		// 	top:230px;
+		// #portfdescr-recmobile {
+		// 	top:280px;
+		// 	left:-21px;
+		// 	@media screen and (min-width:410px) {
+		// 		top:290px;
+		// 	}
 		// }
 		
 		#portfdescr-read {
@@ -369,6 +381,10 @@ p.name-line.active {
 		#portfdescr-bento {
 			margin-top:-45px;
 			margin-bottom:20px;
+		}
+		#portfdescr-sharepoint {
+			max-width:92%;
+			left:40px;
 		}
 	}
 
@@ -429,6 +445,16 @@ p.name-line.active {
 			color: #000;
 		}
 	}
+	#portfdescr-sharepoint {
+		background-color:#c9e9ff;
+		border:2px solid #ffa526;
+		h3 {
+			color: #005999;
+		}
+		h6 {
+			color: #000;
+		}
+	}
 	// #portfdescr-userflows {
 	// 	background-color:#e8e8e8;
 	// 	border:2px solid #005999;
@@ -473,6 +499,18 @@ p.name-line.active {
 		}
 		p {
 			color: #fff;
+		}
+	}
+
+	@media screen and (max-width:400px) {
+		#portfproj-container04 {
+			margin-top:20px;
+		}
+		#portfproj-container06 {
+			margin-bottom:150px;
+			img {
+				margin-left:-20px;
+			}
 		}
 	}
 
