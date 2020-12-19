@@ -291,7 +291,7 @@ p.name-line.active {
     #main-page #portfproj-container06 {
       margin-top: 50px; }
     #main-page #portfdescr-sharepoint {
-      margin-top: 65px;
+      margin-top: 120px;
       min-width: 320px; } }
   @media screen and (min-width: 992px) and (max-width: 1199px) {
     #main-page .portfolio-descr.right {
@@ -452,7 +452,7 @@ p.name-line.active {
     #main-page #portfproj-container04 {
       margin-top: 20px; }
     #main-page #portfproj-container06 {
-      margin-bottom: 150px; }
+      margin-bottom: 50px; }
       #main-page #portfproj-container06 img {
         margin-left: -20px; } }
   #main-page #about-img-992up {
