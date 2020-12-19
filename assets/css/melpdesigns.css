@@ -163,7 +163,7 @@ p.link-anim:focus {
 .portfolio-img.anim,
 .portfolio-descr.anim {
   cursor: pointer;
-  transform: translate(-20px, 0);
+  transform: translateX(-15px);
   transition-duration: 0.2s;
   transition-timing-function: linear; }
 
@@ -377,7 +377,7 @@ p.name-line.active {
     border: 2px solid #980f61; }
     #main-page #portfdescr-mils h3 {
       color: #2c3e50; }
-    #main-page #portfdescr-mils a {
+    #main-page #portfdescr-mils h6 {
       color: #0e216d; }
   #main-page #portfdescr-busters {
     background-color: #fdf0da;
@@ -389,7 +389,7 @@ p.name-line.active {
     border: 2px solid #8d0000; }
     #main-page #portfdescr-detailpanem h3 {
       color: #3f3f3f; }
-    #main-page #portfdescr-detailpanem a {
+    #main-page #portfdescr-detailpanem h6 {
       color: #8d0000; }
     #main-page #portfdescr-detailpanem p {
       color: #000; }
@@ -398,14 +398,14 @@ p.name-line.active {
     border: 2px solid #b5cf6a; }
     #main-page #portfdescr-recmobile h3 {
       color: #57a359; }
-    #main-page #portfdescr-recmobile p {
+    #main-page #portfdescr-recmobile h6 {
       color: #000; }
   #main-page #portfdescr-read {
     background-color: #0a4f5b;
     border: 2px solid #f0617a; }
     #main-page #portfdescr-read h3 {
       color: #92c880; }
-    #main-page #portfdescr-read a {
+    #main-page #portfdescr-read h6 {
       color: #e7b132; }
     #main-page #portfdescr-read p {
       color: #fff; }
@@ -414,7 +414,7 @@ p.name-line.active {
     border: 2px solid #583521; }
     #main-page #portfdescr-art h3 {
       color: #fdc19a; }
-    #main-page #portfdescr-art a {
+    #main-page #portfdescr-art h6 {
       color: #f2bf47; }
     #main-page #portfdescr-art p {
       color: #fff; }
@@ -814,6 +814,67 @@ p.name-line.active {
         .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container {
           max-height: 150px;
           overflow: hidden; } }
+  @media screen and (max-width: 766px) {
+    .portfolio-page section#sharepoint-content h2 {
+      line-height: 3.5rem;
+      margin-top: 20px !important;
+      padding-bottom: 25px; } }
+  @media screen and (max-width: 991px) {
+    .portfolio-page section#sharepoint-content h2 {
+      font-size: 2.75rem; } }
+  .portfolio-page section#sharepoint-content img#sharepoint-hero {
+    width: 100%; }
+  .portfolio-page section#sharepoint-content div.sharepoint-intro {
+    text-align: center; }
+  .portfolio-page section#sharepoint-content div.tools-row {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    min-width: 100vw;
+    height: auto;
+    margin-top: 40px;
+    margin-left: calc(-50vw + 50%); }
+    @media screen and (max-width: 991px) {
+      .portfolio-page section#sharepoint-content div.tools-row {
+        margin-top: 10px;
+        margin-bottom: 20px; } }
+    .portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools {
+      margin-bottom: -10px; }
+      @media screen and (max-width: 991px) {
+        .portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools h3 {
+          width: 100%;
+          text-align: center;
+          margin-bottom: -30px;
+          margin-top: 30px; } }
+      .portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools ul.sharepoint-tools-list {
+        padding: 30px 0;
+        margin-top: 10px; }
+        .portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools ul.sharepoint-tools-list li {
+          list-style-type: none;
+          display: inline;
+          padding: 20px; }
+          @media screen and (max-width: 500px) {
+            .portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools ul.sharepoint-tools-list li {
+              display: block;
+              padding: 5px; } }
+  .portfolio-page section#sharepoint-content img.sharepoint-docs {
+    max-width: 500px; }
+    @media screen and (max-width: 500px) {
+      .portfolio-page section#sharepoint-content img.sharepoint-docs {
+        padding: 20px 20px 20px 40px; } }
+  .portfolio-page section#sharepoint-content div.roles-row {
+    margin-top: 60px; }
+  .portfolio-page section#sharepoint-content div.goals-row {
+    margin-top: 40px; }
+    .portfolio-page section#sharepoint-content div.goals-row ol {
+      margin-left: -20px; }
+      .portfolio-page section#sharepoint-content div.goals-row ol li {
+        font-weight: 600;
+        padding-left: 10px;
+        padding-bottom: 6px;
+        margin-top: 15px; }
+        .portfolio-page section#sharepoint-content div.goals-row ol li span {
+          font-weight: 400; }
+
 #gallery-page {
   overflow-x: hidden; }
   #gallery-page .back-btn {
@@ -972,5 +1033,3 @@ p.name-line.active {
 @media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%; } }
-
-/*# sourceMappingURL=melpdesigns.css.map */
