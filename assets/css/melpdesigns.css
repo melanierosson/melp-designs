@@ -299,7 +299,13 @@ p.name-line.active {
     #main-page .portfolio-descr.left {
       right: 100px; }
     #main-page #portfdescr-bento {
-      margin-left: 100px; } }
+      margin-left: 100px; }
+    #main-page #portfproj-container07 {
+      margin-top: 40px; }
+      #main-page #portfproj-container07 .portfolio-img {
+        margin-top: -10px; }
+      #main-page #portfproj-container07 .portfolio-descr {
+        margin-top: 40px; } }
   @media screen and (max-width: 991px) {
     #main-page .portfolio-descr.right {
       left: 200px; }
@@ -310,7 +316,9 @@ p.name-line.active {
     #main-page .portf-proj:nth-child(2) {
       margin-top: 80px; }
     #main-page #portfproj-container05 {
-      margin-top: 10px; } }
+      margin-top: 10px; }
+    #main-page #portfdescr-busters {
+      margin-top: -80px; } }
   @media screen and (max-width: 500px) {
     #main-page .portfolio-img.left-col {
       margin-left: auto;
@@ -331,6 +339,9 @@ p.name-line.active {
       top: 220px; }
     #main-page #portfdescr-sharepoint {
       top: 110px; } }
+  @media screen and (min-width: 1200px) {
+    #main-page #portfproj-container07 {
+      margin-top: 60px; } }
   @media screen and (max-width: 450px) {
     #main-page .portfolio-descr.right {
       left: -20px;
@@ -349,28 +360,47 @@ p.name-line.active {
     #main-page div.flex-display-row.flex-justify-end.portf-proj,
     #main-page div.flex-display-row.flex-justify-start.portf-proj {
       justify-content: center; }
-    #main-page #portfimg-busters {
+    #main-page #portfimg-mysavei {
       margin-top: 10px; } }
   @media screen and (max-width: 450px) and (min-width: 410px) {
-    #main-page #portfimg-busters {
+    #main-page #portfimg-mysavei {
       margin-top: -20px; } }
   @media screen and (max-width: 450px) {
-    #main-page #portfdescr-busters {
+    #main-page #portfdescr-mysavei {
       top: 250px; }
+    #main-page #portfimg-busters {
+      margin-top: 0;
+      margin-left: -20px; } }
+  @media screen and (max-width: 450px) and (min-width: 410px) {
+    #main-page #portfimg-busters {
+      margin-top: -40px; } }
+  @media screen and (max-width: 450px) {
+    #main-page #portfdescr-busters {
+      top: 300px;
+      max-width: 95%; }
     #main-page #portfproj-container04 {
       margin-top: 60px; } }
   @media screen and (max-width: 450px) and (min-width: 410px) {
     #main-page #portfproj-container04 {
-      margin-top: 130px; } }
+      margin-top: 60px; } }
   @media screen and (max-width: 450px) {
     #main-page #portfproj-container05 {
-      margin-top: -30px; } }
+      margin-top: 20px; } }
   @media screen and (max-width: 450px) and (min-width: 410px) {
     #main-page #portfproj-container05 {
-      margin-top: 50px; } }
+      margin-top: 30px; } }
   @media screen and (max-width: 450px) {
+    #main-page #portfproj-container06 {
+      margin-top: 60px; }
     #main-page #portfdescr-detailpanem {
       top: 250px; }
+    #main-page #portfdescr-recmobile {
+      top: 280px;
+      left: -21px; } }
+  @media screen and (max-width: 450px) and (min-width: 410px) {
+    #main-page #portfdescr-recmobile {
+      top: 290px; } }
+  @media screen and (max-width: 450px) {
     #main-page #portfdescr-read {
       top: 275px; }
     #main-page #portfimg-art {
@@ -382,7 +412,7 @@ p.name-line.active {
       margin-top: -45px;
       margin-bottom: 20px; }
     #main-page #portfdescr-sharepoint {
-      max-width: 92%;
+      max-width: 95%;
       left: 40px; } }
   @media screen and (max-width: 991px) {
     #main-page #personal-content header,
@@ -395,6 +425,13 @@ p.name-line.active {
       color: #2c3e50; }
     #main-page #portfdescr-mils h6 {
       color: #0e216d; }
+  #main-page #portfdescr-mysavei {
+    background-color: #EDFFF6;
+    border: 2px solid #5DD4D0; }
+    #main-page #portfdescr-mysavei h3 {
+      color: #27B874; }
+    #main-page #portfdescr-mysavei h6 {
+      color: #8AB91B; }
   #main-page #portfdescr-busters {
     background-color: #fdf0da;
     border: 2px solid #f8c235; }
