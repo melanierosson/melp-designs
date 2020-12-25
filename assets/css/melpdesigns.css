@@ -17,6 +17,9 @@
 .flex-align-center {
   align-items: center; }
 
+.flex-align-content-center {
+  align-content: center; }
+
 .flex-justify-center {
   justify-content: center; }
 
@@ -29,8 +32,18 @@
 .flex-justify-end {
   justify-content: flex-end; }
 
+.flex-nowrap {
+  flex-wrap: nowrap; }
+
+.flex-self-center {
+  align-self: center; }
+
 .hidden {
   visibility: hidden; }
+
+.wd-100 {
+  width: 100%;
+  height: auto; }
 
 /* text size */
 .txt-10px {
@@ -881,6 +894,169 @@ p.name-line.active {
         .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container {
           max-height: 150px;
           overflow: hidden; } }
+  @media screen and (max-width: 766px) {
+    .portfolio-page section#mysavei-content h2 {
+      line-height: 3.5rem;
+      margin-top: 20px !important;
+      padding-bottom: 25px; } }
+  @media screen and (max-width: 991px) {
+    .portfolio-page section#mysavei-content h2 {
+      font-size: 2.75rem; } }
+  .portfolio-page section#mysavei-content img#mysavei-hero {
+    width: 100%; }
+    .portfolio-page section#mysavei-content img#mysavei-hero:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+      transition-duration: 0.4s; }
+  .portfolio-page section#mysavei-content div.mysavei-intro {
+    text-align: center; }
+  .portfolio-page section#mysavei-content div.tools-row {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    min-width: 100vw;
+    height: auto;
+    margin-top: 40px;
+    margin-left: calc(-50vw + 50%); }
+    @media screen and (max-width: 991px) {
+      .portfolio-page section#mysavei-content div.tools-row {
+        margin-top: 10px;
+        margin-bottom: 20px; } }
+    .portfolio-page section#mysavei-content div.tools-row div.mysavei-tools {
+      margin-bottom: -10px; }
+      @media screen and (max-width: 991px) {
+        .portfolio-page section#mysavei-content div.tools-row div.mysavei-tools h3 {
+          width: 100%;
+          text-align: center;
+          margin-bottom: -30px;
+          margin-top: 30px; } }
+      .portfolio-page section#mysavei-content div.tools-row div.mysavei-tools ul.mysavei-tools-list {
+        padding: 30px 0;
+        margin-top: 10px; }
+        .portfolio-page section#mysavei-content div.tools-row div.mysavei-tools ul.mysavei-tools-list li {
+          list-style-type: none;
+          display: inline;
+          padding: 20px; }
+          @media screen and (max-width: 767px) {
+            .portfolio-page section#mysavei-content div.tools-row div.mysavei-tools ul.mysavei-tools-list li {
+              display: block;
+              padding: 5px; } }
+  .portfolio-page section#mysavei-content .mysavei-goals,
+  .portfolio-page section#mysavei-content .mysavei-uxflow,
+  .portfolio-page section#mysavei-content .process-row,
+  .portfolio-page section#mysavei-content .mysavei-market,
+  .portfolio-page section#mysavei-content .mysavei-design {
+    margin-top: 40px; }
+    .portfolio-page section#mysavei-content .mysavei-goals ul.goals-highlevel,
+    .portfolio-page section#mysavei-content .mysavei-goals ul.goals-specific,
+    .portfolio-page section#mysavei-content .mysavei-goals ul.goals-developer,
+    .portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process,
+    .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-highlevel,
+    .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-specific,
+    .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-developer,
+    .portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process,
+    .portfolio-page section#mysavei-content .process-row ul.goals-highlevel,
+    .portfolio-page section#mysavei-content .process-row ul.goals-specific,
+    .portfolio-page section#mysavei-content .process-row ul.goals-developer,
+    .portfolio-page section#mysavei-content .process-row ol#mysavei-process,
+    .portfolio-page section#mysavei-content .mysavei-market ul.goals-highlevel,
+    .portfolio-page section#mysavei-content .mysavei-market ul.goals-specific,
+    .portfolio-page section#mysavei-content .mysavei-market ul.goals-developer,
+    .portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process,
+    .portfolio-page section#mysavei-content .mysavei-design ul.goals-highlevel,
+    .portfolio-page section#mysavei-content .mysavei-design ul.goals-specific,
+    .portfolio-page section#mysavei-content .mysavei-design ul.goals-developer,
+    .portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process {
+      margin-left: -20px; }
+      .portfolio-page section#mysavei-content .mysavei-goals ul.goals-highlevel li,
+      .portfolio-page section#mysavei-content .mysavei-goals ul.goals-specific li,
+      .portfolio-page section#mysavei-content .mysavei-goals ul.goals-developer li,
+      .portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process li,
+      .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-highlevel li,
+      .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-specific li,
+      .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-developer li,
+      .portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process li,
+      .portfolio-page section#mysavei-content .process-row ul.goals-highlevel li,
+      .portfolio-page section#mysavei-content .process-row ul.goals-specific li,
+      .portfolio-page section#mysavei-content .process-row ul.goals-developer li,
+      .portfolio-page section#mysavei-content .process-row ol#mysavei-process li,
+      .portfolio-page section#mysavei-content .mysavei-market ul.goals-highlevel li,
+      .portfolio-page section#mysavei-content .mysavei-market ul.goals-specific li,
+      .portfolio-page section#mysavei-content .mysavei-market ul.goals-developer li,
+      .portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process li,
+      .portfolio-page section#mysavei-content .mysavei-design ul.goals-highlevel li,
+      .portfolio-page section#mysavei-content .mysavei-design ul.goals-specific li,
+      .portfolio-page section#mysavei-content .mysavei-design ul.goals-developer li,
+      .portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process li {
+        padding-left: 10px;
+        padding-bottom: 10px; }
+        .portfolio-page section#mysavei-content .mysavei-goals ul.goals-highlevel li span,
+        .portfolio-page section#mysavei-content .mysavei-goals ul.goals-specific li span,
+        .portfolio-page section#mysavei-content .mysavei-goals ul.goals-developer li span,
+        .portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process li span,
+        .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-highlevel li span,
+        .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-specific li span,
+        .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-developer li span,
+        .portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process li span,
+        .portfolio-page section#mysavei-content .process-row ul.goals-highlevel li span,
+        .portfolio-page section#mysavei-content .process-row ul.goals-specific li span,
+        .portfolio-page section#mysavei-content .process-row ul.goals-developer li span,
+        .portfolio-page section#mysavei-content .process-row ol#mysavei-process li span,
+        .portfolio-page section#mysavei-content .mysavei-market ul.goals-highlevel li span,
+        .portfolio-page section#mysavei-content .mysavei-market ul.goals-specific li span,
+        .portfolio-page section#mysavei-content .mysavei-market ul.goals-developer li span,
+        .portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process li span,
+        .portfolio-page section#mysavei-content .mysavei-design ul.goals-highlevel li span,
+        .portfolio-page section#mysavei-content .mysavei-design ul.goals-specific li span,
+        .portfolio-page section#mysavei-content .mysavei-design ul.goals-developer li span,
+        .portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process li span {
+          font-weight: 400; }
+    .portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process,
+    .portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process,
+    .portfolio-page section#mysavei-content .process-row ol#mysavei-process,
+    .portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process,
+    .portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process {
+      font-weight: 600; }
+      .portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process span,
+      .portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process span,
+      .portfolio-page section#mysavei-content .process-row ol#mysavei-process span,
+      .portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process span,
+      .portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process span {
+        font-weight: 400; }
+    .portfolio-page section#mysavei-content .mysavei-goals img,
+    .portfolio-page section#mysavei-content .mysavei-uxflow img,
+    .portfolio-page section#mysavei-content .process-row img,
+    .portfolio-page section#mysavei-content .mysavei-market img,
+    .portfolio-page section#mysavei-content .mysavei-design img {
+      width: 100%; }
+      .portfolio-page section#mysavei-content .mysavei-goals img:hover,
+      .portfolio-page section#mysavei-content .mysavei-uxflow img:hover,
+      .portfolio-page section#mysavei-content .process-row img:hover,
+      .portfolio-page section#mysavei-content .mysavei-market img:hover,
+      .portfolio-page section#mysavei-content .mysavei-design img:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+        transition-duration: 0.4s; }
+  .portfolio-page section#mysavei-content .process-section {
+    border: 10px solid gray;
+    padding: 20px 40px; }
+    @media screen and (max-width: 767px) {
+      .portfolio-page section#mysavei-content .process-section {
+        padding: 10px 20px; } }
+  .portfolio-page section#mysavei-content .mysavei-uxflow,
+  .portfolio-page section#mysavei-content .mysavei-goals {
+    margin-top: 60px; }
+  .portfolio-page section#mysavei-content .mysavei-design {
+    margin-top: 80px; }
+  .portfolio-page section#mysavei-content .next-section {
+    border: 10px solid gray;
+    padding: 20px 40px; }
+    .portfolio-page section#mysavei-content .next-section a {
+      color: #39D08A;
+      font-weight: 600; }
+    .portfolio-page section#mysavei-content .next-section a:hover {
+      color: #5DD4CF; }
+  .portfolio-page .icon8 {
+    color: grey; }
   @media screen and (max-width: 766px) {
     .portfolio-page section#sharepoint-content h2 {
       line-height: 3.5rem;
