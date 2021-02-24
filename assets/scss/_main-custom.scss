@@ -47,7 +47,8 @@ h1.construction-page {
 
 
 /* animations and transitions galore */
-h6.link-anim:hover {
+h6.link-anim:hover,
+p.hover-left:hover {
 	transform: translateX(10px);
 	transition-duration:0.2s;
 	transition-timing-function: linear;
@@ -168,6 +169,17 @@ p.name-line.active {
 
 
 /* portfolio */
+	#lil-class {
+		@media screen and (max-width:991px) {
+			padding-top:80px;
+		}
+		@media screen and (max-width:407px) {
+			padding-top:10px;
+		}
+		p {
+			padding-left:20px;
+		}
+	}
 	.portfolio-img {
 		max-width:400px;
 		height:auto;
