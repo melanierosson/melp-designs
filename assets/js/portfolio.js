@@ -6,8 +6,8 @@ const portfdescrBusters = document.getElementById('portfdescr-busters');
 const portfimgBusters = document.getElementById('portfimg-busters');
 const portfdescrSharePoint = document.getElementById('portfdescr-sharepoint');
 const portfimgSharePoint = document.getElementById('portfimg-sharepoint');
-const portfdescrDetPanem = document.getElementById('portfdescr-detailpanem');
-const portfimgDetPanem = document.getElementById('portfimg-detailpanem');
+// const portfdescrDetPanem = document.getElementById('portfdescr-detailpanem');
+// const portfimgDetPanem = document.getElementById('portfimg-detailpanem');
 const portfdescrRecMobile = document.getElementById('portfdescr-recmobile');
 const portfimgRecMobile = document.getElementById('portfimg-recmobile');
 const portfdescrMySavei = document.getElementById('portfdescr-mysavei');
@@ -57,19 +57,19 @@ portfdescrSharePoint.addEventListener("mouseout", function() {
   this.classList.remove('anim');
 }, false);
 
-portfimgDetPanem.addEventListener("mouseover", function () {
-  this.classList.add('anim');
-}, false);
-portfimgDetPanem.addEventListener("mouseout", function () {
-  this.classList.remove('anim');
-}, false);
+// portfimgDetPanem.addEventListener("mouseover", function () {
+//   this.classList.add('anim');
+// }, false);
+// portfimgDetPanem.addEventListener("mouseout", function () {
+//   this.classList.remove('anim');
+// }, false);
 
-portfdescrDetPanem.addEventListener("mouseover", function () {
-  this.classList.add('anim');
-}, false);
-portfdescrDetPanem.addEventListener("mouseout", function () {
-  this.classList.remove('anim');
-}, false);
+// portfdescrDetPanem.addEventListener("mouseover", function () {
+//   this.classList.add('anim');
+// }, false);
+// portfdescrDetPanem.addEventListener("mouseout", function () {
+//   this.classList.remove('anim');
+// }, false);
 
 portfimgRecMobile.addEventListener("mouseover", function () {
   this.classList.add('anim');
