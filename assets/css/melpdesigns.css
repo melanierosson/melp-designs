@@ -165,7 +165,7 @@ p a:focus {
   text-decoration: none; }
 
 .bottom-row {
-  margin-bottom: 100px; }
+  margin-bottom: 140px; }
 
 .pronounce:hover {
   transition-duration: 0.2s;
@@ -253,7 +253,11 @@ p.name-line.active {
 
 @media screen and (max-width: 991px) {
   h2.title {
-    font-size: 3rem; } }
+    font-size: 3rem; } 
+  #navbar-txt-left {
+    text-align:right; }
+  .hide-hamburger {
+    display:none; } }
 
 @media screen and (min-width: 992px) {
   h2.title {
