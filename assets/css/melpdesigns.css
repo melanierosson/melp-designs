@@ -365,7 +365,7 @@ p.name-line.active {
     #main-page #portfproj-container05 {
       margin-top: 10px; }
     #main-page #portfdescr-busters {
-      margin-top: -80px; } }
+      margin-top: 20px; } }
   @media screen and (max-width: 500px) {
     #main-page .portfolio-img.left-col {
       margin-left: auto;
