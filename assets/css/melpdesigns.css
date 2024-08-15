@@ -222,49 +222,6 @@ h1.construction-page {
 }
 
 /* animations and transitions galore */
-h6.link-anim:hover,
-p.hover-left:hover {
-  -webkit-transform: translateX(10px);
-          transform: translateX(10px);
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-}
-
-a.navbar-brand:hover,
-a.navbar-brand:focus,
-a.nav-link:hover,
-a.nav-link:focus {
-  -webkit-transform: translateY(-4px);
-          transform: translateY(-4px);
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-}
-
-p.link-anim:hover,
-p.link-anim:focus {
-  -webkit-transform: translateY(4px);
-          transform: translateY(4px);
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-}
-
-.portfolio-img.anim,
-.portfolio-descr.anim {
-  cursor: pointer;
-  -webkit-transform: translateX(-15px);
-          transform: translateX(-15px);
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-}
-
 p.name-line:hover {
   cursor: pointer;
 }
@@ -347,6 +304,9 @@ p.name-line.active {
   h1.portfolio-title {
     font-size: 2.75rem;
   }
+  h2 {
+    font-size: 1.75rem;
+  }
   #navbar-txt-left {
     text-align: right;
   }
@@ -380,6 +340,8 @@ p.name-line.active {
 #main-page {
   /* hide all contact page social link descriptions on page load */
   /* */
+  /* social link colors */
+  /* */
   /* portfolio */
   /* */
   /* miscellaneous */
@@ -390,6 +352,15 @@ p.name-line.active {
 #main-page #yelpblackbelt-descr,
 #main-page #yelp-descr {
   display: none;
+}
+#main-page #linkedin-social a {
+  color: #0A66C2;
+}
+#main-page #github-social a {
+  color: #000000;
+}
+#main-page #yelp-social a {
+  color: #FF1A1A;
 }
 @media screen and (min-width: 992px) {
   #main-page .shift-nav {
@@ -781,6 +752,14 @@ p.name-line.active {
     margin-left: -20px;
   }
 }
+#main-page p.bottom-spacer {
+  padding-bottom: 60px;
+}
+#main-page img.headshot {
+  max-width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
 #main-page a.button {
   padding: 0.65rem 1rem;
   border-radius: 3rem;
@@ -802,17 +781,13 @@ p.name-line.active {
   background-color: #00A0A3;
 }
 #main-page a.button.contact:hover {
-  background-color: #00A616;
+  background-color: #0022FF;
 }
 #main-page a.button.email {
-  background-color: #FF5100;
+  background-color: #00A616;
 }
 #main-page a.button.email:hover {
-  background-color: #00A0A3;
-}
-#main-page #about-img-992up {
-  max-height: 560px;
-  width: auto;
+  background-color: #FF5100;
 }
 @media screen and (max-width: 550px) {
   #main-page #home-title,
@@ -827,12 +802,6 @@ p.name-line.active {
   }
 }
 @media screen and (max-width: 991px) {
-  #main-page #about-img-991down {
-    width: 100%;
-    max-width: 450px;
-    margin-left: auto;
-    margin-right: auto;
-  }
   #main-page .minh-100vh.title-page,
   #main-page #contact-content.minh-100vh {
     min-height: none;

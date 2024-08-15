@@ -1,4 +1,4 @@
-/******** SASS VARIABLES **********/
+******* SASS VARIABLES **********/
 
 	/* Light Background Link Colors */
 	$ltbgBasecolor: #777;
@@ -28,7 +28,7 @@
 /*********** ANIMATIONS *************/
 /* almost ready but not quite yet */
 /* TO DO: adjust the portfolio and personal project pages to match theme */
-img,
+// img,
 div.portfolio-descr {
 	/* all images have decreased saturation except under certain conditions */
 	@media screen and (min-width:991px) {
@@ -39,7 +39,7 @@ div.portfolio-descr {
 		filter: gray; 
 	}
 }
-img.saturate,
+// img.saturate,
 div.portfolio-descr.saturate {
 	@media screen and (min-width:991px) {
 		filter: none;
@@ -411,4 +411,4 @@ span.ltbg-anim {
 		}
 	}
 }
-/**********************************/
+/*********************************

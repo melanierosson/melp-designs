@@ -47,33 +47,33 @@ h1.construction-page {
 
 
 /* animations and transitions galore */
-h6.link-anim:hover,
-p.hover-left:hover {
-	transform: translateX(10px);
-	transition-duration:0.2s;
-	transition-timing-function: linear;
-}
-a.navbar-brand:hover,
-a.navbar-brand:focus,
-a.nav-link:hover,
-a.nav-link:focus {
-	transform: translateY(-4px);
-	transition-duration:0.2s;
-	transition-timing-function: linear;
-}
-p.link-anim:hover,
-p.link-anim:focus {
-	transform: translateY(4px);
-	transition-duration:0.2s;
-	transition-timing-function: linear;
-}
-.portfolio-img.anim,
-.portfolio-descr.anim {
-	cursor:pointer;
-	transform: translateX(-15px);
-	transition-duration:0.2s;
-	transition-timing-function: linear;
-}
+// h6.link-anim:hover,
+// p.hover-left:hover {
+// 	transform: translateX(10px);
+// 	transition-duration:0.2s;
+// 	transition-timing-function: linear;
+// }
+// a.navbar-brand:hover,
+// a.navbar-brand:focus,
+// a.nav-link:hover,
+// a.nav-link:focus {
+// 	transform: translateY(-4px);
+// 	transition-duration:0.2s;
+// 	transition-timing-function: linear;
+// }
+// p.link-anim:hover,
+// p.link-anim:focus {
+// 	transform: translateY(4px);
+// 	transition-duration:0.2s;
+// 	transition-timing-function: linear;
+// }
+// .portfolio-img.anim,
+// .portfolio-descr.anim {
+// 	cursor:pointer;
+// 	transform: translateX(-15px);
+// 	transition-duration:0.2s;
+// 	transition-timing-function: linear;
+// }
 p.name-line:hover {
 	cursor: pointer;
 }
@@ -131,6 +131,9 @@ p.name-line.active {
 	h1.portfolio-title {
 		font-size:2.75rem;
 	}
+	h2 {
+		font-size:1.75rem;
+	}
 	#navbar-txt-left {
 		text-align:right;
 	}
@@ -178,6 +181,17 @@ p.name-line.active {
 	#yelp-descr {
 		display:none;
 	}
+/* */
+/* social link colors */
+#linkedin-social a {
+	color:#0A66C2;
+}
+#github-social a {
+	color:#000000;
+}
+#yelp-social a {
+	color:#FF1A1A;
+}
 /* */
 
 	.shift-nav {
@@ -578,6 +592,14 @@ p.name-line.active {
 
 
 /* miscellaneous */
+	p.bottom-spacer {
+		padding-bottom:60px;
+	}
+	img.headshot {
+		max-width:200px;
+		height:200px;
+		border-radius:100px;
+	}
 	a.button {
 		padding: 0.65rem 1rem;
 		border-radius:3rem;
@@ -599,17 +621,13 @@ p.name-line.active {
 		background-color:#00A0A3;
 	}
 	a.button.contact:hover {
-		background-color:#00A616;
+		background-color:#0022FF;
 	}
 	a.button.email {
-		background-color:#FF5100;
+		background-color:#00A616;
 	}
 	a.button.email:hover {
-		background-color:#00A0A3;
-	}
-	#about-img-992up {
-		max-height:560px;
-		width:auto;
+		background-color:#FF5100;
 	}
 
 	@media screen and (max-width:550px) {
@@ -625,12 +643,6 @@ p.name-line.active {
 		}
 	}
 	@media screen and (max-width:991px) {
-		#about-img-991down {
-			width:100%;
-			max-width:450px;
-			margin-left:auto;
-			margin-right:auto;
-		}
 		.minh-100vh.title-page,
 		#contact-content.minh-100vh {
 			min-height:none;
