@@ -344,11 +344,25 @@ p.name-line.active {
   h1.title {
     font-size: 3rem;
   }
+  h1.portfolio-title {
+    font-size: 2.75rem;
+  }
   #navbar-txt-left {
     text-align: right;
   }
   .hide-hamburger {
     display: none;
+  }
+}
+@media screen and (max-width: 350px) {
+  h1.title {
+    font-size: 2.5rem;
+  }
+  h1.portfolio-title {
+    font-size: 2.25rem;
+  }
+  h2 {
+    font-size: 1.65rem;
   }
 }
 @media screen and (min-width: 992px) {
