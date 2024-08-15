@@ -1,7 +1,8 @@
 /* alignment + layout */
 .minh-100vh {
   min-height: 100vh;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+}
 
 .flex-display-column {
   display: -webkit-box;
@@ -10,7 +11,8 @@
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-flow: column wrap;
-  flex-flow: column wrap; }
+  flex-flow: column wrap;
+}
 
 .flex-display-row {
   display: -webkit-box;
@@ -19,101 +21,127 @@
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-flow: row wrap;
-  flex-flow: row wrap; }
+  flex-flow: row wrap;
+}
 
 .flex-align-top {
   -webkit-box-align: start;
   -ms-flex-align: start;
-  align-items: flex-start; }
+  align-items: flex-start;
+}
 
 .flex-align-center {
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .flex-align-content-center {
   -ms-flex-line-pack: center;
-  align-content: center; }
+  align-content: center;
+}
 
 .flex-justify-center {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .flex-justify-around {
   -ms-flex-pack: distribute;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
 
 .flex-justify-start {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+}
 
 .flex-justify-end {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+}
 
 .flex-nowrap {
   -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap; }
+  flex-wrap: nowrap;
+}
 
 .flex-self-center {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
-  align-self: center; }
+  align-self: center;
+}
 
 .hidden {
-  visibility: hidden; }
+  visibility: hidden;
+}
 
 .wd-100 {
   width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 /* text size */
 .txt-10px {
-  font-size: 0.625rem; }
+  font-size: 0.625rem;
+}
 
 .txt-11px {
-  font-size: 0.6875rem; }
+  font-size: 0.6875rem;
+}
 
 .txt-12px {
-  font-size: 0.75rem; }
+  font-size: 0.75rem;
+}
 
 .txt-14px {
-  font-size: 0.875rem; }
+  font-size: 0.875rem;
+}
 
 .txt-18px {
-  font-size: 1.125rem; }
+  font-size: 1.125rem;
+}
 
 .txt-72px {
-  font-size: 4.5rem; }
+  font-size: 4.5rem;
+}
 
 /* text color */
 .txt-drkbg-ltgray {
-  color: #dfdfdf !important; }
+  color: #dfdfdf !important;
+}
 
 .txt-drkgray {
-  color: #343a40; }
+  color: #343a40;
+}
 
 .txt-gray {
-  color: #7a7a7a; }
+  color: #7a7a7a;
+}
 
 /* text style */
 .txt-italic {
-  font-style: italic; }
+  font-style: italic;
+}
 
 .txt-400 {
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 .txt-600 {
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 .uppercase {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .txt-space-1hfpx {
-  letter-spacing: 0.0938rem; }
+  letter-spacing: 0.0938rem;
+}
 
 /*.txt-space-2px {
 	letter-spacing:0.125rem;
@@ -122,32 +150,38 @@
 	letter-spacing:0.1875rem;
 }*/
 .txt-space-4px {
-  letter-spacing: 0.25rem; }
+  letter-spacing: 0.25rem;
+}
 
 .txt-code {
-  font-family: 'Courier', 'Monaco', serif; }
+  font-family: "Courier", "Monaco", serif;
+}
 
 /* text alignment */
 .txt-center {
-  text-align: center; }
+  text-align: center;
+}
 
 /* line height */
 .txt-lineht-2p {
-  line-height: 200%; }
+  line-height: 200%;
+}
 
 /* top-level custom stuff */
 html {
-  overflow-y: scroll; }
+  overflow-y: scroll;
+}
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   /*background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;*/
   overflow-x: hidden;
-  position: relative; }
+  position: relative;
+}
 
 h6 a:link,
 h6 a:visited,
@@ -155,1118 +189,1685 @@ h6 a:active,
 p a:link,
 p a:visited,
 p a:active {
-  color: #777; }
+  color: #777;
+}
 
 h6 a:hover,
 h6 a:focus,
 p a:hover,
 p a:focus {
   color: #343a40;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .bottom-row {
-  margin-bottom: 140px; }
+  margin-bottom: 140px;
+}
 
 .pronounce:hover {
-  transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
   opacity: 0.8;
-  cursor: default; }
+  cursor: default;
+}
 
 /* */
 h1.construction-page {
-  margin-top: -3rem; }
-  @media screen and (max-width: 550px) {
-    h1.construction-page {
-      margin-top: -200px !important; } }
+  margin-top: -3rem;
+}
+@media screen and (max-width: 550px) {
+  h1.construction-page {
+    margin-top: -200px !important;
+  }
+}
+
 /* animations and transitions galore */
 h6.link-anim:hover,
 p.hover-left:hover {
-  transform: translateX(10px);
-  transition-duration: 0.2s;
-  transition-timing-function: linear; }
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
 
 a.navbar-brand:hover,
 a.navbar-brand:focus,
 a.nav-link:hover,
 a.nav-link:focus {
-  transform: translateY(-4px);
-  transition-duration: 0.2s;
-  transition-timing-function: linear; }
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
 
 p.link-anim:hover,
 p.link-anim:focus {
-  transform: translateY(4px);
-  transition-duration: 0.2s;
-  transition-timing-function: linear; }
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
 
 .portfolio-img.anim,
 .portfolio-descr.anim {
   cursor: pointer;
-  transform: translateX(-15px);
-  transition-duration: 0.2s;
-  transition-timing-function: linear; }
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
 
 p.name-line:hover {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 p.name-line.active {
-  animation: nameLine 3s 1;
-  animation-timing-function: ease-in-out; }
-  @media screen and (max-width: 767px) {
-    p.name-line.active {
-      animation: nameLine 1.6s 1; } }
+  -webkit-animation: nameLine 3s 1;
+          animation: nameLine 3s 1;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+@media screen and (max-width: 767px) {
+  p.name-line.active {
+    -webkit-animation: nameLine 1.6s 1;
+            animation: nameLine 1.6s 1;
+  }
+}
+
 .navbar-dark .navbar-nav .nav-link {
   margin: 5px;
-  padding: 5px; }
+  padding: 5px;
+}
 
 .active-projects {
   position: relative;
-  z-index: 10; }
+  z-index: 10;
+}
 
 @-webkit-keyframes mover {
   0% {
-    transform: translateY(100px); }
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
   100% {
-    transform: translateY(0); } }
-
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
 @keyframes mover {
   0% {
-    transform: translateY(100px); }
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
   100% {
-    transform: translateY(0); } }
-
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
 @-webkit-keyframes nameLine {
   0% {
-    transform: translateX(0); }
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
   50% {
-    transform: translateX(20vw); }
+    -webkit-transform: translateX(20vw);
+            transform: translateX(20vw);
+  }
   85% {
-    transform: translateX(-5vw); } }
-
+    -webkit-transform: translateX(-5vw);
+            transform: translateX(-5vw);
+  }
+}
 @keyframes nameLine {
   0% {
-    transform: translateX(0); }
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
   50% {
-    transform: translateX(20vw); }
+    -webkit-transform: translateX(20vw);
+            transform: translateX(20vw);
+  }
   85% {
-    transform: translateX(-5vw); } }
-
+    -webkit-transform: translateX(-5vw);
+            transform: translateX(-5vw);
+  }
+}
 @media screen and (max-width: 991px) {
-  h2.title {
-    font-size: 3rem; } 
+  h1.title {
+    font-size: 3rem;
+  }
   #navbar-txt-left {
-    text-align:right; }
+    text-align: right;
+  }
   .hide-hamburger {
-    display:none; } }
-
+    display: none;
+  }
+}
 @media screen and (min-width: 992px) {
-  h2.title {
-    font-size: 4rem; } }
-
+  h1.title {
+    font-size: 4rem;
+  }
+}
 /* */
 @media screen and (max-width: 400px) {
   .hide-mobile {
-    display: none; } }
-
+    display: none;
+  }
+}
 /* encapsulates the below styles to only to the main pages */
 #main-page {
   /* hide all contact page social link descriptions on page load */
   /* */
   /* portfolio */
   /* */
-  /* miscellaneous */ }
-  #main-page #linkedin-descr,
-  #main-page #github-descr,
-  #main-page #melartistangent-descr,
-  #main-page #yelpblackbelt-descr,
-  #main-page #yelp-descr {
-    display: none; }
-  @media screen and (min-width: 992px) {
-    #main-page .shift-nav {
-      margin-left: 7px; } }
-  @media screen and (max-width: 991px) {
-    #main-page #lil-class {
-      padding-top: 80px; } }
-  @media screen and (max-width: 407px) {
-    #main-page #lil-class {
-      padding-top: 10px; } }
-  #main-page #lil-class p {
-    padding-left: 20px; }
-  #main-page .portfolio-img {
-    max-width: 400px;
-    height: auto;
-    max-height: 400px;
-    width: auto; }
-  #main-page .portfolio-descr {
-    position: absolute;
-    z-index: 20;
-    padding: 16px 16px 0px 16px; }
-  #main-page .portfolio-descr.bottom {
-    top: 200px; }
+  /* miscellaneous */
+}
+#main-page #linkedin-descr,
+#main-page #github-descr,
+#main-page #melartistangent-descr,
+#main-page #yelpblackbelt-descr,
+#main-page #yelp-descr {
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  #main-page .shift-nav {
+    margin-left: 7px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #main-page #lil-class {
+    padding-top: 80px;
+  }
+}
+@media screen and (max-width: 407px) {
+  #main-page #lil-class {
+    padding-top: 10px;
+  }
+}
+#main-page #lil-class p {
+  padding-left: 20px;
+}
+#main-page .portfolio-img {
+  max-width: 400px;
+  height: auto;
+  max-height: 400px;
+  width: auto;
+}
+#main-page .portfolio-descr {
+  position: absolute;
+  z-index: 20;
+  padding: 16px 16px 0px 16px;
+}
+#main-page .portfolio-descr.bottom {
+  top: 200px;
+}
+#main-page .portfolio-descr.right {
+  left: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#main-page .portfolio-descr.top {
+  top: -75px;
+}
+#main-page .portfolio-descr.mid-top {
+  top: 10px;
+}
+#main-page .portfolio-descr.left {
+  right: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#main-page .portfolio-descr.middle {
+  top: 100px;
+}
+@media screen and (max-width: 676px) {
+  #main-page #portfdescr-sharepoint {
+    margin-left: -50px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #main-page #portfproj-container06 {
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  #main-page #portfdescr-sharepoint {
+    margin-top: 65px;
+    min-width: 300px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #main-page #portfproj-container06 {
+    margin-top: 50px;
+  }
+  #main-page #portfdescr-sharepoint {
+    margin-top: 65px;
+    min-width: 432px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #main-page #portfproj-container04 {
+    margin-top: 75px;
+  }
+  #main-page #portfproj-container05 {
+    margin-top: 50px;
+  }
+  #main-page #portfproj-container06 {
+    margin-top: 50px;
+  }
+  #main-page #portfdescr-sharepoint {
+    margin-top: 50px;
+    min-width: 320px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #main-page .portfolio-descr.right {
+    left: 100px;
+  }
+  #main-page .portfolio-descr.left {
+    right: 100px;
+  }
+  #main-page #portfdescr-bento {
+    margin-left: 100px;
+  }
+  #main-page #portfproj-container07 {
+    margin-top: 40px;
+  }
+  #main-page #portfproj-container07 .portfolio-img {
+    margin-top: -10px;
+  }
+  #main-page #portfproj-container07 .portfolio-descr {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 991px) {
   #main-page .portfolio-descr.right {
     left: 200px;
-    margin-right: 20px;
-    margin-left: 20px; }
-  #main-page .portfolio-descr.top {
-    top: -75px; }
-  #main-page .portfolio-descr.mid-top {
-    top: 10px; }
+  }
   #main-page .portfolio-descr.left {
     right: 200px;
-    margin-right: 20px;
-    margin-left: 20px; }
-  #main-page .portfolio-descr.middle {
-    top: 100px; }
-  @media screen and (max-width: 676px) {
-    #main-page #portfdescr-sharepoint {
-      margin-left: -50px;
-      margin-top: 100px; } }
-  @media screen and (max-width: 767px) {
-    #main-page #portfproj-container06 {
-      margin-top: 50px;
-      margin-bottom: 70px; }
-    #main-page #portfdescr-sharepoint {
-      margin-top: 65px;
-      min-width: 300px; } }
-  @media screen and (min-width: 768px) and (max-width: 991px) {
-    #main-page #portfproj-container06 {
-      margin-top: 50px; }
-    #main-page #portfdescr-sharepoint {
-      margin-top: 65px;
-      min-width: 432px; } }
-  @media screen and (min-width: 992px) {
-    #main-page #portfproj-container04 {
-      margin-top: 75px; }
-    #main-page #portfproj-container05 {
-      margin-top: 50px; }
-    #main-page #portfproj-container06 {
-      margin-top: 50px; }
-    #main-page #portfdescr-sharepoint {
-      margin-top: 50px;
-      min-width: 320px; } }
-  @media screen and (min-width: 992px) and (max-width: 1199px) {
-    #main-page .portfolio-descr.right {
-      left: 100px; }
-    #main-page .portfolio-descr.left {
-      right: 100px; }
-    #main-page #portfdescr-bento {
-      margin-left: 100px; }
-    #main-page #portfproj-container07 {
-      margin-top: 40px; }
-      #main-page #portfproj-container07 .portfolio-img {
-        margin-top: -10px; }
-      #main-page #portfproj-container07 .portfolio-descr {
-        margin-top: 40px; } }
-  @media screen and (max-width: 991px) {
-    #main-page .portfolio-descr.right {
-      left: 200px; }
-    #main-page .portfolio-descr.left {
-      right: 200px; }
-    #main-page .portfolio-descr.top {
-      top: 15px; }
-    #main-page .portf-proj:nth-child(2) {
-      margin-top: 80px; }
-    #main-page #portfproj-container05 {
-      margin-top: 10px; }
-    #main-page #portfdescr-busters {
-      margin-top: 20px; } }
-  @media screen and (max-width: 500px) {
-    #main-page .portfolio-img.left-col {
-      margin-left: auto;
-      margin-right: auto; }
-    #main-page .portfolio-img.left {
-      padding-left: 40px; }
-    #main-page .portfolio-img.right {
-      padding-right: 40px; }
-    #main-page .portfolio-descr.right {
-      left: 100px; }
-    #main-page .portfolio-descr.left {
-      right: 100px; }
-    #main-page .portfolio-descr.top {
-      top: 10px; }
-    #main-page .portfolio-descr.bottom {
-      top: 220px; }
-    #main-page #portfdescr-art {
-      top: 220px; }
-    #main-page #portfdescr-sharepoint {
-      top: 110px; } }
-  @media screen and (min-width: 1200px) {
-    #main-page #portfproj-container07 {
-      margin-top: 60px; } }
-  @media screen and (max-width: 450px) {
-    #main-page .portfolio-descr.right {
-      left: -20px;
-      right: -20px; }
-    #main-page .portfolio-descr.left {
-      right: -20px;
-      left: -20px; }
-    #main-page .portfolio-descr.bottom {
-      top: 220px; }
-    #main-page .portfolio-descr.top {
-      top: 220px; }
-    #main-page .portfolio-descr.mid-top {
-      top: 220px; }
-    #main-page .portfolio-img {
-      max-width: 86vw; }
-    #main-page div.flex-display-row.flex-justify-end.portf-proj,
-    #main-page div.flex-display-row.flex-justify-start.portf-proj {
-      justify-content: center; }
-    #main-page #portfimg-mysavei {
-      margin-top: 10px; } }
-  @media screen and (max-width: 450px) and (min-width: 410px) {
-    #main-page #portfimg-mysavei {
-      margin-top: -20px; } }
-  @media screen and (max-width: 450px) {
-    #main-page #portfdescr-mysavei {
-      top: 250px; }
-    #main-page #portfimg-busters {
-      margin-top: 0;
-      margin-left: -20px; } }
-  @media screen and (max-width: 450px) and (min-width: 410px) {
-    #main-page #portfimg-busters {
-      margin-top: -40px; } }
-  @media screen and (max-width: 450px) {
-    #main-page #portfdescr-busters {
-      top: 300px;
-      max-width: 95%; }
-    #main-page #portfproj-container04 {
-      margin-top: 60px; } }
-  @media screen and (max-width: 450px) and (min-width: 410px) {
-    #main-page #portfproj-container04 {
-      margin-top: 60px; } }
-  @media screen and (max-width: 450px) {
-    #main-page #portfproj-container05 {
-      margin-top: 60px; } }
-  @media screen and (max-width: 450px) and (min-width: 410px) {
-    #main-page #portfproj-container05 {
-      margin-top: 30px; } }
-  @media screen and (max-width: 450px) {
-    #main-page #portfproj-container06 {
-      margin-top: 60px; }
-    #main-page #portfdescr-detailpanem {
-      top: 250px; }
-    #main-page #portfdescr-recmobile {
-      top: 280px;
-      left: -21px; } }
-  @media screen and (max-width: 450px) and (min-width: 410px) {
-    #main-page #portfdescr-recmobile {
-      top: 290px; } }
-  @media screen and (max-width: 450px) {
-    #main-page #portfdescr-read {
-      top: 275px; }
-    #main-page #portfimg-art {
-      margin-top: -10px; }
-    #main-page #portfimg-bento {
-      margin-top: -50px;
-      padding-bottom: 50px; }
-    #main-page #portfdescr-bento {
-      margin-top: -45px;
-      margin-bottom: 20px; }
-    #main-page #portfdescr-sharepoint {
-      max-width: 95%;
-      left: 40px; } }
-  @media screen and (max-width: 991px) {
-    #main-page #personal-content header,
-    #main-page #portfolio-content header {
-      margin-bottom: -45px; } }
-  #main-page #portfdescr-mils {
-    background-color: #fff;
-    border: 2px solid #980f61; }
-    #main-page #portfdescr-mils h3 {
-      color: #2c3e50; }
-    #main-page #portfdescr-mils h6 {
-      color: #0e216d; }
-  #main-page #portfdescr-mysavei {
-    background-color: #EDFFF6;
-    border: 2px solid #5DD4D0; }
-    #main-page #portfdescr-mysavei h3 {
-      color: #27B874; }
-    #main-page #portfdescr-mysavei h6 {
-      color: #8AB91B; }
+  }
+  #main-page .portfolio-descr.top {
+    top: 15px;
+  }
+  #main-page .portf-proj:nth-child(2) {
+    margin-top: 80px;
+  }
+  #main-page #portfproj-container05 {
+    margin-top: 10px;
+  }
   #main-page #portfdescr-busters {
-    background-color: #fdf0da;
-    border: 2px solid #f8c235; }
-    #main-page #portfdescr-busters h3 {
-      color: #4065b4; }
-  #main-page #portfdescr-detailpanem {
-    background-color: #e6dede;
-    border: 2px solid #8d0000; }
-    #main-page #portfdescr-detailpanem h3 {
-      color: #3f3f3f; }
-    #main-page #portfdescr-detailpanem h6 {
-      color: #8d0000; }
-    #main-page #portfdescr-detailpanem p {
-      color: #000; }
-  #main-page #portfdescr-recmobile {
-    background-color: #fff;
-    border: 2px solid #b5cf6a; }
-    #main-page #portfdescr-recmobile h3 {
-      color: #57a359; }
-    #main-page #portfdescr-recmobile h6 {
-      color: #000; }
-  #main-page #portfdescr-sharepoint {
-    background-color: #c9e9ff;
-    border: 2px solid #ffa526; }
-    #main-page #portfdescr-sharepoint h3 {
-      color: #005999; }
-    #main-page #portfdescr-sharepoint h6 {
-      color: #000; }
-  #main-page #portfdescr-read {
-    background-color: #0a4f5b;
-    border: 2px solid #f0617a; }
-    #main-page #portfdescr-read h3 {
-      color: #92c880; }
-    #main-page #portfdescr-read h6 {
-      color: #e7b132; }
-    #main-page #portfdescr-read p {
-      color: #fff; }
-  #main-page #portfdescr-art {
-    background-color: #af4528;
-    border: 2px solid #583521; }
-    #main-page #portfdescr-art h3 {
-      color: #fdc19a; }
-    #main-page #portfdescr-art h6 {
-      color: #f2bf47; }
-    #main-page #portfdescr-art p {
-      color: #fff; }
-  #main-page #portfdescr-bento {
-    background-color: #ac3946;
-    border: 2px solid #d47f2f; }
-    #main-page #portfdescr-bento h3 {
-      color: #d9b8b1; }
-    #main-page #portfdescr-bento p {
-      color: #fff; }
-  @media screen and (max-width: 400px) {
-    #main-page #portfproj-container04 {
-      margin-top: 20px; }
-    #main-page #portfproj-container06 {
-      margin-bottom: 50px; }
-      #main-page #portfproj-container06 img {
-        margin-left: -20px; } }
-  #main-page #about-img-992up {
-    max-height: 560px;
-    width: auto; }
-  @media screen and (max-width: 550px) {
-    #main-page #home-title,
-    #main-page h2.contact-title {
-      margin-top: -100px !important; }
-    #main-page .minh-100vh.title-page,
-    #main-page #contact-content.minh-100vh {
-      overflow-x: hidden;
-      min-height: none;
-      max-height: 90vh; } }
-  @media screen and (max-width: 991px) {
-    #main-page #about-img-991down {
-      width: 100%;
-      max-width: 450px;
-      margin-left: auto;
-      margin-right: auto; }
-    #main-page .minh-100vh.title-page,
-    #main-page #contact-content.minh-100vh {
-      min-height: none; }
-    #main-page #home-title {
-      font-size: 3.5rem; }
-    #main-page h3 {
-      font-size: 1.125rem;
-      font-weight: 600; }
-    #main-page h3.portfproject-title {
-      font-size: 1.75rem;
-      font-weight: 400; } }
-  @media screen and (min-width: 992px) {
-    #main-page #home-title {
-      font-size: 4.5rem; } }
-.portfolio-page {
-  overflow-x: hidden !important; }
-  .portfolio-page .back-btn {
-    z-index: 10;
-    margin-top: -15px; }
-  @media screen and (max-width: 550px) {
-    .portfolio-page h3 {
-      text-align: center; } }
-  @media screen and (max-width: 450px) {
-    .portfolio-page section#milsdiner-content h2#milsdiner-title {
-      font-size: 2.4rem;
-      letter-spacing: 0.2rem;
-      margin-top: 10px; } }
-  @media screen and (min-width: 992px) {
-    .portfolio-page section#milsdiner-content div.mils-img-container {
-      justify-content: flex-end; } }
-  @media screen and (max-width: 991px) {
-    .portfolio-page section#milsdiner-content div.mils-img-container {
-      justify-content: center; } }
-  .portfolio-page section#milsdiner-content div.mils-img-container img#milsdiner-hero {
-    max-height: 450px; }
-    @media screen and (max-width: 500px) {
-      .portfolio-page section#milsdiner-content div.mils-img-container img#milsdiner-hero {
-        width: auto;
-        height: 375px; } }
-  .portfolio-page section#milsdiner-content div.version-row {
-    background-color: #343c4b;
-    color: #fff;
-    min-width: 100vw;
-    height: auto;
-    margin-left: calc(-50vw + 50%); }
-    @media screen and (min-width: 1200px) {
-      .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
-        max-height: 200px; } }
-    @media screen and (max-width: 1199px) {
-      .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
-        width: auto;
-        max-height: 390px; } }
-    @media screen and (max-width: 991px) {
-      .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
-        width: auto;
-        max-height: 300px; } }
-    @media screen and (max-width: 766px) {
-      .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
-        width: auto;
-        max-height: 240px; } }
-    @media screen and (max-width: 500px) {
-      .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
-        object-fit: contain; } }
-    .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
-      max-height: 200px;
-      width: auto;
-      max-width: none;
-      border: none; }
-      @media screen and (max-width: 1199px) {
-        .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
-          width: auto;
-          max-height: 500px; } }
-      @media screen and (max-width: 991px) {
-        .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
-          width: auto;
-          max-height: 400px; } }
-      @media screen and (max-width: 500px) {
-        .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
-          width: 100%;
-          height: auto;
-          max-height: none; } }
-    .portfolio-page section#milsdiner-content div.version-row div.current-mils {
-      border: 3px solid #9f106a;
-      background-color: rgba(159, 16, 106, 0.2); }
-  .portfolio-page section#milsdiner-content ol.mils-list {
-    margin-left: -20px; }
-    .portfolio-page section#milsdiner-content ol.mils-list li {
-      font-weight: 600;
-      padding-left: 10px;
-      padding-bottom: 6px; }
-      .portfolio-page section#milsdiner-content ol.mils-list li span {
-        font-weight: 400; }
-  .portfolio-page section#milsdiner-content div.mothersday-container {
-    display: flex;
-    justify-content: center; }
-    .portfolio-page section#milsdiner-content div.mothersday-container img.mils-mothersday-menu {
-      height: 350px; }
-      @media screen and (min-width: 992px) {
-        .portfolio-page section#milsdiner-content div.mothersday-container img.mils-mothersday-menu {
-          margin-top: -55px;
-          height: 520px; } }
-      @media screen and (min-width: 1200px) {
-        .portfolio-page section#milsdiner-content div.mothersday-container img.mils-mothersday-menu {
-          margin-top: -55px;
-          height: 415px; } }
-  .portfolio-page section#milsdiner-content div.milslist03 {
-    margin-top: -15px; }
-  .portfolio-page section#milsdiner-content div.milslist02 {
-    margin-top: 25px; }
-    @media screen and (min-width: 992px) {
-      .portfolio-page section#milsdiner-content div.milslist02 {
-        margin-top: -15px; } }
-  .portfolio-page section#milsdiner-content div.pages-row {
-    background-color: #343c4b;
-    color: #fff;
-    min-width: 100vw;
-    margin-left: calc(-50vw + 50%); }
-    .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img {
-      width: 33%;
-      height: auto;
-      padding: 6px 12px 0 0; }
-      .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img:hover {
-        cursor: pointer;
-        transition-duration: 0.4s;
-        transform: scale(1.05); }
-      @media screen and (max-width: 767px) {
-        .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img {
-          width: 100%;
-          object-fit: contain; } }
-  @media screen and (max-width: 767px) {
-    .portfolio-page section#busters-content h2#busters-title {
-      font-size: 2.4rem;
-      letter-spacing: 0.2rem;
-      margin-top: 10px; } }
-  @media screen and (max-width: 469px) {
-    .portfolio-page section#busters-content h2#busters-title {
-      font-size: 2rem; } }
-  @media screen and (max-width: 415px) {
-    .portfolio-page section#busters-content h2#busters-title {
-      font-size: 2.4rem;
-      line-height: 3rem; } }
-  .portfolio-page section#busters-content img#busters-hero-992up {
-    max-height: 350px; }
-    @media screen and (max-width: 1199px) {
-      .portfolio-page section#busters-content img#busters-hero-992up {
-        max-height: 390px; } }
-    @media screen and (min-width: 1200px) {
-      .portfolio-page section#busters-content img#busters-hero-992up {
-        margin-right: 30px; } }
-  .portfolio-page section#busters-content img#busters-hero-991down {
-    padding: 30px 10px 0 10px;
-    width: 100%; }
-  .portfolio-page section#busters-content .busters-intro h3 {
-    padding-left: 0; }
-  @media screen and (max-width: 991px) {
-    .portfolio-page section#busters-content .busters-intro {
-      margin: auto; }
-      .portfolio-page section#busters-content .busters-intro h3 {
-        margin-top: -30px;
-        padding-left: 10px;
-        padding-right: 10px; }
-      .portfolio-page section#busters-content .busters-intro p {
-        padding-left: 10px;
-        padding-right: 10px; } }
-  .portfolio-page section#busters-content div.tools-row {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    min-width: 100vw;
-    height: auto;
-    margin-top: 40px;
-    margin-left: calc(-50vw + 50%); }
-    @media screen and (max-width: 991px) {
-      .portfolio-page section#busters-content div.tools-row {
-        margin-top: 10px;
-        margin-bottom: 20px; } }
-    .portfolio-page section#busters-content div.tools-row div.busters-tools {
-      margin-bottom: -10px; }
-      @media screen and (max-width: 991px) {
-        .portfolio-page section#busters-content div.tools-row div.busters-tools h3 {
-          width: 100%;
-          text-align: center;
-          margin-bottom: -30px;
-          margin-top: 30px; } }
-      .portfolio-page section#busters-content div.tools-row div.busters-tools ul.busters-tools-list {
-        padding: 30px 0;
-        margin-top: 10px; }
-        .portfolio-page section#busters-content div.tools-row div.busters-tools ul.busters-tools-list li {
-          list-style-type: none;
-          display: inline;
-          padding: 20px; }
-          @media screen and (max-width: 500px) {
-            .portfolio-page section#busters-content div.tools-row div.busters-tools ul.busters-tools-list li {
-              display: block;
-              padding: 5px; } }
-  .portfolio-page section#busters-content div.busters-facebook {
-    margin-top: 30px; }
-    .portfolio-page section#busters-content div.busters-facebook h4 {
-      margin-bottom: -5px; }
-    .portfolio-page section#busters-content div.busters-facebook div.busters-images-left,
-    .portfolio-page section#busters-content div.busters-facebook div.busters-images-right {
-      justify-content: center; }
-      .portfolio-page section#busters-content div.busters-facebook div.busters-images-left img,
-      .portfolio-page section#busters-content div.busters-facebook div.busters-images-right img {
-        width: 100%;
-        padding: 14px 0; }
-    @media screen and (min-width: 1200px) {
-      .portfolio-page section#busters-content div.busters-facebook div.busters-images-left {
-        justify-content: flex-end; } }
-    @media screen and (min-width: 1200px) {
-      .portfolio-page section#busters-content div.busters-facebook div.busters-images-right {
-        justify-content: flex-start; } }
-  .portfolio-page section#busters-content div.busters-insta {
-    margin-top: 30px; }
-    .portfolio-page section#busters-content div.busters-insta div.busters-insta-imgs img {
-      align-self: flex-start; }
-      @media screen and (min-width: 992px) {
-        .portfolio-page section#busters-content div.busters-insta div.busters-insta-imgs img {
-          padding-left: 14px;
-          width: 50%; } }
-      @media screen and (max-width: 991px) {
-        .portfolio-page section#busters-content div.busters-insta div.busters-insta-imgs img {
-          width: 100%;
-          height: auto;
-          padding: 14px 0; } }
-  .portfolio-page section#busters-content div.busters-previews {
-    margin-top: 30px; }
-    .portfolio-page section#busters-content div.busters-previews div.busters-preview-imgs img {
-      align-self: flex-start; }
-      @media screen and (min-width: 992px) {
-        .portfolio-page section#busters-content div.busters-previews div.busters-preview-imgs img {
-          padding-left: 14px;
-          width: 50%; } }
-      @media screen and (max-width: 991px) {
-        .portfolio-page section#busters-content div.busters-previews div.busters-preview-imgs img {
-          width: 100%;
-          height: auto;
-          padding: 14px 0; } }
-  @media screen and (max-width: 500px) {
-    .portfolio-page #recmobile-content .row {
-      padding-left: 8px;
-      padding-right: 8px; } }
-  @media screen and (max-width: 766px) {
-    .portfolio-page #recmobile-content h2#recmobile-title {
-      line-height: 3.5rem;
-      margin-top: 20px !important; } }
-  @media screen and (max-width: 991px) {
-    .portfolio-page #recmobile-content h2#recmobile-title {
-      font-size: 2.75rem; } }
-  @media screen and (max-width: 500px) {
-    .portfolio-page #recmobile-content h3 {
-      line-height: 2.6rem; } }
-  @media screen and (max-width: 500px) {
-    .portfolio-page #recmobile-content h4 {
-      text-align: center; } }
-  .portfolio-page #recmobile-content div.recmobile-img-container {
-    display: flex;
-    justify-content: flex-end;
-    align-content: center; }
-    @media screen and (max-width: 991px) {
-      .portfolio-page #recmobile-content div.recmobile-img-container {
-        justify-content: center; } }
-    @media screen and (min-width: 992px) {
-      .portfolio-page #recmobile-content div.recmobile-img-container img#recmobile-hero {
-        height: 400px; } }
-  .portfolio-page #recmobile-content div.roles-resp {
-    margin-top: -15px; }
-    @media screen and (min-width: 1200px) {
-      .portfolio-page #recmobile-content div.roles-resp {
-        margin-top: 20px; } }
-  .portfolio-page #recmobile-content img.flows {
-    width: 100%; }
-  .portfolio-page #recmobile-content div.rec-survey, .portfolio-page #recmobile-content div.comp-flow {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .portfolio-page #recmobile-content ol.recmobile-list {
-    margin-left: -20px; }
-    .portfolio-page #recmobile-content ol.recmobile-list li {
-      font-weight: 600;
-      padding-left: 10px;
-      padding-bottom: 6px; }
-      .portfolio-page #recmobile-content ol.recmobile-list li span {
-        font-weight: 400; }
-  .portfolio-page #recmobile-content div.recmobile-timecont,
-  .portfolio-page #recmobile-content div.recmobile-schedulecont {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center; }
-    .portfolio-page #recmobile-content div.recmobile-timecont h4.recmobile-timetitle,
-    .portfolio-page #recmobile-content div.recmobile-schedulecont h4.recmobile-timetitle {
-      text-align: center;
-      margin-bottom: -60px; }
-      @media screen and (max-width: 500px) {
-        .portfolio-page #recmobile-content div.recmobile-timecont h4.recmobile-timetitle,
-        .portfolio-page #recmobile-content div.recmobile-schedulecont h4.recmobile-timetitle {
-          margin-bottom: -30px; } }
-    .portfolio-page #recmobile-content div.recmobile-timecont img.recmobile-allscreens,
-    .portfolio-page #recmobile-content div.recmobile-schedulecont img.recmobile-allscreens {
-      margin-left: 0;
-      padding: 0;
-      width: 100%;
-      max-width: 700px; }
-  .portfolio-page #recmobile-content div.recmobile-solution {
-    text-align: center; }
-  .portfolio-page #recmobile-content h4#recmobile-after-title {
-    margin-top: -50px !important; }
-    @media screen and (max-width: 500px) {
-      .portfolio-page #recmobile-content h4#recmobile-after-title {
-        margin-top: 0 !important; } }
-  @media screen and (max-width: 991px) {
-    .portfolio-page #recmobile-content h3#recmobile-challenges-title {
-      margin-top: 20px; } }
-  @media screen and (min-width: 500px) {
-    .portfolio-page #recmobile-content h3#recmobile-improvement-title {
-      margin-top: -20px; } }
-  @media screen and (min-width: 768px) {
-    .portfolio-page #recmobile-content h3#recmobile-improvement-title {
-      margin-top: -40px; } }
-  .portfolio-page #recmobile-content img.recmobile-schedule {
     margin-top: 20px;
-    height: 400px; }
-    @media screen and (min-width: 768px) and (max-width: 991px) {
-      .portfolio-page #recmobile-content img.recmobile-schedule {
-        height: 540px; } }
-  @media screen and (max-width: 766px) {
-    .portfolio-page section#detailpanem-content h2 {
-      line-height: 3.5rem;
-      margin-top: 20px !important;
-      padding-bottom: 25px; } }
-  @media screen and (max-width: 991px) {
-    .portfolio-page section#detailpanem-content h2 {
-      font-size: 2.75rem; } }
-  .portfolio-page section#detailpanem-content div.panem-img-container {
-    justify-content: center;
-    align-items: flex-start; }
-    .portfolio-page section#detailpanem-content div.panem-img-container img#detailpanem-hero {
-      max-width: 100%;
-      height: auto;
-      margin: 0 auto; }
-  @media screen and (min-width: 992px) {
-    .portfolio-page section#detailpanem-content ul.goals-list {
-      margin-top: -15px;
-      margin-left: -20px; } }
-  .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs {
-    display: flexbox;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start; }
-    .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container {
-      width: 32%;
-      margin: 0.5%;
-      max-height: 200px;
-      overflow: hidden; }
-      .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container:hover {
-        transform: scale(1.05); }
-      .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container img {
-        width: 100%; }
-        .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container img:hover {
-          cursor: pointer; }
-      @media screen and (max-width: 767px) {
-        .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container {
-          width: 49%;
-          max-height: 100px;
-          overflow: hidden; } }
-      @media screen and (max-width: 991px) {
-        .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container {
-          max-height: 150px;
-          overflow: hidden; } }
-  @media screen and (max-width: 766px) {
-    .portfolio-page section#mysavei-content h2 {
-      line-height: 3.5rem;
-      margin-top: 20px !important;
-      padding-bottom: 25px; } }
-  @media screen and (max-width: 991px) {
-    .portfolio-page section#mysavei-content h2 {
-      font-size: 2.75rem; } }
-  .portfolio-page section#mysavei-content img#mysavei-hero {
-    width: 100%; }
-    .portfolio-page section#mysavei-content img#mysavei-hero:hover {
-      transform: scale(1.05);
-      cursor: pointer;
-      transition-duration: 0.4s; }
-  .portfolio-page section#mysavei-content div.mysavei-intro {
-    text-align: center; }
+  }
+}
+@media screen and (max-width: 500px) {
+  #main-page .portfolio-img.left-col {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #main-page .portfolio-img.left {
+    padding-left: 40px;
+  }
+  #main-page .portfolio-img.right {
+    padding-right: 40px;
+  }
+  #main-page .portfolio-descr.right {
+    left: 100px;
+  }
+  #main-page .portfolio-descr.left {
+    right: 100px;
+  }
+  #main-page .portfolio-descr.top {
+    top: 10px;
+  }
+  #main-page .portfolio-descr.bottom {
+    top: 220px;
+  }
+  #main-page #portfdescr-art {
+    top: 220px;
+  }
+  #main-page #portfdescr-sharepoint {
+    top: 110px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #main-page #portfproj-container07 {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #main-page .portfolio-descr.right {
+    left: -20px;
+    right: -20px;
+  }
+  #main-page .portfolio-descr.left {
+    right: -20px;
+    left: -20px;
+  }
+  #main-page .portfolio-descr.bottom {
+    top: 220px;
+  }
+  #main-page .portfolio-descr.top {
+    top: 220px;
+  }
+  #main-page .portfolio-descr.mid-top {
+    top: 220px;
+  }
+  #main-page .portfolio-img {
+    max-width: 86vw;
+  }
+  #main-page div.flex-display-row.flex-justify-end.portf-proj,
+  #main-page div.flex-display-row.flex-justify-start.portf-proj {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #main-page #portfimg-mysavei {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 450px) and (min-width: 410px) {
+  #main-page #portfimg-mysavei {
+    margin-top: -20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #main-page #portfdescr-mysavei {
+    top: 250px;
+  }
+  #main-page #portfimg-busters {
+    margin-top: 0;
+    margin-left: -20px;
+  }
+}
+@media screen and (max-width: 450px) and (min-width: 410px) {
+  #main-page #portfimg-busters {
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #main-page #portfdescr-busters {
+    top: 300px;
+    max-width: 95%;
+  }
+  #main-page #portfproj-container04 {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 450px) and (min-width: 410px) {
+  #main-page #portfproj-container04 {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #main-page #portfproj-container05 {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 450px) and (min-width: 410px) {
+  #main-page #portfproj-container05 {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #main-page #portfproj-container06 {
+    margin-top: 60px;
+  }
+  #main-page #portfdescr-detailpanem {
+    top: 250px;
+  }
+  #main-page #portfdescr-recmobile {
+    top: 280px;
+    left: -21px;
+  }
+}
+@media screen and (max-width: 450px) and (min-width: 410px) {
+  #main-page #portfdescr-recmobile {
+    top: 290px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #main-page #portfdescr-read {
+    top: 275px;
+  }
+  #main-page #portfimg-art {
+    margin-top: -10px;
+  }
+  #main-page #portfimg-bento {
+    margin-top: -50px;
+    padding-bottom: 50px;
+  }
+  #main-page #portfdescr-bento {
+    margin-top: -45px;
+    margin-bottom: 20px;
+  }
+  #main-page #portfdescr-sharepoint {
+    max-width: 95%;
+    left: 40px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #main-page #personal-content header,
+  #main-page #portfolio-content header {
+    margin-bottom: -45px;
+  }
+}
+#main-page #portfdescr-mils {
+  background-color: #fff;
+  border: 2px solid rgb(152, 15, 97);
+}
+#main-page #portfdescr-mils h3 {
+  color: #2c3e50;
+}
+#main-page #portfdescr-mils h6 {
+  color: #0e216d;
+}
+#main-page #portfdescr-mysavei {
+  background-color: #EDFFF6;
+  border: 2px solid #5DD4D0;
+}
+#main-page #portfdescr-mysavei h3 {
+  color: #27B874;
+}
+#main-page #portfdescr-mysavei h6 {
+  color: #8AB91B;
+}
+#main-page #portfdescr-busters {
+  background-color: #fdf0da;
+  border: 2px solid #f8c235;
+}
+#main-page #portfdescr-busters h3 {
+  color: #4065b4;
+}
+#main-page #portfdescr-detailpanem {
+  background-color: #e6dede;
+  border: 2px solid #8d0000;
+}
+#main-page #portfdescr-detailpanem h3 {
+  color: #3f3f3f;
+}
+#main-page #portfdescr-detailpanem h6 {
+  color: #8d0000;
+}
+#main-page #portfdescr-detailpanem p {
+  color: #000;
+}
+#main-page #portfdescr-recmobile {
+  background-color: #fff;
+  border: 2px solid #b5cf6a;
+}
+#main-page #portfdescr-recmobile h3 {
+  color: #57a359;
+}
+#main-page #portfdescr-recmobile h6 {
+  color: #000;
+}
+#main-page #portfdescr-sharepoint {
+  background-color: #c9e9ff;
+  border: 2px solid #ffa526;
+}
+#main-page #portfdescr-sharepoint h3 {
+  color: #005999;
+}
+#main-page #portfdescr-sharepoint h6 {
+  color: #000;
+}
+#main-page #portfdescr-read {
+  background-color: #0a4f5b;
+  border: 2px solid #f0617a;
+}
+#main-page #portfdescr-read h3 {
+  color: #92c880;
+}
+#main-page #portfdescr-read h6 {
+  color: #e7b132;
+}
+#main-page #portfdescr-read p {
+  color: #fff;
+}
+#main-page #portfdescr-art {
+  background-color: #af4528;
+  border: 2px solid #583521;
+}
+#main-page #portfdescr-art h3 {
+  color: #fdc19a;
+}
+#main-page #portfdescr-art h6 {
+  color: #f2bf47;
+}
+#main-page #portfdescr-art p {
+  color: #fff;
+}
+#main-page #portfdescr-bento {
+  background-color: #ac3946;
+  border: 2px solid #d47f2f;
+}
+#main-page #portfdescr-bento h3 {
+  color: #d9b8b1;
+}
+#main-page #portfdescr-bento p {
+  color: #fff;
+}
+@media screen and (max-width: 400px) {
+  #main-page #portfproj-container04 {
+    margin-top: 20px;
+  }
+  #main-page #portfproj-container06 {
+    margin-bottom: 50px;
+  }
+  #main-page #portfproj-container06 img {
+    margin-left: -20px;
+  }
+}
+#main-page a.button {
+  padding: 0.65rem 1rem;
+  border-radius: 3rem;
+  color: #FFF;
+  text-decoration: none;
+  border: none;
+}
+#main-page a.button:hover {
+  text-decoration: none;
+  border: none;
+}
+#main-page a.button.resume {
+  background-color: #E30041;
+}
+#main-page a.button.resume:hover {
+  background-color: #6600CC;
+}
+#main-page a.button.contact {
+  background-color: #00A0A3;
+}
+#main-page a.button.contact:hover {
+  background-color: #00A616;
+}
+#main-page a.button.email {
+  background-color: #FF5100;
+}
+#main-page a.button.email:hover {
+  background-color: #00A0A3;
+}
+#main-page #about-img-992up {
+  max-height: 560px;
+  width: auto;
+}
+@media screen and (max-width: 550px) {
+  #main-page #home-title,
+  #main-page h2.contact-title {
+    margin-top: -100px !important;
+  }
+  #main-page .minh-100vh.title-page,
+  #main-page #contact-content.minh-100vh {
+    overflow-x: hidden;
+    min-height: none;
+    max-height: 90vh;
+  }
+}
+@media screen and (max-width: 991px) {
+  #main-page #about-img-991down {
+    width: 100%;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #main-page .minh-100vh.title-page,
+  #main-page #contact-content.minh-100vh {
+    min-height: none;
+  }
+  #main-page #home-title {
+    font-size: 3.5rem;
+  }
+  #main-page h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  #main-page h3.portfproject-title {
+    font-size: 1.75rem;
+    font-weight: 400;
+  }
+}
+@media screen and (min-width: 992px) {
+  #main-page #home-title {
+    font-size: 4.5rem;
+  }
+}
+
+.portfolio-page {
+  overflow-x: hidden !important;
+}
+.portfolio-page .back-btn {
+  z-index: 10;
+  margin-top: -15px;
+}
+@media screen and (max-width: 550px) {
+  .portfolio-page h3 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .portfolio-page section#milsdiner-content h2#milsdiner-title {
+    font-size: 2.4rem;
+    letter-spacing: 0.2rem;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .portfolio-page section#milsdiner-content div.mils-img-container {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page section#milsdiner-content div.mils-img-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.portfolio-page section#milsdiner-content div.mils-img-container img#milsdiner-hero {
+  max-height: 450px;
+}
+@media screen and (max-width: 500px) {
+  .portfolio-page section#milsdiner-content div.mils-img-container img#milsdiner-hero {
+    width: auto;
+    height: 375px;
+  }
+}
+.portfolio-page section#milsdiner-content div.version-row {
+  background-color: #343c4b;
+  color: #fff;
+  min-width: 100vw;
+  height: auto;
+  margin-left: calc(-50vw + 50%);
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
+    max-height: 200px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
+    width: auto;
+    max-height: 390px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
+    width: auto;
+    max-height: 300px;
+  }
+}
+@media screen and (max-width: 766px) {
+  .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
+    width: auto;
+    max-height: 240px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+.portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
+  max-height: 200px;
+  width: auto;
+  max-width: none;
+  border: none;
+}
+@media screen and (max-width: 1199px) {
+  .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
+    width: auto;
+    max-height: 500px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
+    width: auto;
+    max-height: 400px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolio-page section#milsdiner-content div.version-row img.milsdiner-hist.current-mils {
+    width: 100%;
+    height: auto;
+    max-height: none;
+  }
+}
+.portfolio-page section#milsdiner-content div.version-row div.current-mils {
+  border: 3px solid #9f106a;
+  background-color: rgba(159, 16, 106, 0.2);
+}
+.portfolio-page section#milsdiner-content ol.mils-list {
+  margin-left: -20px;
+}
+.portfolio-page section#milsdiner-content ol.mils-list li {
+  font-weight: 600;
+  padding-left: 10px;
+  padding-bottom: 6px;
+}
+.portfolio-page section#milsdiner-content ol.mils-list li span {
+  font-weight: 400;
+}
+.portfolio-page section#milsdiner-content div.mothersday-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.portfolio-page section#milsdiner-content div.mothersday-container img.mils-mothersday-menu {
+  height: 350px;
+}
+@media screen and (min-width: 992px) {
+  .portfolio-page section#milsdiner-content div.mothersday-container img.mils-mothersday-menu {
+    margin-top: -55px;
+    height: 520px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-page section#milsdiner-content div.mothersday-container img.mils-mothersday-menu {
+    margin-top: -55px;
+    height: 415px;
+  }
+}
+.portfolio-page section#milsdiner-content div.milslist03 {
+  margin-top: -15px;
+}
+.portfolio-page section#milsdiner-content div.milslist02 {
+  margin-top: 25px;
+}
+@media screen and (min-width: 992px) {
+  .portfolio-page section#milsdiner-content div.milslist02 {
+    margin-top: -15px;
+  }
+}
+.portfolio-page section#milsdiner-content div.pages-row {
+  background-color: #343c4b;
+  color: #fff;
+  min-width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+.portfolio-page section#milsdiner-content div.pages-row div.mils-pages img {
+  width: 33%;
+  height: auto;
+  padding: 6px 12px 0 0;
+}
+.portfolio-page section#milsdiner-content div.pages-row div.mils-pages img:hover {
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page section#milsdiner-content div.pages-row div.mils-pages img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page section#busters-content h2#busters-title {
+    font-size: 2.4rem;
+    letter-spacing: 0.2rem;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 469px) {
+  .portfolio-page section#busters-content h2#busters-title {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 415px) {
+  .portfolio-page section#busters-content h2#busters-title {
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+}
+.portfolio-page section#busters-content img#busters-hero-992up {
+  max-height: 350px;
+}
+@media screen and (max-width: 1199px) {
+  .portfolio-page section#busters-content img#busters-hero-992up {
+    max-height: 390px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-page section#busters-content img#busters-hero-992up {
+    margin-right: 30px;
+  }
+}
+.portfolio-page section#busters-content img#busters-hero-991down {
+  padding: 30px 10px 0 10px;
+  width: 100%;
+}
+.portfolio-page section#busters-content .busters-intro h3 {
+  padding-left: 0;
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page section#busters-content .busters-intro {
+    margin: auto;
+  }
+  .portfolio-page section#busters-content .busters-intro h3 {
+    margin-top: -30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .portfolio-page section#busters-content .busters-intro p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.portfolio-page section#busters-content div.tools-row {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  min-width: 100vw;
+  height: auto;
+  margin-top: 40px;
+  margin-left: calc(-50vw + 50%);
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page section#busters-content div.tools-row {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+.portfolio-page section#busters-content div.tools-row div.busters-tools {
+  margin-bottom: -10px;
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page section#busters-content div.tools-row div.busters-tools h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: -30px;
+    margin-top: 30px;
+  }
+}
+.portfolio-page section#busters-content div.tools-row div.busters-tools ul.busters-tools-list {
+  padding: 30px 0;
+  margin-top: 10px;
+}
+.portfolio-page section#busters-content div.tools-row div.busters-tools ul.busters-tools-list li {
+  list-style-type: none;
+  display: inline;
+  padding: 20px;
+}
+@media screen and (max-width: 500px) {
+  .portfolio-page section#busters-content div.tools-row div.busters-tools ul.busters-tools-list li {
+    display: block;
+    padding: 5px;
+  }
+}
+.portfolio-page section#busters-content div.busters-facebook {
+  margin-top: 30px;
+}
+.portfolio-page section#busters-content div.busters-facebook h4 {
+  margin-bottom: -5px;
+}
+.portfolio-page section#busters-content div.busters-facebook div.busters-images-left,
+.portfolio-page section#busters-content div.busters-facebook div.busters-images-right {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.portfolio-page section#busters-content div.busters-facebook div.busters-images-left img,
+.portfolio-page section#busters-content div.busters-facebook div.busters-images-right img {
+  width: 100%;
+  padding: 14px 0;
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-page section#busters-content div.busters-facebook div.busters-images-left {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-page section#busters-content div.busters-facebook div.busters-images-right {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+.portfolio-page section#busters-content div.busters-insta {
+  margin-top: 30px;
+}
+.portfolio-page section#busters-content div.busters-insta div.busters-insta-imgs img {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+@media screen and (min-width: 992px) {
+  .portfolio-page section#busters-content div.busters-insta div.busters-insta-imgs img {
+    padding-left: 14px;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page section#busters-content div.busters-insta div.busters-insta-imgs img {
+    width: 100%;
+    height: auto;
+    padding: 14px 0;
+  }
+}
+.portfolio-page section#busters-content div.busters-previews {
+  margin-top: 30px;
+}
+.portfolio-page section#busters-content div.busters-previews div.busters-preview-imgs img {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+@media screen and (min-width: 992px) {
+  .portfolio-page section#busters-content div.busters-previews div.busters-preview-imgs img {
+    padding-left: 14px;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page section#busters-content div.busters-previews div.busters-preview-imgs img {
+    width: 100%;
+    height: auto;
+    padding: 14px 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolio-page #recmobile-content .row {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+@media screen and (max-width: 766px) {
+  .portfolio-page #recmobile-content h2#recmobile-title {
+    line-height: 3.5rem;
+    margin-top: 20px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page #recmobile-content h2#recmobile-title {
+    font-size: 2.75rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolio-page #recmobile-content h3 {
+    line-height: 2.6rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolio-page #recmobile-content h4 {
+    text-align: center;
+  }
+}
+.portfolio-page #recmobile-content div.recmobile-img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page #recmobile-content div.recmobile-img-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  .portfolio-page #recmobile-content div.recmobile-img-container img#recmobile-hero {
+    height: 400px;
+  }
+}
+.portfolio-page #recmobile-content div.roles-resp {
+  margin-top: -15px;
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-page #recmobile-content div.roles-resp {
+    margin-top: 20px;
+  }
+}
+.portfolio-page #recmobile-content img.flows {
+  width: 100%;
+}
+.portfolio-page #recmobile-content div.rec-survey, .portfolio-page #recmobile-content div.comp-flow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.portfolio-page #recmobile-content ol.recmobile-list {
+  margin-left: -20px;
+}
+.portfolio-page #recmobile-content ol.recmobile-list li {
+  font-weight: 600;
+  padding-left: 10px;
+  padding-bottom: 6px;
+}
+.portfolio-page #recmobile-content ol.recmobile-list li span {
+  font-weight: 400;
+}
+.portfolio-page #recmobile-content div.recmobile-timecont,
+.portfolio-page #recmobile-content div.recmobile-schedulecont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.portfolio-page #recmobile-content div.recmobile-timecont h4.recmobile-timetitle,
+.portfolio-page #recmobile-content div.recmobile-schedulecont h4.recmobile-timetitle {
+  text-align: center;
+  margin-bottom: -60px;
+}
+@media screen and (max-width: 500px) {
+  .portfolio-page #recmobile-content div.recmobile-timecont h4.recmobile-timetitle,
+  .portfolio-page #recmobile-content div.recmobile-schedulecont h4.recmobile-timetitle {
+    margin-bottom: -30px;
+  }
+}
+.portfolio-page #recmobile-content div.recmobile-timecont img.recmobile-allscreens,
+.portfolio-page #recmobile-content div.recmobile-schedulecont img.recmobile-allscreens {
+  margin-left: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 700px;
+}
+.portfolio-page #recmobile-content div.recmobile-solution {
+  text-align: center;
+}
+.portfolio-page #recmobile-content h4#recmobile-after-title {
+  margin-top: -50px !important;
+}
+@media screen and (max-width: 500px) {
+  .portfolio-page #recmobile-content h4#recmobile-after-title {
+    margin-top: 0 !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page #recmobile-content h3#recmobile-challenges-title {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .portfolio-page #recmobile-content h3#recmobile-improvement-title {
+    margin-top: -20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .portfolio-page #recmobile-content h3#recmobile-improvement-title {
+    margin-top: -40px;
+  }
+}
+.portfolio-page #recmobile-content img.recmobile-schedule {
+  margin-top: 20px;
+  height: 400px;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-page #recmobile-content img.recmobile-schedule {
+    height: 540px;
+  }
+}
+@media screen and (max-width: 766px) {
+  .portfolio-page section#detailpanem-content h2 {
+    line-height: 3.5rem;
+    margin-top: 20px !important;
+    padding-bottom: 25px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page section#detailpanem-content h2 {
+    font-size: 2.75rem;
+  }
+}
+.portfolio-page section#detailpanem-content div.panem-img-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.portfolio-page section#detailpanem-content div.panem-img-container img#detailpanem-hero {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+@media screen and (min-width: 992px) {
+  .portfolio-page section#detailpanem-content ul.goals-list {
+    margin-top: -15px;
+    margin-left: -20px;
+  }
+}
+.portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs {
+  display: flexbox;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container {
+  width: 32%;
+  margin: 0.5%;
+  max-height: 200px;
+  overflow: hidden;
+}
+.portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container img {
+  width: 100%;
+}
+.portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container img:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container {
+    width: 49%;
+    max-height: 100px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page section#detailpanem-content div.flex-display-row.detailpanem-imgs div.img-container {
+    max-height: 150px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 766px) {
+  .portfolio-page section#mysavei-content h2 {
+    line-height: 3.5rem;
+    margin-top: 20px !important;
+    padding-bottom: 25px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page section#mysavei-content h2 {
+    font-size: 2.75rem;
+  }
+}
+.portfolio-page section#mysavei-content img#mysavei-hero {
+  width: 100%;
+}
+.portfolio-page section#mysavei-content img#mysavei-hero:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+.portfolio-page section#mysavei-content div.mysavei-intro {
+  text-align: center;
+}
+.portfolio-page section#mysavei-content div.tools-row {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  min-width: 100vw;
+  height: auto;
+  margin-top: 40px;
+  margin-left: calc(-50vw + 50%);
+}
+@media screen and (max-width: 991px) {
   .portfolio-page section#mysavei-content div.tools-row {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    min-width: 100vw;
-    height: auto;
-    margin-top: 40px;
-    margin-left: calc(-50vw + 50%); }
-    @media screen and (max-width: 991px) {
-      .portfolio-page section#mysavei-content div.tools-row {
-        margin-top: 10px;
-        margin-bottom: 20px; } }
-    .portfolio-page section#mysavei-content div.tools-row div.mysavei-tools {
-      margin-bottom: -10px; }
-      @media screen and (max-width: 991px) {
-        .portfolio-page section#mysavei-content div.tools-row div.mysavei-tools h3 {
-          width: 100%;
-          text-align: center;
-          margin-bottom: -30px;
-          margin-top: 30px; } }
-      .portfolio-page section#mysavei-content div.tools-row div.mysavei-tools ul.mysavei-tools-list {
-        padding: 30px 0;
-        margin-top: 10px; }
-        .portfolio-page section#mysavei-content div.tools-row div.mysavei-tools ul.mysavei-tools-list li {
-          list-style-type: none;
-          display: inline;
-          padding: 20px; }
-          @media screen and (max-width: 767px) {
-            .portfolio-page section#mysavei-content div.tools-row div.mysavei-tools ul.mysavei-tools-list li {
-              display: block;
-              padding: 5px; } }
-  .portfolio-page section#mysavei-content .mysavei-goals,
-  .portfolio-page section#mysavei-content .mysavei-uxflow,
-  .portfolio-page section#mysavei-content .process-row,
-  .portfolio-page section#mysavei-content .mysavei-market,
-  .portfolio-page section#mysavei-content .mysavei-design {
-    margin-top: 40px; }
-    .portfolio-page section#mysavei-content .mysavei-goals ul.goals-highlevel,
-    .portfolio-page section#mysavei-content .mysavei-goals ul.goals-specific,
-    .portfolio-page section#mysavei-content .mysavei-goals ul.goals-developer,
-    .portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process,
-    .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-highlevel,
-    .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-specific,
-    .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-developer,
-    .portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process,
-    .portfolio-page section#mysavei-content .process-row ul.goals-highlevel,
-    .portfolio-page section#mysavei-content .process-row ul.goals-specific,
-    .portfolio-page section#mysavei-content .process-row ul.goals-developer,
-    .portfolio-page section#mysavei-content .process-row ol#mysavei-process,
-    .portfolio-page section#mysavei-content .mysavei-market ul.goals-highlevel,
-    .portfolio-page section#mysavei-content .mysavei-market ul.goals-specific,
-    .portfolio-page section#mysavei-content .mysavei-market ul.goals-developer,
-    .portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process,
-    .portfolio-page section#mysavei-content .mysavei-design ul.goals-highlevel,
-    .portfolio-page section#mysavei-content .mysavei-design ul.goals-specific,
-    .portfolio-page section#mysavei-content .mysavei-design ul.goals-developer,
-    .portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process {
-      margin-left: -20px; }
-      .portfolio-page section#mysavei-content .mysavei-goals ul.goals-highlevel li,
-      .portfolio-page section#mysavei-content .mysavei-goals ul.goals-specific li,
-      .portfolio-page section#mysavei-content .mysavei-goals ul.goals-developer li,
-      .portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process li,
-      .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-highlevel li,
-      .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-specific li,
-      .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-developer li,
-      .portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process li,
-      .portfolio-page section#mysavei-content .process-row ul.goals-highlevel li,
-      .portfolio-page section#mysavei-content .process-row ul.goals-specific li,
-      .portfolio-page section#mysavei-content .process-row ul.goals-developer li,
-      .portfolio-page section#mysavei-content .process-row ol#mysavei-process li,
-      .portfolio-page section#mysavei-content .mysavei-market ul.goals-highlevel li,
-      .portfolio-page section#mysavei-content .mysavei-market ul.goals-specific li,
-      .portfolio-page section#mysavei-content .mysavei-market ul.goals-developer li,
-      .portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process li,
-      .portfolio-page section#mysavei-content .mysavei-design ul.goals-highlevel li,
-      .portfolio-page section#mysavei-content .mysavei-design ul.goals-specific li,
-      .portfolio-page section#mysavei-content .mysavei-design ul.goals-developer li,
-      .portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process li {
-        padding-left: 10px;
-        padding-bottom: 10px; }
-        .portfolio-page section#mysavei-content .mysavei-goals ul.goals-highlevel li span,
-        .portfolio-page section#mysavei-content .mysavei-goals ul.goals-specific li span,
-        .portfolio-page section#mysavei-content .mysavei-goals ul.goals-developer li span,
-        .portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process li span,
-        .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-highlevel li span,
-        .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-specific li span,
-        .portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-developer li span,
-        .portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process li span,
-        .portfolio-page section#mysavei-content .process-row ul.goals-highlevel li span,
-        .portfolio-page section#mysavei-content .process-row ul.goals-specific li span,
-        .portfolio-page section#mysavei-content .process-row ul.goals-developer li span,
-        .portfolio-page section#mysavei-content .process-row ol#mysavei-process li span,
-        .portfolio-page section#mysavei-content .mysavei-market ul.goals-highlevel li span,
-        .portfolio-page section#mysavei-content .mysavei-market ul.goals-specific li span,
-        .portfolio-page section#mysavei-content .mysavei-market ul.goals-developer li span,
-        .portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process li span,
-        .portfolio-page section#mysavei-content .mysavei-design ul.goals-highlevel li span,
-        .portfolio-page section#mysavei-content .mysavei-design ul.goals-specific li span,
-        .portfolio-page section#mysavei-content .mysavei-design ul.goals-developer li span,
-        .portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process li span {
-          font-weight: 400; }
-    .portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process,
-    .portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process,
-    .portfolio-page section#mysavei-content .process-row ol#mysavei-process,
-    .portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process,
-    .portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process {
-      font-weight: 600; }
-      .portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process span,
-      .portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process span,
-      .portfolio-page section#mysavei-content .process-row ol#mysavei-process span,
-      .portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process span,
-      .portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process span {
-        font-weight: 400; }
-    .portfolio-page section#mysavei-content .mysavei-goals img,
-    .portfolio-page section#mysavei-content .mysavei-uxflow img,
-    .portfolio-page section#mysavei-content .process-row img,
-    .portfolio-page section#mysavei-content .mysavei-market img,
-    .portfolio-page section#mysavei-content .mysavei-design img {
-      width: 100%; }
-      .portfolio-page section#mysavei-content .mysavei-goals img:hover,
-      .portfolio-page section#mysavei-content .mysavei-uxflow img:hover,
-      .portfolio-page section#mysavei-content .process-row img:hover,
-      .portfolio-page section#mysavei-content .mysavei-market img:hover,
-      .portfolio-page section#mysavei-content .mysavei-design img:hover {
-        transform: scale(1.05);
-        cursor: pointer;
-        transition-duration: 0.4s; }
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+.portfolio-page section#mysavei-content div.tools-row div.mysavei-tools {
+  margin-bottom: -10px;
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page section#mysavei-content div.tools-row div.mysavei-tools h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: -30px;
+    margin-top: 30px;
+  }
+}
+.portfolio-page section#mysavei-content div.tools-row div.mysavei-tools ul.mysavei-tools-list {
+  padding: 30px 0;
+  margin-top: 10px;
+}
+.portfolio-page section#mysavei-content div.tools-row div.mysavei-tools ul.mysavei-tools-list li {
+  list-style-type: none;
+  display: inline;
+  padding: 20px;
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page section#mysavei-content div.tools-row div.mysavei-tools ul.mysavei-tools-list li {
+    display: block;
+    padding: 5px;
+  }
+}
+.portfolio-page section#mysavei-content .mysavei-goals,
+.portfolio-page section#mysavei-content .mysavei-uxflow,
+.portfolio-page section#mysavei-content .process-row,
+.portfolio-page section#mysavei-content .mysavei-market,
+.portfolio-page section#mysavei-content .mysavei-design {
+  margin-top: 40px;
+}
+.portfolio-page section#mysavei-content .mysavei-goals ul.goals-highlevel,
+.portfolio-page section#mysavei-content .mysavei-goals ul.goals-specific,
+.portfolio-page section#mysavei-content .mysavei-goals ul.goals-developer,
+.portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process,
+.portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-highlevel,
+.portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-specific,
+.portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-developer,
+.portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process,
+.portfolio-page section#mysavei-content .process-row ul.goals-highlevel,
+.portfolio-page section#mysavei-content .process-row ul.goals-specific,
+.portfolio-page section#mysavei-content .process-row ul.goals-developer,
+.portfolio-page section#mysavei-content .process-row ol#mysavei-process,
+.portfolio-page section#mysavei-content .mysavei-market ul.goals-highlevel,
+.portfolio-page section#mysavei-content .mysavei-market ul.goals-specific,
+.portfolio-page section#mysavei-content .mysavei-market ul.goals-developer,
+.portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process,
+.portfolio-page section#mysavei-content .mysavei-design ul.goals-highlevel,
+.portfolio-page section#mysavei-content .mysavei-design ul.goals-specific,
+.portfolio-page section#mysavei-content .mysavei-design ul.goals-developer,
+.portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process {
+  margin-left: -20px;
+}
+.portfolio-page section#mysavei-content .mysavei-goals ul.goals-highlevel li,
+.portfolio-page section#mysavei-content .mysavei-goals ul.goals-specific li,
+.portfolio-page section#mysavei-content .mysavei-goals ul.goals-developer li,
+.portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process li,
+.portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-highlevel li,
+.portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-specific li,
+.portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-developer li,
+.portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process li,
+.portfolio-page section#mysavei-content .process-row ul.goals-highlevel li,
+.portfolio-page section#mysavei-content .process-row ul.goals-specific li,
+.portfolio-page section#mysavei-content .process-row ul.goals-developer li,
+.portfolio-page section#mysavei-content .process-row ol#mysavei-process li,
+.portfolio-page section#mysavei-content .mysavei-market ul.goals-highlevel li,
+.portfolio-page section#mysavei-content .mysavei-market ul.goals-specific li,
+.portfolio-page section#mysavei-content .mysavei-market ul.goals-developer li,
+.portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process li,
+.portfolio-page section#mysavei-content .mysavei-design ul.goals-highlevel li,
+.portfolio-page section#mysavei-content .mysavei-design ul.goals-specific li,
+.portfolio-page section#mysavei-content .mysavei-design ul.goals-developer li,
+.portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process li {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.portfolio-page section#mysavei-content .mysavei-goals ul.goals-highlevel li span,
+.portfolio-page section#mysavei-content .mysavei-goals ul.goals-specific li span,
+.portfolio-page section#mysavei-content .mysavei-goals ul.goals-developer li span,
+.portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process li span,
+.portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-highlevel li span,
+.portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-specific li span,
+.portfolio-page section#mysavei-content .mysavei-uxflow ul.goals-developer li span,
+.portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process li span,
+.portfolio-page section#mysavei-content .process-row ul.goals-highlevel li span,
+.portfolio-page section#mysavei-content .process-row ul.goals-specific li span,
+.portfolio-page section#mysavei-content .process-row ul.goals-developer li span,
+.portfolio-page section#mysavei-content .process-row ol#mysavei-process li span,
+.portfolio-page section#mysavei-content .mysavei-market ul.goals-highlevel li span,
+.portfolio-page section#mysavei-content .mysavei-market ul.goals-specific li span,
+.portfolio-page section#mysavei-content .mysavei-market ul.goals-developer li span,
+.portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process li span,
+.portfolio-page section#mysavei-content .mysavei-design ul.goals-highlevel li span,
+.portfolio-page section#mysavei-content .mysavei-design ul.goals-specific li span,
+.portfolio-page section#mysavei-content .mysavei-design ul.goals-developer li span,
+.portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process li span {
+  font-weight: 400;
+}
+.portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process,
+.portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process,
+.portfolio-page section#mysavei-content .process-row ol#mysavei-process,
+.portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process,
+.portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process {
+  font-weight: 600;
+}
+.portfolio-page section#mysavei-content .mysavei-goals ol#mysavei-process span,
+.portfolio-page section#mysavei-content .mysavei-uxflow ol#mysavei-process span,
+.portfolio-page section#mysavei-content .process-row ol#mysavei-process span,
+.portfolio-page section#mysavei-content .mysavei-market ol#mysavei-process span,
+.portfolio-page section#mysavei-content .mysavei-design ol#mysavei-process span {
+  font-weight: 400;
+}
+.portfolio-page section#mysavei-content .mysavei-goals img,
+.portfolio-page section#mysavei-content .mysavei-uxflow img,
+.portfolio-page section#mysavei-content .process-row img,
+.portfolio-page section#mysavei-content .mysavei-market img,
+.portfolio-page section#mysavei-content .mysavei-design img {
+  width: 100%;
+}
+.portfolio-page section#mysavei-content .mysavei-goals img:hover,
+.portfolio-page section#mysavei-content .mysavei-uxflow img:hover,
+.portfolio-page section#mysavei-content .process-row img:hover,
+.portfolio-page section#mysavei-content .mysavei-market img:hover,
+.portfolio-page section#mysavei-content .mysavei-design img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+.portfolio-page section#mysavei-content .process-section {
+  border: 10px solid gray;
+  padding: 20px 40px;
+}
+@media screen and (max-width: 767px) {
   .portfolio-page section#mysavei-content .process-section {
-    border: 10px solid gray;
-    padding: 20px 40px; }
-    @media screen and (max-width: 767px) {
-      .portfolio-page section#mysavei-content .process-section {
-        padding: 10px 20px; } }
-  .portfolio-page section#mysavei-content .mysavei-uxflow,
-  .portfolio-page section#mysavei-content .mysavei-goals {
-    margin-top: 60px; }
-  .portfolio-page section#mysavei-content .mysavei-design {
-    margin-top: 80px; }
-  .portfolio-page section#mysavei-content .next-section {
-    border: 10px solid gray;
-    padding: 20px 40px; }
-    .portfolio-page section#mysavei-content .next-section a {
-      color: #39D08A;
-      font-weight: 600; }
-    .portfolio-page section#mysavei-content .next-section a:hover {
-      color: #5DD4CF; }
-  .portfolio-page .icon8 {
-    color: grey; }
-  @media screen and (max-width: 766px) {
-    .portfolio-page section#sharepoint-content h2 {
-      line-height: 3.5rem;
-      margin-top: 20px !important;
-      padding-bottom: 25px; } }
-  @media screen and (max-width: 991px) {
-    .portfolio-page section#sharepoint-content h2 {
-      font-size: 2.75rem; } }
-  .portfolio-page section#sharepoint-content img#sharepoint-hero {
-    width: 100%; }
-    .portfolio-page section#sharepoint-content img#sharepoint-hero:hover {
-      transform: scale(1.05);
-      cursor: pointer;
-      transition-duration: 0.4s; }
-  .portfolio-page section#sharepoint-content div.sharepoint-intro {
-    text-align: center; }
+    padding: 10px 20px;
+  }
+}
+.portfolio-page section#mysavei-content .mysavei-uxflow,
+.portfolio-page section#mysavei-content .mysavei-goals {
+  margin-top: 60px;
+}
+.portfolio-page section#mysavei-content .mysavei-design {
+  margin-top: 80px;
+}
+.portfolio-page section#mysavei-content .next-section {
+  border: 10px solid gray;
+  padding: 20px 40px;
+}
+.portfolio-page section#mysavei-content .next-section a {
+  color: #39D08A;
+  font-weight: 600;
+}
+.portfolio-page section#mysavei-content .next-section a:hover {
+  color: #5DD4CF;
+}
+.portfolio-page .icon8 {
+  color: grey;
+}
+@media screen and (max-width: 766px) {
+  .portfolio-page section#sharepoint-content h2 {
+    line-height: 3.5rem;
+    margin-top: 20px !important;
+    padding-bottom: 25px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page section#sharepoint-content h2 {
+    font-size: 2.75rem;
+  }
+}
+.portfolio-page section#sharepoint-content img#sharepoint-hero {
+  width: 100%;
+}
+.portfolio-page section#sharepoint-content img#sharepoint-hero:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+.portfolio-page section#sharepoint-content div.sharepoint-intro {
+  text-align: center;
+}
+.portfolio-page section#sharepoint-content div.tools-row {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  min-width: 100vw;
+  height: auto;
+  margin-top: 40px;
+  margin-left: calc(-50vw + 50%);
+}
+@media screen and (max-width: 991px) {
   .portfolio-page section#sharepoint-content div.tools-row {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    min-width: 100vw;
-    height: auto;
-    margin-top: 40px;
-    margin-left: calc(-50vw + 50%); }
-    @media screen and (max-width: 991px) {
-      .portfolio-page section#sharepoint-content div.tools-row {
-        margin-top: 10px;
-        margin-bottom: 20px; } }
-    .portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools {
-      margin-bottom: -10px; }
-      @media screen and (max-width: 991px) {
-        .portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools h3 {
-          width: 100%;
-          text-align: center;
-          margin-bottom: -30px;
-          margin-top: 30px; } }
-      .portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools ul.sharepoint-tools-list {
-        padding: 30px 0;
-        margin-top: 10px; }
-        .portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools ul.sharepoint-tools-list li {
-          list-style-type: none;
-          display: inline;
-          padding: 20px; }
-          @media screen and (max-width: 767px) {
-            .portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools ul.sharepoint-tools-list li {
-              display: block;
-              padding: 5px; } }
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+.portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools {
+  margin-bottom: -10px;
+}
+@media screen and (max-width: 991px) {
+  .portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: -30px;
+    margin-top: 30px;
+  }
+}
+.portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools ul.sharepoint-tools-list {
+  padding: 30px 0;
+  margin-top: 10px;
+}
+.portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools ul.sharepoint-tools-list li {
+  list-style-type: none;
+  display: inline;
+  padding: 20px;
+}
+@media screen and (max-width: 767px) {
+  .portfolio-page section#sharepoint-content div.tools-row div.sharepoint-tools ul.sharepoint-tools-list li {
+    display: block;
+    padding: 5px;
+  }
+}
+.portfolio-page section#sharepoint-content img.sharepoint-docs {
+  max-width: 500px;
+}
+@media screen and (max-width: 500px) {
   .portfolio-page section#sharepoint-content img.sharepoint-docs {
-    max-width: 500px; }
-    @media screen and (max-width: 500px) {
-      .portfolio-page section#sharepoint-content img.sharepoint-docs {
-        padding: 20px 20px 20px 40px; } }
-    .portfolio-page section#sharepoint-content img.sharepoint-docs:hover {
-      transform: scale(1.05);
-      cursor: pointer;
-      transition-duration: 0.4s; }
-  .portfolio-page section#sharepoint-content div.roles-row {
-    margin-top: 60px; }
-  .portfolio-page section#sharepoint-content div.goals-row,
-  .portfolio-page section#sharepoint-content div.process-row,
-  .portfolio-page section#sharepoint-content div.conclusions-row {
-    margin-top: 40px; }
-    .portfolio-page section#sharepoint-content div.goals-row ol,
-    .portfolio-page section#sharepoint-content div.process-row ol,
-    .portfolio-page section#sharepoint-content div.conclusions-row ol {
-      margin-left: -20px; }
-      .portfolio-page section#sharepoint-content div.goals-row ol li,
-      .portfolio-page section#sharepoint-content div.process-row ol li,
-      .portfolio-page section#sharepoint-content div.conclusions-row ol li {
-        font-weight: 600;
-        padding-left: 10px;
-        padding-bottom: 6px;
-        margin-top: 15px; }
-        .portfolio-page section#sharepoint-content div.goals-row ol li span,
-        .portfolio-page section#sharepoint-content div.process-row ol li span,
-        .portfolio-page section#sharepoint-content div.conclusions-row ol li span {
-          font-weight: 400; }
-  .portfolio-page section#sharepoint-content div.img-changes-row img {
-    width: 100%; }
-    .portfolio-page section#sharepoint-content div.img-changes-row img:hover {
-      transform: scale(1.05);
-      cursor: pointer;
-      transition-duration: 0.4s; }
-  .portfolio-page section#sharepoint-content div.img-changes-row div.new-features {
-    margin-top: 40px; }
+    padding: 20px 20px 20px 40px;
+  }
+}
+.portfolio-page section#sharepoint-content img.sharepoint-docs:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+.portfolio-page section#sharepoint-content div.roles-row {
+  margin-top: 60px;
+}
+.portfolio-page section#sharepoint-content div.goals-row,
+.portfolio-page section#sharepoint-content div.process-row,
+.portfolio-page section#sharepoint-content div.conclusions-row {
+  margin-top: 40px;
+}
+.portfolio-page section#sharepoint-content div.goals-row ol,
+.portfolio-page section#sharepoint-content div.process-row ol,
+.portfolio-page section#sharepoint-content div.conclusions-row ol {
+  margin-left: -20px;
+}
+.portfolio-page section#sharepoint-content div.goals-row ol li,
+.portfolio-page section#sharepoint-content div.process-row ol li,
+.portfolio-page section#sharepoint-content div.conclusions-row ol li {
+  font-weight: 600;
+  padding-left: 10px;
+  padding-bottom: 6px;
+  margin-top: 15px;
+}
+.portfolio-page section#sharepoint-content div.goals-row ol li span,
+.portfolio-page section#sharepoint-content div.process-row ol li span,
+.portfolio-page section#sharepoint-content div.conclusions-row ol li span {
+  font-weight: 400;
+}
+.portfolio-page section#sharepoint-content div.img-changes-row img {
+  width: 100%;
+}
+.portfolio-page section#sharepoint-content div.img-changes-row img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+.portfolio-page section#sharepoint-content div.img-changes-row div.new-features {
+  margin-top: 40px;
+}
 
 #gallery-page {
-  overflow-x: hidden; }
-  #gallery-page .back-btn {
-    z-index: 10;
-    margin-top: -15px; }
-  @media screen and (max-width: 767px) {
-    #gallery-page h2 {
-      text-align: center; }
-      #gallery-page h2 span {
-        display: none; }
-      #gallery-page h2:after {
-        text-align: center;
-        content: 'ART'; } }
-  #gallery-page header {
-    margin-bottom: -25px; }
-  #gallery-page div.gallery-row {
-    display: flex;
-    justify-content: center; }
-    #gallery-page div.gallery-row div.gallery {
-      overflow: hidden;
-      padding: 0; }
-      #gallery-page div.gallery-row div.gallery img {
-        width: 100%;
-        height: auto; }
-        #gallery-page div.gallery-row div.gallery img.horizontal {
-          width: auto; }
-          @media screen and (min-width: 1200px) {
-            #gallery-page div.gallery-row div.gallery img.horizontal {
-              height: 273px; } }
-          @media screen and (min-width: 992px) and (max-width: 1199px) {
-            #gallery-page div.gallery-row div.gallery img.horizontal {
-              height: 228px; } }
-          @media screen and (min-width: 768px) and (max-width: 991px) {
-            #gallery-page div.gallery-row div.gallery img.horizontal {
-              height: 224px; } }
-          @media screen and (min-width: 576px) and (max-width: 767px) {
-            #gallery-page div.gallery-row div.gallery img.horizontal {
-              height: 246px; } }
-          @media screen and (min-width: 450px) and (max-width: 575px) {
-            #gallery-page div.gallery-row div.gallery img.horizontal {
-              height: 200px; } }
-          @media screen and (min-width: 401px) and (max-width: 449px) {
-            #gallery-page div.gallery-row div.gallery img.horizontal {
-              height: 180px; } }
-          @media screen and (min-width: 375px) and (max-width: 400px) {
-            #gallery-page div.gallery-row div.gallery img.horizontal {
-              height: 163px; } }
-          @media screen and (max-width: 374px) {
-            #gallery-page div.gallery-row div.gallery img.horizontal {
-              height: 136px; } }
-        #gallery-page div.gallery-row div.gallery img:hover {
-          cursor: pointer;
+  overflow-x: hidden;
+}
+#gallery-page .back-btn {
+  z-index: 10;
+  margin-top: -15px;
+}
+@media screen and (max-width: 767px) {
+  #gallery-page h2 {
+    text-align: center;
+  }
+  #gallery-page h2 span {
+    display: none;
+  }
+  #gallery-page h2:after {
+    text-align: center;
+    content: "ART";
+  }
+}
+#gallery-page header {
+  margin-bottom: -25px;
+}
+#gallery-page div.gallery-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#gallery-page div.gallery-row div.gallery {
+  overflow: hidden;
+  padding: 0;
+}
+#gallery-page div.gallery-row div.gallery img {
+  width: 100%;
+  height: auto;
+}
+#gallery-page div.gallery-row div.gallery img.horizontal {
+  width: auto;
+}
+@media screen and (min-width: 1200px) {
+  #gallery-page div.gallery-row div.gallery img.horizontal {
+    height: 273px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #gallery-page div.gallery-row div.gallery img.horizontal {
+    height: 228px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #gallery-page div.gallery-row div.gallery img.horizontal {
+    height: 224px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #gallery-page div.gallery-row div.gallery img.horizontal {
+    height: 246px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 575px) {
+  #gallery-page div.gallery-row div.gallery img.horizontal {
+    height: 200px;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 449px) {
+  #gallery-page div.gallery-row div.gallery img.horizontal {
+    height: 180px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  #gallery-page div.gallery-row div.gallery img.horizontal {
+    height: 163px;
+  }
+}
+@media screen and (max-width: 374px) {
+  #gallery-page div.gallery-row div.gallery img.horizontal {
+    height: 136px;
+  }
+}
+#gallery-page div.gallery-row div.gallery img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.08);
           transform: scale(1.08);
-          transition: ease-in-out .2s;
-          opacity: 0.8; }
-      @media screen and (min-width: 1200px) {
-        #gallery-page div.gallery-row div.gallery {
-          max-height: 273px;
-          max-width: 273px; } }
-      @media screen and (min-width: 992px) and (max-width: 1199px) {
-        #gallery-page div.gallery-row div.gallery {
-          max-height: 228px;
-          max-width: 228px; } }
-      @media screen and (min-width: 768px) and (max-width: 991px) {
-        #gallery-page div.gallery-row div.gallery {
-          max-height: 224px;
-          max-width: 224px; } }
-      @media screen and (min-width: 576px) and (max-width: 767px) {
-        #gallery-page div.gallery-row div.gallery {
-          max-height: 246px;
-          max-width: 246px; } }
-      @media screen and (min-width: 450px) and (max-width: 575px) {
-        #gallery-page div.gallery-row div.gallery {
-          max-height: 200px;
-          max-width: 200px; } }
-      @media screen and (min-width: 401px) and (max-width: 449px) {
-        #gallery-page div.gallery-row div.gallery {
-          max-height: 180px;
-          max-width: 180px; } }
-      @media screen and (min-width: 375px) and (max-width: 400px) {
-        #gallery-page div.gallery-row div.gallery {
-          max-height: 163px;
-          max-width: 163px; } }
-      @media screen and (max-width: 374px) {
-        #gallery-page div.gallery-row div.gallery {
-          max-height: 136px;
-          max-width: 136px; } }
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+  opacity: 0.8;
+}
+@media screen and (min-width: 1200px) {
+  #gallery-page div.gallery-row div.gallery {
+    max-height: 273px;
+    max-width: 273px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #gallery-page div.gallery-row div.gallery {
+    max-height: 228px;
+    max-width: 228px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #gallery-page div.gallery-row div.gallery {
+    max-height: 224px;
+    max-width: 224px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  #gallery-page div.gallery-row div.gallery {
+    max-height: 246px;
+    max-width: 246px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 575px) {
+  #gallery-page div.gallery-row div.gallery {
+    max-height: 200px;
+    max-width: 200px;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 449px) {
+  #gallery-page div.gallery-row div.gallery {
+    max-height: 180px;
+    max-width: 180px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  #gallery-page div.gallery-row div.gallery {
+    max-height: 163px;
+    max-width: 163px;
+  }
+}
+@media screen and (max-width: 374px) {
+  #gallery-page div.gallery-row div.gallery {
+    max-height: 136px;
+    max-width: 136px;
+  }
+}
+
 /* The Modal (background) */
 .modal {
   display: none;
@@ -1278,8 +1879,9 @@ p.name-line.active {
   width: 100%;
   height: 100vh;
   overflow: auto;
-  background-color: white;
-  background-color: rgba(255, 255, 255, 0.9); }
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.9);
+}
 
 /* Modal Content (Image) */
 .modal-content {
@@ -1287,14 +1889,17 @@ p.name-line.active {
   display: none;
   max-height: 75vh;
   width: auto;
-  max-width: 80vw; }
+  max-width: 80vw;
+}
 
 .modal-content.horizontal {
   max-width: 80vw;
-  height: auto; }
+  height: auto;
+}
 
 .modal-content.show-modal {
-  display: block; }
+  display: block;
+}
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
@@ -1305,19 +1910,38 @@ p.name-line.active {
   text-align: center;
   color: #424242;
   padding: 10px 0;
-  height: 150px; }
+  height: 150px;
+}
 
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption {
-  animation-name: zoom;
-  animation-duration: 0.6s; }
+  -webkit-animation-name: zoom;
+          animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
 
 @keyframes zoom {
   from {
-    transform: scale(0); }
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
   to {
-    transform: scale(1); } }
-
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
 /* The Close Button */
 .close {
   position: absolute;
@@ -1326,15 +1950,20 @@ p.name-line.active {
   color: #424242;
   font-size: 40px;
   font-weight: bold;
-  transition: 0.3s; }
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 
 .close:hover,
 .close:focus {
   color: #333;
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
   .modal-content {
-    width: 100%; } }
+    width: 100%;
+  }
+}

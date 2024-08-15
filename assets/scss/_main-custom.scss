@@ -127,7 +127,7 @@ p.name-line.active {
 	// 	-webkit-animation: mover 1s 1;
 	// 	animation: mover 1s 1;
 	// }
-	h2.title {
+	h1.title {
 		font-size:3rem;
 	}
 	#navbar-txt-left {
@@ -142,7 +142,7 @@ p.name-line.active {
 	// 	-webkit-animation: mover 1s 1;
 	// 	animation: mover 1s 1;
 	// }
-	h2.title {
+	h1.title {
 		font-size:4rem;
 	}
 }
@@ -565,6 +565,35 @@ p.name-line.active {
 
 
 /* miscellaneous */
+	a.button {
+		padding: 0.65rem 1rem;
+		border-radius:3rem;
+		color: #FFF;
+		text-decoration: none;
+		border: none;
+	}
+	a.button:hover {
+		text-decoration: none;
+		border: none;
+	}
+	a.button.resume {
+		background-color:#E30041;
+	}
+	a.button.resume:hover {
+		background-color:#6600CC;
+	}
+	a.button.contact {
+		background-color:#00A0A3;
+	}
+	a.button.contact:hover {
+		background-color:#00A616;
+	}
+	a.button.email {
+		background-color:#FF5100;
+	}
+	a.button.email:hover {
+		background-color:#00A0A3;
+	}
 	#about-img-992up {
 		max-height:560px;
 		width:auto;
