@@ -183,13 +183,13 @@ p.name-line.active {
 	}
 /* */
 /* social link colors */
-#linkedin-social a {
+#linkedin-social a, #linkedin-descr {
 	color:#0A66C2;
 }
-#github-social a {
-	color:#000000;
+#github-social a, #github-descr {
+	color:#6600CC;
 }
-#yelp-social a {
+#yelp-social a, #yelp-descr {
 	color:#FF1A1A;
 }
 /* */
@@ -624,10 +624,16 @@ p.name-line.active {
 		background-color:#0022FF;
 	}
 	a.button.email {
-		background-color:#00A616;
+		background-color:#FF5100;
 	}
 	a.button.email:hover {
-		background-color:#FF5100;
+		background-color:#00A616;
+	}
+	a.button.back-portfolio {
+		background-color:#EEE;
+	}
+	a.button.back-portfolio:hover {
+		background-color:#111;
 	}
 
 	@media screen and (max-width:550px) {
