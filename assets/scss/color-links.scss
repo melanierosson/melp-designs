@@ -30,7 +30,6 @@
 /* TO DO: adjust the portfolio and personal project pages to match theme */
 // img,
 div.portfolio-descr {
-	/* all images have decreased saturation except under certain conditions */
 	@media screen and (min-width:991px) {
 		-webkit-filter: grayscale(50%);
 		-moz-filter:    grayscale(50%);
