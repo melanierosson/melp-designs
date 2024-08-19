@@ -206,6 +206,11 @@ p.name-line.active {
 		display:none;
 	}
 }
+@media screen and (min-width:401px) {
+	.hide-above-400 {
+		display:none;
+	}
+}
 
 
 /* hide all contact page social link descriptions on page load */
@@ -303,6 +308,7 @@ a.button {
 	color: #FFF !important;
 	text-decoration: none;
 	border: none;
+	// width:128px !important;
 }
 a.button:hover {
 	text-decoration: none;
@@ -313,6 +319,12 @@ a.button.resume {
 }
 a.button.resume:hover {
 	background-color:#6600CC;
+}
+a.button.portfolio {
+	background-color:#00A616;
+}
+a.button.portfolio:hover {
+	background-color:#0052CC;
 }
 a.button.contact {
 	background-color:#00A0A3;
