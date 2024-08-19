@@ -22,35 +22,9 @@
 
 /************************************/
 
-/* TO DO: fix mobile color to account for hierarchy */
-/* TO DO: check & adjust contrast colors with actual navbar background color */
+
 
 /*********** ANIMATIONS *************/
-/* almost ready but not quite yet */
-/* TO DO: adjust the portfolio and personal project pages to match theme */
-// img,
-div.portfolio-descr {
-	@media screen and (min-width:991px) {
-		-webkit-filter: grayscale(50%);
-		-moz-filter:    grayscale(50%);
-		-ms-filter:     grayscale(50%);
-		-o-filter:      grayscale(50%);
-		filter: gray; 
-	}
-}
-// img.saturate,
-div.portfolio-descr.saturate {
-	@media screen and (min-width:991px) {
-		filter: none;
-		-webkit-filter: grayscale(0%);
-		-moz-filter:    grayscale(0%);
-		-ms-filter:     grayscale(0%);
-		-o-filter:      grayscale(0%);
-	}
-}
-/* TO DO: adjust mobile colors to work right too */
-/* TO DO: have JS re-shuffle or cycle through the color order of the animation on every hover */
-/* uncomment the below animation link class styles to see current preview */
 a.ltbg-link:hover,
 .ltbg-link.color {
 	@media screen and (min-width:991px) {
@@ -65,9 +39,18 @@ a.dkbg-link:hover,
 		cursor:pointer;
 	}
 }
+a.button:hover,
+a.button.bgcolor {
+	@media screen and (min-width:991px) {
+		animation: btnBgAnim 0.3s 1;
+		cursor:pointer;
+	}
+}
 span.ltbg-anim {
 	animation: ltbgAnim 0.3s 1;
+	cursor:pointer;
 }
+
 
 @keyframes dkbgAnim {
   0%   {color:$dkbgPink;}
@@ -89,6 +72,17 @@ span.ltbg-anim {
   75%  {color:$ltbgRylblue;}
   85%  {color:$ltbgPurple;}
   100% {color:#FFFFFF;}
+}
+
+@keyframes btnBgAnim {
+  0%   {background-color:$ltbgBlue;}
+  15%  {background-color:$ltbgPink;}
+  25%  {background-color:$ltbgOrange;}
+  40%  {background-color:$ltbgTeal;}
+  60%  {background-color:$ltbgGreen;}
+  75%  {background-color:$ltbgRylblue;}
+  85%  {background-color:$ltbgPurple;}
+  100% {background-color:#FFFFFF;}
 }
 
 @keyframes ltbgAnimMobile {
@@ -248,166 +242,246 @@ span.ltbg-anim {
 /************************************/
 
 /********** Desktop Links ***********/
-@media screen and (min-width: 992px) {
+// @media screen and (min-width: 992px) {
 	/* desktop has link colors animate and transition randomly on hover */
-	a.ltbg-link {
-		&.pink {
-			@keyframes ltbgAnimPink {
-				0% { color:$ltbgBasecolor; }
-			    30% { color:$ltbgGreen; }
-			    100% { color:$ltbgPink; }
-			}
-		}
-		&.pink:hover {
-			animation: ltbgAnimPink 1s 1;
-			color:$ltbgPink !important;
-		}
+	// a.ltbg-link {
+	// 	&.pink {
+	// 		@keyframes ltbgAnimPink {
+	// 			0% { color:$ltbgBasecolor; }
+	// 		    30% { color:$ltbgGreen; }
+	// 		    100% { color:$ltbgPink; }
+	// 		}
+	// 	}
+	// 	&.pink:hover {
+	// 		animation: ltbgAnimPink 1s 1;
+	// 		color:$ltbgPink !important;
+	// 	}
 		
-		&.orange {
-			@keyframes ltbgAnimOrange {
-				0% { color:$ltbgBasecolor; }
-			    30% { color:$ltbgBlue; }
-			    100% { color:$ltbgOrange; }
-			}
-		}
-		&.orange:hover {
-			animation: ltbgAnimOrange 1s 1;
-			color:$ltbgOrange !important;
-		}
-		&.teal {
-			@keyframes ltbgAnimTeal {
-				0% { color:$ltbgBasecolor; }
-			    30% { color:$ltbgRylblue; }
-			    100% { color:$ltbgTeal; }
-			}
-		}
-		&.teal:hover {
-			animation: ltbgAnimTeal 1s 1;
-			color:$ltbgTeal !important;
-		}
-		&.green {
-			@keyframes ltbgAnimGreen {
-				0% { color:$ltbgBasecolor; }
-			    30% { color:$ltbgPurple; }
-			    100% { color:$ltbgGreen; }
-			}
-		}
-		&.green:hover {
-			animation: ltbgAnimGreen 1s 1;
-			color:$ltbgGreen !important;
-		}
-		&.rylblue {
-			@keyframes ltbgAnimRylblue {
-				0% { color:$ltbgBasecolor; }
-			    30% { color:$ltbgPink; }
-			    100% { color:$ltbgRylblue; }
-			}
-		}
-		&.rylblue:hover {
-			animation: ltbgAnimRylblue 1s 1;
-			color:$ltbgRylblue !important;
-		}
-		&.blue {
-			@keyframes ltbgAnimBlue {
-				0% { color:$ltbgBasecolor; }
-			    30% { color:$ltbgOrange; }
-			    100% { color:$ltbgBlue; }
-			}
-		}
-		&.blue:hover {
-			animation: ltbgAnimBlue 1s 1;
-			color:$ltbgBlue !important;
-		}
-		&.purple {
-			@keyframes ltbgAnimPurple {
-				0% { color:$ltbgBasecolor; }
-			    30% { color:$ltbgTeal; }
-			    100% { color:$ltbgPurple; }
-			}
-		}
-		&.purple:hover {
-			animation: ltbgAnimPurple 1s 1;
-			color:$ltbgPurple !important;
-		}
-	}
-	a.dkbg-link {
-		&.pink {
-			@keyframes dkbgAnimPink {
-				0% { color:$dkbgBasecolor; }
-			    30% { color:$dkbgYellow; }
-			    100% { color:$dkbgPink; }
-			}
-		}
-		&.pink:hover {
-			animation: dkbgAnimPink 1s 1;
-			color:$dkbgPink !important;
-		}
-		&.orange {
-			@keyframes dkbgAnimOrange {
-				0% { color:$dkbgBasecolor; }
-			    30% { color:$dkbgPurple; }
-			    100% { color:$dkbgOrange; }
-			}
-		}
-		&.orange:hover {
-			animation: dkbgAnimOrange 1s 1;
-			color:$dkbgOrange !important;
-		}
-		&.teal {
-			@keyframes dkbgAnimTeal {
-				0% { color:$dkbgBasecolor; }
-			    30% { color:$dkbgPink; }
-			    100% { color:$dkbgTeal; }
-			}
-		}
-		&.teal:hover {
-			animation: dkbgAnimTeal 1s 1;
-			color:$dkbgTeal !important;
-		}
-		&.yellow {
-			@keyframes dkbgAnimYellow {
-				0% { color:$dkbgBasecolor; }
-			    30% { color:$dkbgBlue; }
-			    100% { color:$dkbgYellow; }
-			}
-		}
-		&.yellow:hover {
-			animation: dkbgAnimYellow 1s 1;
-			color:$dkbgYellow !important;
-		}
-		&.green {
-			@keyframes dkbgAnimGreen {
-				0% { color:$dkbgBasecolor; }
-			    30% { color:$dkbgOrange; }
-			    100% { color:$dkbgGreen; }
-			}
-		}
-		&.green:hover {
-			animation: dkbgAnimGreen 1s 1;
-			color:$dkbgGreen !important;
-		}
-		&.blue {
-			@keyframes dkbgAnimBlue {
-				0% { color:$dkbgBasecolor; }
-			    30% { color:$dkbgGreen; }
-			    100% { color:$dkbgBlue; }
-			}
-		}
-		&.blue:hover {
-			animation: dkbgAnimBlue 1s 1;
-			color:$dkbgBlue !important;
-		}
-		&.purple {
-			@keyframes dkbgAnimPurple {
-				0% { color:$dkbgBasecolor; }
-			    30% { color:$dkbgTeal; }
-			    100% { color:$dkbgPurple; }
-			}
-		}
-		&.purple:hover {
-			animation: dkbgAnimPurple 1s 1;
-			color:$dkbgPurple !important;
-		}
-	}
-}
+	// 	&.orange {
+	// 		@keyframes ltbgAnimOrange {
+	// 			0% { color:$ltbgBasecolor; }
+	// 		    30% { color:$ltbgBlue; }
+	// 		    100% { color:$ltbgOrange; }
+	// 		}
+	// 	}
+	// 	&.orange:hover {
+	// 		animation: ltbgAnimOrange 1s 1;
+	// 		color:$ltbgOrange !important;
+	// 	}
+	// 	&.teal {
+	// 		@keyframes ltbgAnimTeal {
+	// 			0% { color:$ltbgBasecolor; }
+	// 		    30% { color:$ltbgRylblue; }
+	// 		    100% { color:$ltbgTeal; }
+	// 		}
+	// 	}
+	// 	&.teal:hover {
+	// 		animation: ltbgAnimTeal 1s 1;
+	// 		color:$ltbgTeal !important;
+	// 	}
+	// 	&.green {
+	// 		@keyframes ltbgAnimGreen {
+	// 			0% { color:$ltbgBasecolor; }
+	// 		    30% { color:$ltbgPurple; }
+	// 		    100% { color:$ltbgGreen; }
+	// 		}
+	// 	}
+	// 	&.green:hover {
+	// 		animation: ltbgAnimGreen 1s 1;
+	// 		color:$ltbgGreen !important;
+	// 	}
+	// 	&.rylblue {
+	// 		@keyframes ltbgAnimRylblue {
+	// 			0% { color:$ltbgBasecolor; }
+	// 		    30% { color:$ltbgPink; }
+	// 		    100% { color:$ltbgRylblue; }
+	// 		}
+	// 	}
+	// 	&.rylblue:hover {
+	// 		animation: ltbgAnimRylblue 1s 1;
+	// 		color:$ltbgRylblue !important;
+	// 	}
+	// 	&.blue {
+	// 		@keyframes ltbgAnimBlue {
+	// 			0% { color:$ltbgBasecolor; }
+	// 		    30% { color:$ltbgOrange; }
+	// 		    100% { color:$ltbgBlue; }
+	// 		}
+	// 	}
+	// 	&.blue:hover {
+	// 		animation: ltbgAnimBlue 1s 1;
+	// 		color:$ltbgBlue !important;
+	// 	}
+	// 	&.purple {
+	// 		@keyframes ltbgAnimPurple {
+	// 			0% { color:$ltbgBasecolor; }
+	// 		    30% { color:$ltbgTeal; }
+	// 		    100% { color:$ltbgPurple; }
+	// 		}
+	// 	}
+	// 	&.purple:hover {
+	// 		animation: ltbgAnimPurple 1s 1;
+	// 		color:$ltbgPurple !important;
+	// 	}
+	// }
+	// a.dkbg-link {
+	// 	&.pink {
+	// 		@keyframes dkbgAnimPink {
+	// 			0% { color:$dkbgBasecolor; }
+	// 		    30% { color:$dkbgYellow; }
+	// 		    100% { color:$dkbgPink; }
+	// 		}
+	// 	}
+	// 	&.pink:hover {
+	// 		animation: dkbgAnimPink 1s 1;
+	// 		color:$dkbgPink !important;
+	// 	}
+	// 	&.orange {
+	// 		@keyframes dkbgAnimOrange {
+	// 			0% { color:$dkbgBasecolor; }
+	// 		    30% { color:$dkbgPurple; }
+	// 		    100% { color:$dkbgOrange; }
+	// 		}
+	// 	}
+	// 	&.orange:hover {
+	// 		animation: dkbgAnimOrange 1s 1;
+	// 		color:$dkbgOrange !important;
+	// 	}
+	// 	&.teal {
+	// 		@keyframes dkbgAnimTeal {
+	// 			0% { color:$dkbgBasecolor; }
+	// 		    30% { color:$dkbgPink; }
+	// 		    100% { color:$dkbgTeal; }
+	// 		}
+	// 	}
+	// 	&.teal:hover {
+	// 		animation: dkbgAnimTeal 1s 1;
+	// 		color:$dkbgTeal !important;
+	// 	}
+	// 	&.yellow {
+	// 		@keyframes dkbgAnimYellow {
+	// 			0% { color:$dkbgBasecolor; }
+	// 		    30% { color:$dkbgBlue; }
+	// 		    100% { color:$dkbgYellow; }
+	// 		}
+	// 	}
+	// 	&.yellow:hover {
+	// 		animation: dkbgAnimYellow 1s 1;
+	// 		color:$dkbgYellow !important;
+	// 	}
+	// 	&.green {
+	// 		@keyframes dkbgAnimGreen {
+	// 			0% { color:$dkbgBasecolor; }
+	// 		    30% { color:$dkbgOrange; }
+	// 		    100% { color:$dkbgGreen; }
+	// 		}
+	// 	}
+	// 	&.green:hover {
+	// 		animation: dkbgAnimGreen 1s 1;
+	// 		color:$dkbgGreen !important;
+	// 	}
+	// 	&.blue {
+	// 		@keyframes dkbgAnimBlue {
+	// 			0% { color:$dkbgBasecolor; }
+	// 		    30% { color:$dkbgGreen; }
+	// 		    100% { color:$dkbgBlue; }
+	// 		}
+	// 	}
+	// 	&.blue:hover {
+	// 		animation: dkbgAnimBlue 1s 1;
+	// 		color:$dkbgBlue !important;
+	// 	}
+	// 	&.purple {
+	// 		@keyframes dkbgAnimPurple {
+	// 			0% { color:$dkbgBasecolor; }
+	// 		    30% { color:$dkbgTeal; }
+	// 		    100% { color:$dkbgPurple; }
+	// 		}
+	// 	}
+	// 	&.purple:hover {
+	// 		animation: dkbgAnimPurple 1s 1;
+	// 		color:$dkbgPurple !important;
+	// 	}
+	// }
+	// a.button {
+	// 	&.pink {
+	// 		@keyframes btnAnimPink {
+	// 			0% { background-color:$btnBasecolor; }
+	// 		    30% { background-color:$btnGreen; }
+	// 		    100% { background-color:$btnPink; }
+	// 		}
+	// 	}
+	// 	&.pink:hover {
+	// 		animation: btnAnimPink 1s 1;
+	// 		background-color:$btnPink !important;
+	// 	}
+		
+	// 	&.orange {
+	// 		@keyframes btnAnimOrange {
+	// 			0% { background-color:$btnBasecolor; }
+	// 		    30% { background-color:$btnBlue; }
+	// 		    100% { background-color:$btnOrange; }
+	// 		}
+	// 	}
+	// 	&.orange:hover {
+	// 		animation: btnAnimOrange 1s 1;
+	// 		background-color:$btnOrange !important;
+	// 	}
+	// 	&.teal {
+	// 		@keyframes btnAnimTeal {
+	// 			0% { background-color:$btnBasecolor; }
+	// 		    30% { background-color:$btnRylblue; }
+	// 		    100% { background-color:$btnTeal; }
+	// 		}
+	// 	}
+	// 	&.teal:hover {
+	// 		animation: btnAnimTeal 1s 1;
+	// 		background-color:$btnTeal !important;
+	// 	}
+	// 	&.green {
+	// 		@keyframes btnAnimGreen {
+	// 			0% { background-color:$btnBasecolor; }
+	// 		    30% { background-color:$btnPurple; }
+	// 		    100% { background-color:$btnGreen; }
+	// 		}
+	// 	}
+	// 	&.green:hover {
+	// 		animation: btnAnimGreen 1s 1;
+	// 		background-color:$btnGreen !important;
+	// 	}
+	// 	&.rylblue {
+	// 		@keyframes btnAnimRylblue {
+	// 			0% { background-color:$btnBasecolor; }
+	// 		    30% { background-color:$btnPink; }
+	// 		    100% { background-color:$btnRylblue; }
+	// 		}
+	// 	}
+	// 	&.rylblue:hover {
+	// 		animation: btnAnimRylblue 1s 1;
+	// 		background-color:$btnRylblue !important;
+	// 	}
+	// 	&.blue {
+	// 		@keyframes btnAnimBlue {
+	// 			0% { background-color:$btnBasecolor; }
+	// 		    30% { background-color:$btnOrange; }
+	// 		    100% { background-color:$btnBlue; }
+	// 		}
+	// 	}
+	// 	&.blue:hover {
+	// 		animation: btnAnimBlue 1s 1;
+	// 		background-color:$btnBlue !important;
+	// 	}
+	// 	&.purple {
+	// 		@keyframes btnAnimPurple {
+	// 			0% { background-color:$btnBasecolor; }
+	// 		    30% { background-color:$btnTeal; }
+	// 		    100% { background-color:$btnPurple; }
+	// 		}
+	// 	}
+	// 	&.purple:hover {
+	// 		animation: btnAnimPurple 1s 1;
+	// 		background-color:$btnPurple !important;
+	// 	}
+	// }
+// }
 /*********************************
