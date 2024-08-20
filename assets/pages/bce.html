@@ -31,7 +31,16 @@
 
 </head>
 
+<!-- Modal window -->
+  <div id="myModal" class="modal">
+     <img class="modal-content" id="bceimg">
+      <div id="caption"></div>
+  </div>
+  <!-- -->
+
 <body class="portfolio-page">
+
+
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
@@ -95,12 +104,14 @@
 
           <p>Low-frame count, animated, embeddable blog elements that educate visitors on related features in Quicken's personal finance software products.</p>
 
-          <div class="col-12">
-            <a href="../images/spending-pie-GIF-sm.gif" target="_blank">
-              <img class="img-fluid shade-img my-4" src="../images/spending-pie-GIF-sm.gif" alt="Spending pie chart animated blog conversion elements made based on previous Quicken branding">
-            </a>
-          </div>
 
+          <div class="col-12">
+            <!-- Image 1 -->
+            <button class="btn btn-open btn-modal">
+              <img id="bce-img-1" class="img-fluid shade-img my-4" src="../images/spending-pie-GIF-sm.gif" alt="Spending pie chart animated blog conversion elements made based on previous Quicken branding">
+            </button>
+          </div>
+          <!-- -->
           <div class="col-12">
             <h2 class="pt-4 txt-center uppercase">Tools & Platforms Used</h2>
               <ul class="no-bullet mt-2">
@@ -156,9 +167,9 @@
           </div>
 
           <div class="col-12">
-            <a href="../images/savings-goals-GIF-sm.gif" target="_blank">
-                <img class="img-fluid shade-img my-4" src="../images/savings-goals-GIF-sm.gif" alt="Savings goals progress bar animated blog conversion elements made based on previous Quicken branding" />
-            </a>
+            <button class="btn btn-open btn-modal">
+                <img id="bce-img-2" class="img-fluid shade-img my-4" src="../images/savings-goals-GIF-sm.gif" alt="Savings goals progress bar animated blog conversion elements made based on previous Quicken branding" />
+            </button>
           </div>
 
           <div class="col-12">
@@ -183,9 +194,9 @@
           </div>
 
           <div class="col-12">
-              <a href="../images/tax-reports-GIF-sm.gif" target="_blank">
-                  <img class="img-fluid shade-img my-4 bce" src="../images/tax-reports-GIF-sm.gif" alt="Tax reports animated blog conversion element made based on previous Quicken branding" />
-              </a>
+              <button class="btn btn-open btn-modal">
+                  <img id="bce-img-3" class="img-fluid shade-img my-4 bce" src="../images/tax-reports-GIF-sm.gif" alt="Tax reports animated blog conversion element made based on previous Quicken branding" />
+              </button>
           </div>
 
           <div class="col-12">
@@ -206,19 +217,19 @@
 
           <div class="col-12 mx-0 px-0  flex-display-row flex-align-center bottom-row">
             <div class="col-4 mt-4 mx-0 px-0">
-                <a href="../images/mobile-simplifi-pie-chart.png" target="_blank">
-                    <img class="img-fluid shade-img" src="../images/mobile-simplifi-pie-chart.png" alt="Responsive mobile layout of the Quicken Simplifi pie chart blog conversion element" />
-                </a>
+                <button class="btn btn-open btn-modal">
+                    <img id="bce-img-4" class="img-fluid shade-img" src="../images/mobile-simplifi-pie-chart.png" alt="Responsive mobile layout of the Quicken Simplifi pie chart blog conversion element" />
+                </button>
             </div>
             <div class="col-4 mt-4 mx-0 px-0">
-                <a href="../images/mobile-simplifi-savings-bar.png" target="_blank">
-                    <img class="img-fluid shade-img" src="../images/mobile-simplifi-savings-bar.png" alt="Responsive mobile layout of the Quicken Simplifi savings goals progress bar blog conversion element" />
-                </a>
+                <button class="btn btn-open btn-modal">
+                    <img id="bce-img-5" class="img-fluid shade-img" src="../images/mobile-simplifi-savings-bar.png" alt="Responsive mobile layout of the Quicken Simplifi savings goals progress bar blog conversion element" />
+                </button>
             </div>
             <div class="col-4 mt-4 mx-0 px-0">
-                <a href="../images/mobile-tax-reports.png" target="_blank">
-                    <img class="img-fluid shade-img" src="../images/mobile-tax-reports.png" alt="Responsive mobile layout of the Quicken Home and Business tax reports list blog conversion element" />
-                </a>
+                <button class="btn btn-open btn-modal">
+                    <img id="bce-img-6" class="img-fluid shade-img" src="../images/mobile-tax-reports.png" alt="Responsive mobile layout of the Quicken Home and Business tax reports list blog conversion element" />
+                </button>
             </div>
           </div>
 
@@ -236,6 +247,7 @@
 
   <!-- Custom JS -->
   <script src="../js/color-links-min.js"></script>
+  <script src="../js/modals-min.js"></script>
 
   <!-- Bootstrap JS -->
   <script src="../vendor/jquery/jquery.min.js"></script>
