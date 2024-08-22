@@ -270,19 +270,50 @@ div.portfolio-card.deactivated, a.portfolio-card.deactivated:hover {
 	text-decoration:none;
 }
 div.portfolio-card.portfolio-bce {
-  	background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/images/bce-preview.jpg');
+  	// background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/images/bce-preview.jpg');
+  	background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/images/bce-mockedup-devices.png');
   	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
   	border: 4px solid #00A0A3;
 }
 div.portfolio-card.portfolio-bce:hover {
-  	background:linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../assets/images/bce-preview.jpg');
+  	// background:linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../assets/images/bce-preview.jpg');
+  	background:linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../assets/images/bce-mockedup-devices.png');
+  	  	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  	border: 4px solid #FFEA00;
+}
+div.portfolio-card.portfolio-detailedbypanem {
+  	// background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/images/detailedbypanem-preview.jpg');
+  	background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/images/detailedbypanem-mockedup-devices.png');
   	background-size:cover;
+	background-position-x:50%;
+	background-position-y:20%;
+	background-repeat: no-repeat;
+  	border: 4px solid #00A0A3;
+}
+div.portfolio-card.portfolio-detailedbypanem:hover {
+  	// background:linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../assets/images/detailedbypanem-preview.jpg');
+  	background:linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../assets/images/detailedbypanem-mockedup-devices.png');
+  	background-size:cover;
+	background-position-x:50%;
+	background-position-y:20%;
+	background-repeat: no-repeat;
   	border: 4px solid #FFEA00;
 }
 
 
 
 /* miscellaneous */
+.pink {
+	color:#FD7CA9;
+}
+.attr {
+	color:#aaa;
+	font-size:11px;
+}
 .shade-img {
 	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15), 0 8px 20px 0 rgba(0, 0, 0, 0.15);
 }

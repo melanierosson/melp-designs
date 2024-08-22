@@ -9,6 +9,7 @@ var bceImg3 = document.getElementById('bce-img-3');
 var bceImg4 = document.getElementById('bce-img-4');
 var bceImg5 = document.getElementById('bce-img-5');
 var bceImg6 = document.getElementById('bce-img-6');
+var bceImg7 = document.getElementById('bce-img-7');
 var captionText = document.getElementById("caption");
 bceImg1.onclick = function(){
     modal.style.display = "flex";
@@ -46,6 +47,13 @@ bceImg5.onclick = function(){
     captionText.innerHTML = this.alt;
 }
 bceImg6.onclick = function(){
+    modal.style.display = "flex";
+    modalBceImg1.style.display = "flex";
+    modalBceImg1.src = this.src;
+    modalBceImg1.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+bceImg7.onclick = function(){
     modal.style.display = "flex";
     modalBceImg1.style.display = "flex";
     modalBceImg1.src = this.src;
