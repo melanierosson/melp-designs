@@ -262,8 +262,11 @@ a.portfolio-card:hover {
 	text-decoration:none;
 }
 div.portfolio-card.deactivated {
-	background-color:#AAA;
-	border: 4px solid #666;
+	// background-color:#AAA;
+	border: 4px solid #666 !important;
+}
+div.portfolio-card.deactivated:hover {
+	border: 4px solid #999 !important;
 }
 div.portfolio-card.deactivated, a.portfolio-card.deactivated:hover {
 	cursor:default;
@@ -271,7 +274,7 @@ div.portfolio-card.deactivated, a.portfolio-card.deactivated:hover {
 }
 div.portfolio-card.portfolio-bce {
   	// background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/images/bce-preview.jpg');
-  	background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/images/bce-mockedup-devices.png');
+  	background:linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../../assets/images/bce-mockedup-devices.png');
   	background-size:cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -279,7 +282,7 @@ div.portfolio-card.portfolio-bce {
 }
 div.portfolio-card.portfolio-bce:hover {
   	// background:linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../assets/images/bce-preview.jpg');
-  	background:linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../assets/images/bce-mockedup-devices.png');
+  	background:linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../../assets/images/bce-mockedup-devices.png');
   	  	background-size:cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -296,7 +299,23 @@ div.portfolio-card.portfolio-detailedbypanem {
 }
 div.portfolio-card.portfolio-detailedbypanem:hover {
   	// background:linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../assets/images/detailedbypanem-preview.jpg');
-  	background:linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../assets/images/detailedbypanem-mockedup-devices.png');
+  	background:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../assets/images/detailedbypanem-mockedup-devices.png');
+  	background-size:cover;
+	background-position-x:50%;
+	background-position-y:20%;
+	background-repeat: no-repeat;
+  	border: 4px solid #FFEA00;
+}
+div.portfolio-card.portfolio-otherprojects {
+  	background:linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../../assets/images/other-mockedup-devices.png');
+  	background-size:cover;
+	background-position-x:50%;
+	background-position-y:20%;
+	background-repeat: no-repeat;
+  	border: 4px solid #00A0A3;
+}
+div.portfolio-card.portfolio-otherprojects:hover {
+  	background:linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../../assets/images/other-mockedup-devices.png');
   	background-size:cover;
 	background-position-x:50%;
 	background-position-y:20%;
@@ -307,6 +326,12 @@ div.portfolio-card.portfolio-detailedbypanem:hover {
 
 
 /* miscellaneous */
+.smaller-img {
+	width: 300px; 
+	max-height: 300px;
+	object-fit: cover; 
+	object-position: top center;
+}
 .pink {
 	color:#FD7CA9;
 }
