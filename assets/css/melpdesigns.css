@@ -580,6 +580,11 @@ ul.no-bullet {
   margin-left: 0;
 }
 
+ul.no-bullet.spaced-out li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
 p.bottom-spacer {
   padding-bottom: 60px;
 }
