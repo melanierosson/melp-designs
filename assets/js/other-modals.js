@@ -6,8 +6,8 @@ var otherImg1 = document.getElementById('other-img-1');
 var modalImg = document.getElementById("modal-img");
 var otherImg2 = document.getElementById('other-img-2');
 var otherImg3 = document.getElementById('other-img-3');
-var otherImg4 = document.getElementById('other-img-4');
-var otherImg5 = document.getElementById('other-img-5');
+// var otherImg4 = document.getElementById('other-img-4');
+// var otherImg5 = document.getElementById('other-img-5');
 var otherImg6 = document.getElementById('other-img-6');
 var otherImg7 = document.getElementById('other-img-7');
 var otherImg8 = document.getElementById('other-img-8');
@@ -33,20 +33,20 @@ otherImg3.onclick = function(){
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
 }
-otherImg4.onclick = function(){
-    modal.style.display = "flex";
-    modalImg.style.display = "flex";
-    modalImg.src = this.src;
-    modalImg.alt = this.alt;
-    captionText.innerHTML = this.alt;
-}
-otherImg5.onclick = function(){
-    modal.style.display = "flex";
-    modalImg.style.display = "flex";
-    modalImg.src = this.src;
-    modalImg.alt = this.alt;
-    captionText.innerHTML = this.alt;
-}
+// otherImg4.onclick = function(){
+//     modal.style.display = "flex";
+//     modalImg.style.display = "flex";
+//     modalImg.src = this.src;
+//     modalImg.alt = this.alt;
+//     captionText.innerHTML = this.alt;
+// }
+// otherImg5.onclick = function(){
+//     modal.style.display = "flex";
+//     modalImg.style.display = "flex";
+//     modalImg.src = this.src;
+//     modalImg.alt = this.alt;
+//     captionText.innerHTML = this.alt;
+// }
 otherImg6.onclick = function(){
     modal.style.display = "flex";
     modalImg.style.display = "flex";
