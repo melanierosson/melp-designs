@@ -170,6 +170,7 @@
 /* top-level custom stuff */
 html {
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -241,7 +242,6 @@ p.name-line.active {
 
 .active-projects {
   position: relative;
-  z-index: 10;
 }
 
 /* front page name animation keyframes */
@@ -601,11 +601,12 @@ a.button {
   color: #FFF !important;
   text-decoration: none;
   border: none;
+  border: 2px solid #FFF;
 }
 
 a.button:hover {
   text-decoration: none;
-  border: none;
+  cursor: pointer;
 }
 
 a.button.resume {
@@ -647,6 +648,41 @@ a.button.back-portfolio {
 
 a.button.back-portfolio:hover {
   background-color: #AAA;
+  color: #111111 !important;
+  border: 2px solid #111111;
+}
+
+#backToTop {
+  display: none; /*To hide the button initially*/
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 50px;
+  position: fixed !important;
+  bottom: 80px;
+  right: 20px;
+  z-index: 999 !important;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  background-color: #777;
+  color: #FFF;
+  border-radius: 50%;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+#backToTop:hover {
+  background-color: #AAA;
+  color: #111111;
+  border: 2px solid #111111;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 550px) {

@@ -1,0 +1,1 @@
+const backToTopBtn=document.getElementById("backToTop");window.addEventListener("scroll",(()=>{document.body.scrollTop>20||document.documentElement.scrollTop>20?backToTopBtn.style.display="flex":backToTopBtn.style.display="none"})),backToTopBtn.addEventListener("click",(()=>{document.body.scrollTop=0,document.documentElement.scrollTop=0}));
