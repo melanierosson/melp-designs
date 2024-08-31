@@ -360,6 +360,9 @@ p.name-line.active {
   h1.portfolio-title {
     font-size: 2.25rem;
   }
+  #bce-title {
+    font-size: 2rem !important;
+  }
   .portfolio-card {
     padding-left: 10px;
     padding-right: 10px;
