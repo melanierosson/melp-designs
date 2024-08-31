@@ -126,7 +126,7 @@ p.name-line.active {
 }
 @media screen and (max-width:440px) {
 	#bce-title {
-		font-size:2rem;
+		font-size:2.1rem;
 	}
 	h2 {
 		font-size:1.65rem;
@@ -155,9 +155,6 @@ p.name-line.active {
 	}
 	h1.portfolio-title {
 		font-size:2.25rem;
-	}
-	#bce-title {
-		font-size:2rem !important;
 	}
 	.portfolio-card {
 		padding-left:10px;
@@ -419,6 +416,9 @@ a.button.back-portfolio:hover {
   align-items:center;
   height: 50px !important;
   width: 50px !important;
+  max-height: 50px !important;
+  max-width: 50px !important;
+  padding:0;
   position: fixed !important;
   bottom: 80px;
   right: 20px;
