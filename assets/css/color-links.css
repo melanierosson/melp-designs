@@ -39,6 +39,13 @@ div.portfolio-descr {
     animation: dkbgAnim 0.3s 1;
     cursor: pointer; } }
 
+
+@media screen and (min-width:991px) {
+  a.button:hover,
+  a.button.bgcolor {
+    animation: btnBgAnim 0.3s 1;
+    cursor:pointer; } }
+
 span.ltbg-anim {
   animation: ltbgAnim 0.3s 1; }
 
@@ -77,6 +84,24 @@ span.ltbg-anim {
     color: #6600CC; }
   100% {
     color: #FFFFFF; } }
+
+@keyframes btnBgAnim {
+  0% {
+    background-color: #0052CC; }
+  15% {
+    background-color: #E30041; }
+  25% {
+    background-color: #FF5100; }
+  40% {
+    background-color: #00A0A3; }
+  60% {
+    background-color: #00A616; }
+  75% {
+    background-color: #0022FF; }
+  85% {
+    background-color: #6600CC; }
+  100% {
+    background-color: #FFFFFF; } }
 
 @keyframes ltbgAnimMobile {
   0% {
