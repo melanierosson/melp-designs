@@ -42,7 +42,8 @@ div.portfolio-descr {
 
 @media screen and (min-width:991px) {
   a.button:hover,
-  a.button.bgcolor {
+  a.button.bgcolor, 
+  button.button:hover {
     animation: btnBgAnim 0.3s 1;
     cursor:pointer; } }
 
