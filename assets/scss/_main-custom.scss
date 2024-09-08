@@ -8,6 +8,9 @@ html {
 html::-webkit-scrollbar {
   display: none;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   /*background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
@@ -17,6 +20,11 @@ body {
   -o-background-size: cover;*/
   overflow-x:hidden;
   position: relative;
+  
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 h6 a:link, 
 h6 a:visited, 
