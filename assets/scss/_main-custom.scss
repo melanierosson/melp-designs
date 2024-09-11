@@ -3,13 +3,13 @@ html {
   overflow-y: scroll;
   scroll-behavior: smooth;
   -ms-overflow-style: none;
-  scrollbar-width: none;
+  scrollbar-width: none !important;
 }
 html::-webkit-scrollbar {
-  display: none;
+  display: none !important;
 }
 body::-webkit-scrollbar {
-  display: none;
+  display: none !important;
 }
 body {
   font-family: 'Montserrat', sans-serif;
@@ -24,7 +24,16 @@ body {
   overflow-y: scroll;
   scroll-behavior: smooth;
   -ms-overflow-style: none;
-  scrollbar-width: none;
+  scrollbar-width: none !important;
+}
+section::-webkit-scrollbar {
+	display: none !important;
+}
+section {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none; !important
 }
 h6 a:link, 
 h6 a:visited, 

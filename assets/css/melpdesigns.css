@@ -176,11 +176,11 @@ html {
 }
 
 html::-webkit-scrollbar {
-  display: none;
+  display: none !important;
 }
 
 body::-webkit-scrollbar {
-  display: none;
+  display: none !important;
 }
 
 body {
@@ -192,6 +192,17 @@ body {
   -o-background-size: cover;*/
   overflow-x: hidden;
   position: relative;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+section::-webkit-scrollbar {
+  display: none !important;
+}
+
+section {
   overflow-y: scroll;
   scroll-behavior: smooth;
   -ms-overflow-style: none;
