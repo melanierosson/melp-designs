@@ -779,7 +779,7 @@ a.button.back-portfolio:hover {
   display: block;
   width: auto;
   height: auto;
-  max-height: 80%;
+  max-height: none;
   max-width: 80%;
 }
 

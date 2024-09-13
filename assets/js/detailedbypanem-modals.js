@@ -26,6 +26,7 @@ var autoImg20 = document.getElementById('auto-img-20');
 var autoImg21 = document.getElementById('auto-img-21');
 var autoImg22 = document.getElementById('auto-img-22');
 var autoImg23 = document.getElementById('auto-img-23');
+var autoImg24 = document.getElementById('auto-img-24');
 var captionText = document.getElementById("caption");
 autoImg1.onclick = function(){
     modal.style.display = "flex";
@@ -182,6 +183,13 @@ autoImg22.onclick = function(){
     captionText.innerHTML = this.alt;
 }
 autoImg23.onclick = function(){
+    modal.style.display = "flex";
+    modalImg.style.display = "flex";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+autoImg24.onclick = function(){
     modal.style.display = "flex";
     modalImg.style.display = "flex";
     modalImg.src = this.src;
