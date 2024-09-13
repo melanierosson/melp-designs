@@ -29,6 +29,9 @@
   <!-- Favicon -->
   <link rel="icon" href="../assets/images/favicon3.png">
 
+  <!-- Loader animation -->
+  <link href="assets/css/loader.css" rel="stylesheet">
+
 </head>
 
 <!-- Modal window -->
@@ -39,6 +42,12 @@
   <!-- -->
 
 <body class="portfolio-page">
+
+  <!-- LOADER -->
+  <div id="loader-wrapper">
+    <div class="loader" id="loader"></div>
+  </div>
+  <!-- -->
 
 
   <!-- Navigation -->
@@ -278,6 +287,12 @@
   <!-- Bootstrap JS -->
   <script src="../assets/vendor/jquery/jquery.min.js"></script>
   <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $(window).on("load",function(){
+      $("#loader-wrapper").fadeOut()
+    });
+  </script>
 
 </body>
 
