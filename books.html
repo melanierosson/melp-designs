@@ -80,11 +80,22 @@
   </nav>
 
   <!-- Page Content -->
-  <section id="about-content" class="minh-100vh flex-display-row flex-align-center txt-center">
-    <article class="container">
-      <div class="row p-4">
+  <section id="about-content" class="minh-100vh flex-display-row flex-align-center">
+    <article class="container" data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="750">
+      <div class="row">
+        <div class="col-12 mt-4 mb-0 pt-2 ml-2">
+            <p class="back-btn">
+              <a href="about.html" class="button back-portfolio uppercase">
+                <span class="txt-18px">←</span>
+                about
+              </a>
+            </p>
+        </div>
+      </div>
+
+      <div class="row p-4 txt-center">
         <div class="col-lg-3">&nbsp;</div>
-        <div class="col-lg-6" data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-duration="750">
+        <div class="col-lg-6">
           <h1 id="about-title" class="title mt-n4 uppercase txt-lineht-2p txt-600 txt-space-4px">
             BOOKS
           </h1>
@@ -95,32 +106,32 @@
           <p class="mt-4 mb-4">
             Some cool books I've read that have improved my professional skills or insights.
           </p>
-           <ul class="no-bullet mt-2">
-            <li>  
-              <a href="https://a.co/d/2NtKS79" target="_blank">The Lean Startup by Eric Ries</a>
-            </li>
-            <li>  
-              <a href="https://a.co/d/7rrJXOp" target="_blank">The Design of Everyday Things by Donald A. Norman</a>
-            </li>
-            <li>  
-              <a href="https://a.co/d/04lRWLO" target="_blank">UX Lifecycle by Jeremy Baines and Clive Howard</a>
-            </li>
-            <li>  
-              <a href="https://a.co/d/dYeKHbV" target="_blank">Contagious by Jonah Berger</a>
-            </li>
-            <!-- <li>  
-              <a href="LINK" target="_blank">Design-Drive Growth by Molly Norris Walker</a>
-            </li> -->
-            <li>  
-              <a href="https://a.co/d/aKwGHMH" target="_blank">Intuitive Design by Everett N. McKay</a>
-            </li>
-            <li>  
-              <a href="https://a.co/d/fSUiuHS" target="_blank">Technically Wrong by Sara Wachter-Boettcher</a>
-            </li>
-            <li>  
-              <a href="https://a.co/d/0VmIByN" target="_blank">Lean vs. Agile vs. Design Thinking by Jeff Gothelf</a>
-            </li>
-            </ul>
+          <div class="container book-cards mb-4 pb-4">
+            <div class="row">
+              <div class="col-md-4 col-6 bkcrd" onclick="window.open('https://a.co/d/2NtKS79')" style="background-image:url('./assets/images/books/leanstartup-rieseric.jpg');">  
+                <!-- <div style="background-image:url('./assets/images/books/leanstartup-rieseric.jpg');" class="book-img"></div> -->
+                <!-- The Lean Startup by Eric Ries -->
+              </div>
+              <div class="col-md-4 col-6 bkcrd" onclick="window.open('https://a.co/d/7rrJXOp')" style="background-image:url('./assets/images/books/designofeverydaythings-normandon.jpg');">  
+                <!-- The Design of Everyday Things by Donald A. Norman -->
+              </div>
+              <div class="col-md-4 col-6 bkcrd" onclick="window.open('https://a.co/d/04lRWLO')" style="background-image:url('./assets/images/books/uxlifecycles-baineshoward.jpeg');">  
+                <!-- UX Lifecycle by Jeremy Baines and Clive Howard -->
+              </div>
+              <div class="col-md-4 col-6 bkcrd" onclick="window.open('https://a.co/d/aKwGHMH')" style="background-image:url('./assets/images/books/intuitivedesign-mckayeverett.jpg');">  
+                <!-- Intuitive Design by Everett N. McKay -->
+              </div>
+              <div class="col-md-4 col-6 bkcrd" onclick="window.open('https://a.co/d/dYeKHbV')" style="background-image:url('./assets/images/books/contagious-bergerjonah.jpg');">  
+                <!-- Contagious by Jonah Berger -->
+              </div>
+              <div class="col-md-4 col-6 bkcrd" onclick="window.open('https://a.co/d/0VmIByN')" style="background-image:url('./assets/images/books/leanvsagilevsdesignthinking-gothelfjeff.jpg');">  
+                <!-- Lean vs. Agile vs. Design Thinking by Jeff Gothelf -->
+              </div>
+              <div class="col-md-4 col-6 bkcrd" onclick="window.open('https://a.co/d/fSUiuHS')" style="background-image:url('./assets/images/books/technicallywrong.jpg');">  
+                <!-- Technically Wrong by Sara Wachter-Boettcher -->
+              </div>
+            </div>
+          </div>
           <!-- <p class="resume-btn mt-4 mb-4 hide-mobile">
             <a class="uppercase button resume mr-2" href="resume.pdf" target="_blank">
               my resume
