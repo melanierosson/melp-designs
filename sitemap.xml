@@ -4,72 +4,50 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
-  <loc>http://melpdesigns.com/</loc>
-  <lastmod>2020-12-26T00:53:00+00:00</lastmod>
+  <loc>http://melaniepanem.com/</loc>
+  <lastmod>2024-12-16T00:53:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://melpdesigns.com/index.html</loc>
-  <lastmod>2020-12-26T00:53:00+00:00</lastmod>
+  <loc>http://melaniepanem.com/index.html</loc>
+  <lastmod>2024-12-16T00:53:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://melpdesigns.com/about.html</loc>
-  <lastmod>2020-12-26T00:52:59+00:00</lastmod>
+  <loc>http://melaniepanem.com/about.html</loc>
+  <lastmod>2024-12-16T00:52:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://melpdesigns.com/portfolio.html</loc>
-  <lastmod>2020-12-26T00:53:00+00:00</lastmod>
+  <loc>http://melaniepanem.com/portfolio.html</loc>
+  <lastmod>2024-12-16T00:53:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://melpdesigns.com/personal.html</loc>
-  <lastmod>2020-12-26T00:53:00+00:00</lastmod>
+  <loc>http://melaniepanem.com/contact.html</loc>
+  <lastmod>2024-12-16T00:53:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://melpdesigns.com/contact.html</loc>
-  <lastmod>2020-12-26T00:53:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://melpdesigns.com/assets/pages/milsdiner.html</loc>
-  <lastmod>2020-12-26T00:53:00+00:00</lastmod>
+  <loc>http://melaniepanem.com/books.html</loc>
+  <lastmod>2024-12-16T00:53:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://melpdesigns.com/assets/pages/mysavei.html</loc>
-  <lastmod>2020-12-26T00:53:00+00:00</lastmod>
+  <loc>http://melaniepanem.com/portfolio/otherprojects.html</loc>
+  <lastmod>2024-12-16T00:53:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://melpdesigns.com/assets/pages/recmobile.html</loc>
-  <lastmod>2020-12-26T00:53:00+00:00</lastmod>
+  <loc>http://melaniepanem.com/portfolio/detailedbypanem.html</loc>
+  <lastmod>2024-12-16T00:53:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://melpdesigns.com/assets/pages/detailedbypanem.html</loc>
-  <lastmod>2020-12-26T00:53:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://melpdesigns.com/assets/pages/insights.html</loc>
-  <lastmod>2020-12-26T00:53:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://melpdesigns.com/assets/pages/bustersvision.html</loc>
-  <lastmod>2020-12-26T00:53:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://melpdesigns.com/assets/pages/art.html</loc>
-  <lastmod>2020-12-26T00:53:00+00:00</lastmod>
+  <loc>http://melaniepanem.com/portfolio/bce.html</loc>
+  <lastmod>2024-12-16T00:53:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
