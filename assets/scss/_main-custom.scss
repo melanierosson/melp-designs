@@ -300,6 +300,21 @@ p#name-line-3.active {
 		margin-left:7px;
 	}
 }
+#frontpage-mobile-nav {
+	border:none;
+	width:100%;
+	
+}
+#frontpage-mobile-navlist {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	font-size:0.9rem;
+	width:100%;
+}
+#frontpage-mobile-navlist li {
+	width:fit-content;
+}
 
 /* main portfolio page */
 div.portfolio-card {

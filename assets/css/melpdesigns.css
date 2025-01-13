@@ -451,6 +451,24 @@ p#name-line-3.active {
   }
 }
 
+#frontpage-mobile-nav {
+  border: none;
+  width: 100%;
+}
+
+#frontpage-mobile-navlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+#frontpage-mobile-navlist li {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 /* main portfolio page */
 div.portfolio-card {
   background-color: #000;
