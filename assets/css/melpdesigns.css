@@ -231,6 +231,20 @@ p.name-line.active {
   }
 }
 
+p#name-line-3 {
+  text-align: right;
+}
+
+p#name-line-3.active {
+  animation: nameLine3 3s 1;
+  animation-timing-function: ease-in-out;
+}
+@media screen and (max-width: 767px) {
+  p#name-line-3.active {
+    animation: nameLine3 1.6s 1;
+  }
+}
+
 .navbar-dark .navbar-nav .nav-link {
   margin: 5px;
   padding: 5px;
@@ -275,6 +289,17 @@ p.name-line.active {
   }
   85% {
     transform: translateX(-5vw);
+  }
+}
+@keyframes nameLine3 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-20vw);
+  }
+  85% {
+    transform: translateX(5vw);
   }
 }
 /* */
