@@ -246,6 +246,17 @@ p#name-line-3.active {
   }
 }
 
+.name-col {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 567px) {
+  .name-col {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
 .navbar-dark .navbar-nav .nav-link {
   margin: 5px;
   padding: 5px;
