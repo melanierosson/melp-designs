@@ -10,7 +10,7 @@ var otherImg2 = document.getElementById('other-img-2');
 // var otherImg5 = document.getElementById('other-img-5');
 var otherImg6 = document.getElementById('other-img-6');
 var otherImg7 = document.getElementById('other-img-7');
-var otherImg8 = document.getElementById('other-img-8');
+// var otherImg8 = document.getElementById('other-img-8');
 var captionText = document.getElementById("caption");
 otherImg1.onclick = function(){
     modal.style.display = "flex";
@@ -61,13 +61,13 @@ otherImg7.onclick = function(){
     modalImg.alt = this.alt;
     captionText.innerHTML = this.alt;
 }
-otherImg8.onclick = function(){
-    modal.style.display = "flex";
-    modalImg.style.display = "flex";
-    modalImg.src = this.src;
-    modalImg.alt = this.alt;
-    captionText.innerHTML = this.alt;
-}
+// otherImg8.onclick = function(){
+//     modal.style.display = "flex";
+//     modalImg.style.display = "flex";
+//     modalImg.src = this.src;
+//     modalImg.alt = this.alt;
+//     captionText.innerHTML = this.alt;
+// }
  
  
 // When the user clicks on <span> (x), close the modal

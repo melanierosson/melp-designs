@@ -481,11 +481,14 @@ a.button.contact {
 a.button.contact:hover {
 	background-color:#6600CC;
 }
-a.button.books {
+a.button.books, a.button.speak-btn {
 	background-color:#00A0A3;
 }
 a.button.books:hover {
 	background-color:#0052CC;
+}
+a.button.speak-btn:hover {
+	background-color:#E30041;
 }
 a.button.email {
 	background-color:#FF5100;
