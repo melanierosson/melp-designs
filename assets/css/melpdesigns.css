@@ -534,6 +534,22 @@ div.portfolio-card.portfolio-bce:hover {
   border: 4px solid #FFEA00;
 }
 
+div.portfolio-card.portfolio-commconn {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../../assets/images/commconnect-main-mockups-750x545.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 4px solid #00A0A3;
+}
+
+div.portfolio-card.portfolio-commconn:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../../assets/images/commconnect-main-mockups-750x545.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 4px solid #FFEA00;
+}
+
 div.portfolio-card.portfolio-detailedbypanem {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/images/detailedbypanem-mockedup-devices.png");
   background-size: cover;
